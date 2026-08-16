@@ -13,6 +13,13 @@
     <summary>工程文件浏览器：会话视图文件页签，目录树 + VSCode 风格编辑器（C 语法高亮/行号/自动缩进/状态栏），跟随当前工作区。</summary>
   </entry>
   <entry>
+    <title>xiaoyanzi191/dsh-premium-themes</title>
+    <id>https://github.com/xiaoyanzi191/dsh-premium-themes</id>
+    <link href="https://github.com/xiaoyanzi191/dsh-premium-themes"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>8 套精选配色方案与自定义调色板导入（名称+方案+种子色推导完整 token 映射），设置页「调色板」行，热插拔安装。</summary>
+  </entry>
+  <entry>
     <title>futongxu9-maker/dsh-msgrail</title>
     <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
     <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>完整 reverse-skill 技能包（85 个 SKILL.md）的 DeepSeek Harness 插件：面向逆向工程、授权渗透测试与安全研究的技能路由包。</summary>
-  </entry>
-  <entry>
-    <title>940842546/dsh-usage-billing</title>
-    <id>https://github.com/940842546/dsh-usage-billing</id>
-    <link href="https://github.com/940842546/dsh-usage-billing"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>用量与消费统计：8/17 调价前后峰谷计费，主界面汇总面板、按会话明细与用量热力图。</summary>
   </entry>
 </feed>

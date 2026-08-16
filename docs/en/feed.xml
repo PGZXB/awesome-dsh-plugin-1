@@ -13,6 +13,13 @@
     <summary>Project file browser: per-session file tabs, a directory tree, and a VSCode-style editor (C syntax highlighting, line numbers, auto-indent, status bar) that follows the current workspace.</summary>
   </entry>
   <entry>
+    <title>xiaoyanzi191/dsh-premium-themes</title>
+    <id>https://github.com/xiaoyanzi191/dsh-premium-themes</id>
+    <link href="https://github.com/xiaoyanzi191/dsh-premium-themes"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>8 curated color schemes plus custom palette import (name + scheme + seed colors derive a full token map), a Palette row in General settings, hot-plug install.</summary>
+  </entry>
+  <entry>
     <title>futongxu9-maker/dsh-msgrail</title>
     <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
     <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Complete reverse-skill pack (85 SKILL.md files) as a DeepSeek Harness plugin: a skill router for reverse engineering, authorized penetration testing, and security research.</summary>
-  </entry>
-  <entry>
-    <title>940842546/dsh-usage-billing</title>
-    <id>https://github.com/940842546/dsh-usage-billing</id>
-    <link href="https://github.com/940842546/dsh-usage-billing"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a floating summary panel, per-session breakdowns, and a usage heatmap.</summary>
   </entry>
 </feed>

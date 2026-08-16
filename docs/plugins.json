@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 302,
+ "count": 303,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -908,6 +908,19 @@
    "npm": "dsh-skin-switcher",
    "install": "dsh plugin --profile web add dsh-skin-switcher",
    "added": "2026-08-15"
+  },
+  {
+   "name": "dsh-premium-themes",
+   "owner": "xiaoyanzi191",
+   "url": "https://github.com/xiaoyanzi191/dsh-premium-themes",
+   "category": "theme",
+   "description": {
+    "zh": "8 套精选配色方案与自定义调色板导入（名称+方案+种子色推导完整 token 映射），设置页「调色板」行，热插拔安装。",
+    "en": "8 curated color schemes plus custom palette import (name + scheme + seed colors derive a full token map), a Palette row in General settings, hot-plug install."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:xiaoyanzi191/dsh-premium-themes",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-turn-rewind",
