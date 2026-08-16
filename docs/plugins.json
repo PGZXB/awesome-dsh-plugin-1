@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 303,
+ "count": 304,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2340,16 +2340,29 @@
    "added": "2026-08-15"
   },
   {
-   "name": "dsh-path-reveal",
-   "owner": "futongxu9-maker",
-   "url": "https://github.com/futongxu9-maker/dsh-path-reveal",
+   "name": "dsh-sxs-anti-bot-http",
+   "owner": "yangyunsong023",
+   "url": "https://github.com/yangyunsong023/dsh-sxs-anti-bot-http",
    "category": "tools",
    "description": {
-    "zh": "点击消息里的 Windows 绝对路径在资源管理器中打开所在文件夹（文件定位选中/目录直接打开）。",
-    "en": "Click any absolute Windows path in DSH messages to reveal it in Explorer (select the file or open the folder)."
+    "zh": "反爬 HTTP 工具：UA 池轮换、指数退避重试、反爬墙检测（验证码/安全验证）与自适应限流，提炼自 SXS 生产采集体系（每日数百万请求）——工具：`sxs_fetch` / `sxs_fetch_json` / `sxs_rate_status`。",
+    "en": "Anti-bot HTTP fetch tools hardened by SXS's production scraping stack (millions of requests/day): UA-pool rotation, retry with exponential backoff, anti-bot wall detection (captcha / verification challenges) and adaptive rate limiting — tools: `sxs_fetch` / `sxs_fetch_json` / `sxs_rate_status`."
    },
    "npm": null,
-   "install": "dsh plugin --profile web add github:futongxu9-maker/dsh-path-reveal",
+   "install": "dsh plugin --profile web add github:yangyunsong023/dsh-sxs-anti-bot-http",
+   "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-sxs-news-collector",
+   "owner": "yangyunsong023",
+   "url": "https://github.com/yangyunsong023/dsh-sxs-news-collector",
+   "category": "tools",
+   "description": {
+    "zh": "时事热点采集：一次调用聚合百度热搜 / 头条热榜 / 抖音热点 / 微博热搜（微博可选 cookie），返回标题+热度值，供内容创作借势——工具：`sxs_news_hot`。 — 点击消息里的 Windows 绝对路径在资源管理器中打开所在文件夹（文件定位选中/目录直接打开）。",
+    "en": "Trending-topics collector aggregating Baidu / Toutiao / Douyin / Weibo hot lists in one call (Weibo optional cookie), returning titles with heat values for content creators — tool: `sxs_news_hot`."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:yangyunsong023/dsh-sxs-news-collector",
    "added": "2026-08-16"
   },
   {

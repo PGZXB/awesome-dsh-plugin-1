@@ -55,11 +55,18 @@
     <summary>Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine.</summary>
   </entry>
   <entry>
-    <title>futongxu9-maker/dsh-path-reveal</title>
-    <id>https://github.com/futongxu9-maker/dsh-path-reveal</id>
-    <link href="https://github.com/futongxu9-maker/dsh-path-reveal"/>
+    <title>yangyunsong023/dsh-sxs-anti-bot-http</title>
+    <id>https://github.com/yangyunsong023/dsh-sxs-anti-bot-http</id>
+    <link href="https://github.com/yangyunsong023/dsh-sxs-anti-bot-http"/>
     <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Click any absolute Windows path in DSH messages to reveal it in Explorer (select the file or open the folder).</summary>
+    <summary>Anti-bot HTTP fetch tools hardened by SXS's production scraping stack (millions of requests/day): UA-pool rotation, retry with exponential backoff, anti-bot wall detection (captcha / verification challenges) and adaptive rate limiting — tools: `sxs_fetch` / `sxs_fetch_json` / `sxs_rate_status`.</summary>
+  </entry>
+  <entry>
+    <title>yangyunsong023/dsh-sxs-news-collector</title>
+    <id>https://github.com/yangyunsong023/dsh-sxs-news-collector</id>
+    <link href="https://github.com/yangyunsong023/dsh-sxs-news-collector"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Trending-topics collector aggregating Baidu / Toutiao / Douyin / Weibo hot lists in one call (Weibo optional cookie), returning titles with heat values for content creators — tool: `sxs_news_hot`.</summary>
   </entry>
   <entry>
     <title>cdxiaodong/dsh-llm-inspector</title>
@@ -207,12 +214,5 @@
     <link href="https://github.com/lsjspl/dsh-plugin-grok2api-media-tool"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Gives dsh the ability to generate images and videos through the grok2api API.</summary>
-  </entry>
-  <entry>
-    <title>dhicoc/dsh-reverse-skill</title>
-    <id>https://github.com/dhicoc/dsh-reverse-skill</id>
-    <link href="https://github.com/dhicoc/dsh-reverse-skill"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Complete reverse-skill pack (85 SKILL.md files) as a DeepSeek Harness plugin: a skill router for reverse engineering, authorized penetration testing, and security research.</summary>
   </entry>
 </feed>
