@@ -83,6 +83,13 @@
     <summary>Claude Code-style permission rules engine: hard/deny/ask/allow tiers with a hard tier above full access, workspace-scoped rules, wildcard path protection, and a visual staged editor; rules persist in settings.yaml.</summary>
   </entry>
   <entry>
+    <title>Andyqwe44/dsh-notify-win</title>
+    <id>https://github.com/Andyqwe44/dsh-notify-win</id>
+    <link href="https://github.com/Andyqwe44/dsh-notify-win"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Native Windows toast + taskbar flash for task done / approval / ask_user_question, Win10/11, npm install `dsh plugin --profile web add dsh-notify-win`.</summary>
+  </entry>
+  <entry>
     <title>cdxiaodong/dsh-island</title>
     <id>https://github.com/cdxiaodong/dsh-island</id>
     <link href="https://github.com/cdxiaodong/dsh-island"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/940842546/dsh-usage-billing"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a floating summary panel, per-session breakdowns, and a usage heatmap.</summary>
-  </entry>
-  <entry>
-    <title>CH4ACKO3/dsh-harmony</title>
-    <id>https://github.com/CH4ACKO3/dsh-harmony</id>
-    <link href="https://github.com/CH4ACKO3/dsh-harmony"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Lets one DSH plugin modify another plugin's code at runtime, with Patch ordering, conflict checks, and hot reload.</summary>
   </entry>
 </feed>

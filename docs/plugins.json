@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 301,
+ "count": 302,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2871,6 +2871,19 @@
    "npm": "dsh-notify-windows",
    "install": "dsh plugin --profile web add dsh-notify-windows",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-notify-win",
+   "owner": "Andyqwe44",
+   "url": "https://github.com/Andyqwe44/dsh-notify-win",
+   "category": "notify",
+   "description": {
+    "zh": "原生 Windows toast + 任务栏闪烁，任务完成/审批/提问时触发，支持 Win10/11，npm 安装 `dsh plugin --profile web add dsh-notify-win`。",
+    "en": "Native Windows toast + taskbar flash for task done / approval / ask_user_question, Win10/11, npm install `dsh plugin --profile web add dsh-notify-win`."
+   },
+   "npm": "dsh-notify-win",
+   "install": "dsh plugin --profile web add dsh-notify-win",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-opencode-server",
