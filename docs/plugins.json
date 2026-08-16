@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 315,
+ "count": 316,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -3560,6 +3560,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:Jesse-njx/dsh-plugin-manager",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-plugin-surgery",
+   "owner": "ruimin251204",
+   "url": "https://github.com/ruimin251204/dsh-plugin-surgery",
+   "category": "dev",
+   "description": {
+    "zh": "插件手术刀：安全卸载（dry-run 预览影响面、快照、三方对账、失败自动回滚）、一键回滚、restart-pending 确认与插件体检。",
+    "en": "Plugin surgery: safe uninstall (dry-run impact preview, snapshot, three-way verification, auto-rollback on failure), one-click rollback, restart-pending confirmation, and a plugin doctor."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:ruimin251204/dsh-plugin-surgery",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-tmuxctl",

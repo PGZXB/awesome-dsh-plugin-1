@@ -188,6 +188,13 @@
     <summary>Lifecycle bells and a status dot: per-event chimes synthesized live with Web Audio (zero audio files), plus a breathing indicator for agent state.</summary>
   </entry>
   <entry>
+    <title>ruimin251204/dsh-plugin-surgery</title>
+    <id>https://github.com/ruimin251204/dsh-plugin-surgery</id>
+    <link href="https://github.com/ruimin251204/dsh-plugin-surgery"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Plugin surgery: safe uninstall (dry-run impact preview, snapshot, three-way verification, auto-rollback on failure), one-click rollback, restart-pending confirmation, and a plugin doctor.</summary>
+  </entry>
+  <entry>
     <title>cdxiaodong/dsh-guardian</title>
     <id>https://github.com/cdxiaodong/dsh-guardian</id>
     <link href="https://github.com/cdxiaodong/dsh-guardian"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Cute token-usage widget in the session header: context occupancy, session usage and breakdown, plus date/weekday, weather, 3-day forecast and severe-weather alerts.</summary>
-  </entry>
-  <entry>
-    <title>lancecheney/dsh-deepseek-balance</title>
-    <id>https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance</id>
-    <link href="https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>A real-time billing badge left of the Session log button: balance, per-conversation spend, peak/off-peak/flat pricing, auto-switching by model/currency/effort, daily official pricing fetch.</summary>
   </entry>
 </feed>

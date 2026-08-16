@@ -188,6 +188,13 @@
     <summary>生命周期铃声与状态点：为每个环节合成专属提示音（Web Audio，零音频文件），右下角呼吸状态点显示工作状态。</summary>
   </entry>
   <entry>
+    <title>ruimin251204/dsh-plugin-surgery</title>
+    <id>https://github.com/ruimin251204/dsh-plugin-surgery</id>
+    <link href="https://github.com/ruimin251204/dsh-plugin-surgery"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>插件手术刀：安全卸载（dry-run 预览影响面、快照、三方对账、失败自动回滚）、一键回滚、restart-pending 确认与插件体检。</summary>
+  </entry>
+  <entry>
     <title>cdxiaodong/dsh-guardian</title>
     <id>https://github.com/cdxiaodong/dsh-guardian</id>
     <link href="https://github.com/cdxiaodong/dsh-guardian"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>会话头部卡通用量小部件：布布玩偶 + 上下文占用/会话累计/构成，附日期周几、天气、3 天预报与极端天气预警（雨滴/雪花动画），跟随主题色。</summary>
-  </entry>
-  <entry>
-    <title>lancecheney/dsh-deepseek-balance</title>
-    <id>https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance</id>
-    <link href="https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Session log 按钮左侧的实时计费徽章：余额、每会话消耗、峰谷/平价价格，按模型/货币/思考强度自动切换，每天抓官方定价。</summary>
   </entry>
 </feed>
