@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/feed.xml"/>
   <updated>2026-08-16T00:00:00Z</updated>
   <entry>
+    <title>Zhangbo-cn/dsh-voice-input-plugin</title>
+    <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
+    <link href="https://github.com/Zhangbo-cn/dsh-voice-input-plugin"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>输入框麦克风：点击持续监控、按住对话；浏览器语音识别逐字上屏，回复由 host Edge TTS 边生成边朗读（句子切分），朗读时暂停识别防回声，点击可停止。</summary>
+  </entry>
+  <entry>
     <title>lak321/dsh-filetree</title>
     <id>https://github.com/lak321/dsh-filetree</id>
     <link href="https://github.com/lak321/dsh-filetree"/>
@@ -81,6 +88,13 @@
     <link href="https://github.com/gloryxpnv/dsh-tool-vision"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>为纯文本 DeepSeek Harness 提供本地优先视觉：由本地 VLM（LM Studio / Ollama / vLLM）产出结构化 JSON 证据（OCR / 版面 / 语义），零 API 成本，图片数据完全不出本机。</summary>
+  </entry>
+  <entry>
+    <title>lak321/dsh-voice-chat</title>
+    <id>https://github.com/lak321/dsh-voice-chat</id>
+    <link href="https://github.com/lak321/dsh-voice-chat"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>语音对话：🎤 语音输入（Web Speech，实时中间结果可编辑）+ 🔊 自动/手动朗读回复（TTS），支持人声/语速/语调设置与识别语言（普通话/粤语等），纯客户端零密钥，朗读前自动清理 Markdown 标记。</summary>
   </entry>
   <entry>
     <title>futongxu9-maker/dsh-path-reveal</title>
@@ -200,19 +214,5 @@
     <link href="https://github.com/Lanxing6480/dsh-galgame"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>DSH Web 聊天界面 GalGame 演出层：立绘差分、流式思考气泡、打字机对话框与 GalGame 式提问/审批选项框，可随时切回普通聊天。</summary>
-  </entry>
-  <entry>
-    <title>BeiZi6/dsh-theme-plugin</title>
-    <id>https://github.com/BeiZi6/dsh-theme-plugin</id>
-    <link href="https://github.com/BeiZi6/dsh-theme-plugin"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>DSH Web GUI 主题工作室：5 套内置预设 + 完全可自定义的浅/深配色（强调色、背景、前景、UI 与代码字体、半透明侧栏、对比度），即时热切换并持久化到 localStorage。</summary>
-  </entry>
-  <entry>
-    <title>zhtx2024/dsh-skin-switcher</title>
-    <id>https://github.com/zhtx2024/dsh-skin-switcher</id>
-    <link href="https://github.com/zhtx2024/dsh-skin-switcher"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>在设置界面新增「皮肤」页，自动发现已安装皮肤并一键切换，支持一键恢复官方默认外观。</summary>
   </entry>
 </feed>
