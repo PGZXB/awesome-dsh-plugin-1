@@ -178,7 +178,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [gloryxpnv/dsh-tool-vision](https://github.com/gloryxpnv/dsh-tool-vision) — 为纯文本 DeepSeek Harness 提供本地优先视觉：由本地 VLM（LM Studio / Ollama / vLLM）产出结构化 JSON 证据（OCR / 版面 / 语义），零 API 成本，图片数据完全不出本机。
 - [Gumiho12345/dsh-plugin-net-access](https://github.com/Gumiho12345/dsh-plugin-net-access) — DSH 的 net-access 权限模式：文件写保护不变，沙箱内 curl.exe 可用 HTTPS（Windows）。
 - [xiehuan123/coding-coach](https://github.com/xiehuan123/coding-coach) — Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段编排流水线 + 工程/产品/界面技能），npm 可装 `dsh plugin add coding-coach`，同时提供 Claude Code 插件。
-- [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) — DeepRead 精读助手：四种精读模式（含「观点—证据—数据—关系」知识地图与四档置信度）、微信公众号链接 / .pdf 文件（内置纯 JS 提取器）/ 粘贴文本，可选导出 MD / FreeMind 思维导图（XMind 可导入）/ 编辑风网页报告。
+- [xiehuan123/dsh-deepread](https://github.com/xiehuan123/dsh-deepread) — DeepRead 精读助手：五种精读模式（quick / deep / map 知识地图（四档置信度）/ feynman 费曼读书法 / book 全书）、批量对比、预算预检与后台任务进度透明、微信公众号链接 / .pdf 文件（内置纯 JS 提取器）/ 粘贴文本，可选导出 MD / FreeMind 思维导图（XMind 可导入）/ 编辑风网页报告。
 
 - [ysr666/dsh-vision-router](https://github.com/ysr666/dsh-vision-router) — 为纯文本 Agent 提供视觉能力：内置免 Key 视觉链 + 像素级视觉工具（看图问答、定位、裁剪、像素对比、取色、OCR、矢量化、抠图、截图）；粘贴图片即可用。
 - [lire1131/dsh-undo-plugin](https://github.com/lire1131/dsh-undo-plugin) — DSH 撤销/回退系统：配置变更自动存档，一键撤销/恢复/回退到任意版本，支持 WebUI 与离线 CLI/GUI 工具（DSH 启动失败也能救）。
