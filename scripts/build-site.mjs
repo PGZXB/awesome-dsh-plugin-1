@@ -73,13 +73,28 @@ const hreflangs = [
   `<link rel="alternate" hreflang="x-default" href="${ORIGIN}${LOCALES[0].urlPath}">`,
 ].join('\n')
 
-const jsonld = (url) => JSON.stringify({
+const publisher = { '@type': 'Organization', name: 'Awesome DSH Plugin', url: ORIGIN, logo: { '@type': 'ImageObject', url: `${ORIGIN}/logo.png` } }
+const jsonld = (loc, url) => JSON.stringify({
   '@context': 'https://schema.org',
-  '@type': 'ItemList',
-  name: 'Awesome DSH Plugin',
-  url,
-  numberOfItems: N,
-  itemListElement: ordered.map((e, i) => ({ '@type': 'ListItem', position: i + 1, name: e.name, url: e.url })),
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      name: 'Awesome DSH Plugin',
+      url,
+      inLanguage: loc.htmlLang,
+      description: loc.DESC.replace('{N}', N),
+    },
+    {
+      '@type': 'ItemList',
+      name: 'Awesome DSH Plugin',
+      url,
+      inLanguage: loc.htmlLang,
+      keywords: loc.KEYWORDS,
+      publisher,
+      numberOfItems: N,
+      itemListElement: ordered.map((e, i) => ({ '@type': 'ListItem', position: i + 1, name: e.name, url: e.url })),
+    },
+  ],
 })
 
 function buildRows(loc, only) {
@@ -173,7 +188,7 @@ const inlineByLoc = Object.fromEntries(LOCALES.map((loc) => [loc.code, JSON.stri
 for (const loc of LOCALES) {
   let page = master
   page = page.replace('__REGISTRY_DATA__', () => inlineByLoc[loc.code])
-  page = page.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${jsonld(ORIGIN + loc.urlPath)}</script>`)
+  page = page.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${jsonld(loc, ORIGIN + loc.urlPath)}</script>`)
   page = page.replace(/(<ol class="dex" id="dex">)[\s\S]*?(<\/ol>)/, `$1\n\n${buildRows(loc)}\n\n  $2`)
   page = page.replace(/(<div class="filters" id="filters">)[\s\S]*?(<\/div><!--\/filters-->)/, `$1\n${buildChips(loc)}\n    $2`)
   page = page
@@ -195,13 +210,26 @@ for (const loc of LOCALES) {
 }
 
 // Category pages: /{cat}/ per locale
-const catJsonld = (url, id) => JSON.stringify({
+const catJsonld = (loc, url, id) => JSON.stringify({
   '@context': 'https://schema.org',
-  '@type': 'ItemList',
-  name: 'Awesome DSH Plugin',
-  url,
-  numberOfItems: ordered.filter((e) => e.cat === id).length,
-  itemListElement: ordered.filter((e) => e.cat === id).map((e, i) => ({ '@type': 'ListItem', position: i + 1, name: e.name, url: e.url })),
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Awesome DSH Plugin', item: ORIGIN },
+        { '@type': 'ListItem', position: 2, name: loc.categories[id], item: url },
+      ],
+    },
+    {
+      '@type': 'ItemList',
+      name: 'Awesome DSH Plugin',
+      url,
+      inLanguage: loc.htmlLang,
+      keywords: loc.KEYWORDS,
+      numberOfItems: ordered.filter((e) => e.cat === id).length,
+      itemListElement: ordered.filter((e) => e.cat === id).map((e, i) => ({ '@type': 'ListItem', position: i + 1, name: e.name, url: e.url })),
+    },
+  ],
 })
 for (const loc of LOCALES) {
   for (const id of CAT_IDS) {
@@ -214,7 +242,7 @@ for (const loc of LOCALES) {
     ].join('\n')
     let page = master
     page = page.replace('__REGISTRY_DATA__', '')
-    page = page.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${catJsonld(url, id)}</script>`)
+    page = page.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, `<script type="application/ld+json">${catJsonld(loc, url, id)}</script>`)
     page = page.replace(/(<ol class="dex" id="dex">)[\s\S]*?(<\/ol>)/, `$1\n\n${buildRows(loc, id)}\n\n  $2`)
     page = page.replace(/(<div class="filters" id="filters">)[\s\S]*?(<\/div><!--\/filters-->)/, `$1\n${buildChipLinks(loc, id)}\n    $2`)
     page = page
