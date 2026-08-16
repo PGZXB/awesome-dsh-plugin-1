@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 304,
+ "count": 305,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2441,6 +2441,19 @@
    },
    "npm": "mattpocock-skills-dsh",
    "install": "dsh plugin --profile web add mattpocock-skills-dsh",
+   "added": "2026-08-16"
+  },
+  {
+   "name": "mattpocock-skills-dsh-zh",
+   "owner": "gongyijie85",
+   "url": "https://github.com/gongyijie85/mattpocock-skills-dsh-zh",
+   "category": "skill",
+   "description": {
+    "zh": "Matt Pocock 技能中文版的 DeepSeek Harness 插件：25 个 SKILL.md 正文全译中文（技术术语保留英文并附注释），改编自 mattpocock/skills（MIT）。",
+    "en": "Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT)."
+   },
+   "npm": "mattpocock-skills-dsh-zh",
+   "install": "dsh plugin --profile web add mattpocock-skills-dsh-zh",
    "added": "2026-08-16"
   },
   {

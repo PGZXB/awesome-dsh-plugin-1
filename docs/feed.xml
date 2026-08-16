@@ -90,6 +90,13 @@
     <summary>Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DeepSeek Harness 插件：改编自 mattpocock/skills（MIT）。</summary>
   </entry>
   <entry>
+    <title>gongyijie85/mattpocock-skills-dsh-zh</title>
+    <id>https://github.com/gongyijie85/mattpocock-skills-dsh-zh</id>
+    <link href="https://github.com/gongyijie85/mattpocock-skills-dsh-zh"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Matt Pocock 技能中文版的 DeepSeek Harness 插件：25 个 SKILL.md 正文全译中文（技术术语保留英文并附注释），改编自 mattpocock/skills（MIT）。</summary>
+  </entry>
+  <entry>
     <title>940842546/dsh-permissions</title>
     <id>https://github.com/940842546/dsh-permissions</id>
     <link href="https://github.com/940842546/dsh-permissions"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/xmutfyh/dsh-plugin-writing-guard"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>论文写作守卫：本地规则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比），论文文件写入后增量自动审计（writing_audit / writing_rules）。</summary>
-  </entry>
-  <entry>
-    <title>lsjspl/dsh-plugin-grok2api-media-tool</title>
-    <id>https://github.com/lsjspl/dsh-plugin-grok2api-media-tool</id>
-    <link href="https://github.com/lsjspl/dsh-plugin-grok2api-media-tool"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>让 dsh 通过 grok2api 的 API 获得生成图片与视频能力。</summary>
   </entry>
 </feed>

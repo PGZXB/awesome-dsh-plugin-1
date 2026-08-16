@@ -90,6 +90,13 @@
     <summary>Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT).</summary>
   </entry>
   <entry>
+    <title>gongyijie85/mattpocock-skills-dsh-zh</title>
+    <id>https://github.com/gongyijie85/mattpocock-skills-dsh-zh</id>
+    <link href="https://github.com/gongyijie85/mattpocock-skills-dsh-zh"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT).</summary>
+  </entry>
+  <entry>
     <title>940842546/dsh-permissions</title>
     <id>https://github.com/940842546/dsh-permissions</id>
     <link href="https://github.com/940842546/dsh-permissions"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/xmutfyh/dsh-plugin-writing-guard"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three), with incremental auto-audit on paper file writes (writing_audit + writing_rules).</summary>
-  </entry>
-  <entry>
-    <title>lsjspl/dsh-plugin-grok2api-media-tool</title>
-    <id>https://github.com/lsjspl/dsh-plugin-grok2api-media-tool</id>
-    <link href="https://github.com/lsjspl/dsh-plugin-grok2api-media-tool"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Gives dsh the ability to generate images and videos through the grok2api API.</summary>
   </entry>
 </feed>
