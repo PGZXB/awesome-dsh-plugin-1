@@ -155,6 +155,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [futongxu9-maker/dsh-msgrail](https://github.com/futongxu9-maker/dsh-msgrail) — 对话右缘消息轨道：每条用户消息一个品牌色圆点，悬停预览、点击跳转、自动加载未加载历史，纯插件零宿主侵入。
 
 
+- [edfrey0044/dsh-unarchive](https://github.com/edfrey0044/dsh-unarchive) — 恢复已归档会话：/unarchive 命令与 unarchive_session 工具，把会话移出归档集合、在原位置重新出现在工作区（归档从不删除数据）。
+
 ### 🧠 记忆
 
 - [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。
