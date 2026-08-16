@@ -167,6 +167,13 @@
     <summary>Claude Code 风格权限规则引擎：hard/deny/ask/allow 四级规则（hard 高于全访问、不可豁免）、workspace 作用域、通配符路径保护、可视化草稿式编辑器，规则持久化于 settings.yaml。</summary>
   </entry>
   <entry>
+    <title>timwhitez/dsh-self-evolving</title>
+    <id>https://github.com/timwhitez/dsh-self-evolving</id>
+    <link href="https://github.com/timwhitez/dsh-self-evolving"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>证据优先、可崩溃恢复的自进化引擎：有界生成 Cordis 候选插件、一次性真实 Loader 准入、Harbor 评估，并保留可审计的日志化谱系。</summary>
+  </entry>
+  <entry>
     <title>Andyqwe44/dsh-notify-win</title>
     <id>https://github.com/Andyqwe44/dsh-notify-win</id>
     <link href="https://github.com/Andyqwe44/dsh-notify-win"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JAdpp/dsh-whale-galgame"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>多角色 Galgame 对话界面：角色与回复模型可独立切换，分角色保存好感度、记忆、对话历史与 CG 图鉴，并根据 Harness 跨会话任务事件做出角色回应。</summary>
-  </entry>
-  <entry>
-    <title>pk7j7sqryy-ops/dsh-token-pet</title>
-    <id>https://github.com/pk7j7sqryy-ops/dsh-token-pet</id>
-    <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>会话头部卡通用量小部件：布布玩偶 + 上下文占用/会话累计/构成，附日期周几、天气、3 天预报与极端天气预警（雨滴/雪花动画），跟随主题色。</summary>
   </entry>
 </feed>

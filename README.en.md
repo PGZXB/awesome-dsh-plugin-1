@@ -32,7 +32,7 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 
 </details>
 
-**316** plugins · [PRs welcome](#contributing)
+**317** plugins · [PRs welcome](#contributing)
 
 ## Contents
 

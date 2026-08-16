@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 316,
+ "count": 317,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2858,6 +2858,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:dsh-external/dsh-plan-execute",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-self-evolving",
+   "owner": "timwhitez",
+   "url": "https://github.com/timwhitez/dsh-self-evolving",
+   "category": "workflow",
+   "description": {
+    "zh": "证据优先、可崩溃恢复的自进化引擎：有界生成 Cordis 候选插件、一次性真实 Loader 准入、Harbor 评估，并保留可审计的日志化谱系。",
+    "en": "Evidence-first, crash-resumable self-evolution engine for DSH: bounded Cordis candidate generation, one-shot real-Loader admission, Harbor evaluation, and an auditable journaled lineage."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:timwhitez/dsh-self-evolving",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-open-in-vscode",

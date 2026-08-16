@@ -167,6 +167,13 @@
     <summary>Claude Code-style permission rules engine: hard/deny/ask/allow tiers with a hard tier above full access, workspace-scoped rules, wildcard path protection, and a visual staged editor; rules persist in settings.yaml.</summary>
   </entry>
   <entry>
+    <title>timwhitez/dsh-self-evolving</title>
+    <id>https://github.com/timwhitez/dsh-self-evolving</id>
+    <link href="https://github.com/timwhitez/dsh-self-evolving"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Evidence-first, crash-resumable self-evolution engine for DSH: bounded Cordis candidate generation, one-shot real-Loader admission, Harbor evaluation, and an auditable journaled lineage.</summary>
+  </entry>
+  <entry>
     <title>Andyqwe44/dsh-notify-win</title>
     <id>https://github.com/Andyqwe44/dsh-notify-win</id>
     <link href="https://github.com/Andyqwe44/dsh-notify-win"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JAdpp/dsh-whale-galgame"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Multi-character Galgame conversation view with separate character and reply-model selection, per-character affection, memory, dialogue history, and CG galleries, plus responses informed by task events across Harness sessions.</summary>
-  </entry>
-  <entry>
-    <title>pk7j7sqryy-ops/dsh-token-pet</title>
-    <id>https://github.com/pk7j7sqryy-ops/dsh-token-pet</id>
-    <link href="https://github.com/pk7j7sqryy-ops/dsh-token-pet"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Cute token-usage widget in the session header: context occupancy, session usage and breakdown, plus date/weekday, weather, 3-day forecast and severe-weather alerts.</summary>
   </entry>
 </feed>
