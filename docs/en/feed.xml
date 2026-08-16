@@ -34,6 +34,13 @@
     <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.</summary>
   </entry>
   <entry>
+    <title>Breeze136/kb-rag</title>
+    <id>https://github.com/Breeze136/kb-rag</id>
+    <link href="https://github.com/Breeze136/kb-rag"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Local literature knowledge-base RAG: 8 tools (PDF/folder/Zotero ingest, hybrid BM25+vector+reranker search, cited QA with clickable DOI links, scope/strict modes, dedup/clear/stats), all-local bge embeddings + single-file SQLite, measured 242-doc/86s ingest and sub-second hot queries on 20k chunks.</summary>
+  </entry>
+  <entry>
     <title>futongxu9-maker/dsh-shared-memory</title>
     <id>https://github.com/futongxu9-maker/dsh-shared-memory</id>
     <link href="https://github.com/futongxu9-maker/dsh-shared-memory"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/xiehuan123/coding-coach"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Coding Coach: a 35-skill bundle plus a full agent preset for non-developers (8-stage product→launch pipeline with engineering/product/UI skills), installable via npm (`dsh plugin add coding-coach`) and as a Claude Code plugin.</summary>
-  </entry>
-  <entry>
-    <title>xiehuan123/dsh-deepread</title>
-    <id>https://github.com/xiehuan123/dsh-deepread</id>
-    <link href="https://github.com/xiehuan123/dsh-deepread"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>DeepRead: deep-reading assistant with five modes (quick / deep / knowledge map with four confidence levels / Feynman reading / whole book), batch comparison, budget preflight, and transparent background-job progress, from WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, with optional MD / FreeMind / styled HTML export.</summary>
   </entry>
 </feed>
