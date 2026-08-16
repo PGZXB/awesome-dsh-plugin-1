@@ -139,6 +139,13 @@
     <summary>统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。</summary>
   </entry>
   <entry>
+    <title>siweina/dsh-novel-writer</title>
+    <id>https://github.com/siweina/dsh-novel-writer</id>
+    <link href="https://github.com/siweina/dsh-novel-writer"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。</summary>
+  </entry>
+  <entry>
     <title>gongyijie85/dsh-ponytail</title>
     <id>https://github.com/gongyijie85/dsh-ponytail</id>
     <link href="https://github.com/gongyijie85/dsh-ponytail"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/cdxiaodong/dsh-guardian"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。</summary>
-  </entry>
-  <entry>
-    <title>JAdpp/dsh-whale-galgame</title>
-    <id>https://github.com/JAdpp/dsh-whale-galgame</id>
-    <link href="https://github.com/JAdpp/dsh-whale-galgame"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>多角色 Galgame 对话界面：角色与回复模型可独立切换，分角色保存好感度、记忆、对话历史与 CG 图鉴，并根据 Harness 跨会话任务事件做出角色回应。</summary>
   </entry>
 </feed>

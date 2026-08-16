@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 317,
+ "count": 318,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2493,6 +2493,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:cdxiaodong/dsh-llm-inspector",
+   "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-novel-writer",
+   "owner": "siweina",
+   "url": "https://github.com/siweina/dsh-novel-writer",
+   "category": "tools",
+   "description": {
+    "zh": "小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。",
+    "en": "Novel writing assistant: chapter library, sentence-pattern analysis (9 categories / emotion curve / style fingerprint), style check, plot tracking, batch import and continuation writing, with per-tool Web UI toggles."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:siweina/dsh-novel-writer",
    "added": "2026-08-16"
   },
   {

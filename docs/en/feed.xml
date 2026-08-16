@@ -139,6 +139,13 @@
     <summary>Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic &amp; bundle analysis.</summary>
   </entry>
   <entry>
+    <title>siweina/dsh-novel-writer</title>
+    <id>https://github.com/siweina/dsh-novel-writer</id>
+    <link href="https://github.com/siweina/dsh-novel-writer"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Novel writing assistant: chapter library, sentence-pattern analysis (9 categories / emotion curve / style fingerprint), style check, plot tracking, batch import and continuation writing, with per-tool Web UI toggles.</summary>
+  </entry>
+  <entry>
     <title>gongyijie85/dsh-ponytail</title>
     <id>https://github.com/gongyijie85/dsh-ponytail</id>
     <link href="https://github.com/gongyijie85/dsh-ponytail"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/cdxiaodong/dsh-guardian"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.</summary>
-  </entry>
-  <entry>
-    <title>JAdpp/dsh-whale-galgame</title>
-    <id>https://github.com/JAdpp/dsh-whale-galgame</id>
-    <link href="https://github.com/JAdpp/dsh-whale-galgame"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Multi-character Galgame conversation view with separate character and reply-model selection, per-character affection, memory, dialogue history, and CG galleries, plus responses informed by task events across Harness sessions.</summary>
   </entry>
 </feed>
