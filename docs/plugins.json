@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 309,
+ "count": 310,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -3000,6 +3000,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:cdxiaodong/dsh-island",
+   "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-bell-notify",
+   "owner": "Laplace-bit",
+   "url": "https://github.com/Laplace-bit/dsh-bell-notify",
+   "category": "notify",
+   "description": {
+    "zh": "生命周期铃声与状态点：为每个环节合成专属提示音（Web Audio，零音频文件），右下角呼吸状态点显示工作状态。",
+    "en": "Lifecycle bells and a status dot: per-event chimes synthesized live with Web Audio (zero audio files), plus a breathing indicator for agent state."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:Laplace-bit/dsh-bell-notify",
    "added": "2026-08-16"
   },
   {

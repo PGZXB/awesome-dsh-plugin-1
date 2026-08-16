@@ -146,6 +146,13 @@
     <summary>通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。</summary>
   </entry>
   <entry>
+    <title>Laplace-bit/dsh-bell-notify</title>
+    <id>https://github.com/Laplace-bit/dsh-bell-notify</id>
+    <link href="https://github.com/Laplace-bit/dsh-bell-notify"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>生命周期铃声与状态点：为每个环节合成专属提示音（Web Audio，零音频文件），右下角呼吸状态点显示工作状态。</summary>
+  </entry>
+  <entry>
     <title>cdxiaodong/dsh-guardian</title>
     <id>https://github.com/cdxiaodong/dsh-guardian</id>
     <link href="https://github.com/cdxiaodong/dsh-guardian"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/flyingtimes/dsh-trajectory-reader"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>轨迹解读标签页：按用户轮次解读助手做了什么（需求/思路/执行/结果），规则引擎 + 可选 LLM 叙述，文件/命令/错误一目了然，用户消息原样保留。</summary>
-  </entry>
-  <entry>
-    <title>Gumiho12345/dsh-plugin-net-access</title>
-    <id>https://github.com/Gumiho12345/dsh-plugin-net-access</id>
-    <link href="https://github.com/Gumiho12345/dsh-plugin-net-access"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>DSH 的 net-access 权限模式：文件写保护不变，沙箱内 curl.exe 可用 HTTPS（Windows）。</summary>
   </entry>
 </feed>
