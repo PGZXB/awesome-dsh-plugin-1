@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 318,
+ "count": 319,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -855,6 +855,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:Laplace-bit/dsh-smooth-stream",
+   "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-theme-firefly",
+   "owner": "Liu-ZA-81",
+   "url": "https://github.com/Liu-ZA-81/dsh-theme-firefly",
+   "category": "theme",
+   "description": {
+    "zh": "崩坏：星穹铁道「流萤」主题：立绘/动态壁纸、萤火绿霓虹配色、开屏变身动画、萤火氛围粒子、背景音乐、打字音效与按对话触发的表情包彩蛋。",
+    "en": "A Honkai: Star Rail \"Firefly\" theme: wallpaper/video backgrounds, firefly-green neon palette, transformation boot animation, ambient particles, BGM, typewriter SFX, and context-aware emote easter eggs."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:Liu-ZA-81/dsh-theme-firefly",
    "added": "2026-08-16"
   },
   {

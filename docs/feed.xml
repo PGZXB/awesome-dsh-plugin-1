@@ -27,6 +27,13 @@
     <summary>丝滑流式渲染：字跟着模型到达走、换行滑入、不闪，滚动归用户，尊重 `prefers-reduced-motion`。</summary>
   </entry>
   <entry>
+    <title>Liu-ZA-81/dsh-theme-firefly</title>
+    <id>https://github.com/Liu-ZA-81/dsh-theme-firefly</id>
+    <link href="https://github.com/Liu-ZA-81/dsh-theme-firefly"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>崩坏：星穹铁道「流萤」主题：立绘/动态壁纸、萤火绿霓虹配色、开屏变身动画、萤火氛围粒子、背景音乐、打字音效与按对话触发的表情包彩蛋。</summary>
+  </entry>
+  <entry>
     <title>xiaoyanzi191/dsh-premium-themes</title>
     <id>https://github.com/xiaoyanzi191/dsh-premium-themes</id>
     <link href="https://github.com/xiaoyanzi191/dsh-premium-themes"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/ruimin251204/dsh-plugin-surgery"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>插件手术刀：安全卸载（dry-run 预览影响面、快照、三方对账、失败自动回滚）、一键回滚、restart-pending 确认与插件体检。</summary>
-  </entry>
-  <entry>
-    <title>cdxiaodong/dsh-guardian</title>
-    <id>https://github.com/cdxiaodong/dsh-guardian</id>
-    <link href="https://github.com/cdxiaodong/dsh-guardian"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。</summary>
   </entry>
 </feed>

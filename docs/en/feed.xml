@@ -27,6 +27,13 @@
     <summary>Silky streaming reveal for the Web UI: text appears at the model's arrival rate, new lines glide in, no flicker; follow stays with the user and `prefers-reduced-motion` is respected.</summary>
   </entry>
   <entry>
+    <title>Liu-ZA-81/dsh-theme-firefly</title>
+    <id>https://github.com/Liu-ZA-81/dsh-theme-firefly</id>
+    <link href="https://github.com/Liu-ZA-81/dsh-theme-firefly"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>A Honkai: Star Rail &quot;Firefly&quot; theme: wallpaper/video backgrounds, firefly-green neon palette, transformation boot animation, ambient particles, BGM, typewriter SFX, and context-aware emote easter eggs.</summary>
+  </entry>
+  <entry>
     <title>xiaoyanzi191/dsh-premium-themes</title>
     <id>https://github.com/xiaoyanzi191/dsh-premium-themes</id>
     <link href="https://github.com/xiaoyanzi191/dsh-premium-themes"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/ruimin251204/dsh-plugin-surgery"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Plugin surgery: safe uninstall (dry-run impact preview, snapshot, three-way verification, auto-rollback on failure), one-click rollback, restart-pending confirmation, and a plugin doctor.</summary>
-  </entry>
-  <entry>
-    <title>cdxiaodong/dsh-guardian</title>
-    <id>https://github.com/cdxiaodong/dsh-guardian</id>
-    <link href="https://github.com/cdxiaodong/dsh-guardian"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.</summary>
   </entry>
 </feed>
