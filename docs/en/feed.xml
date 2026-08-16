@@ -41,6 +41,13 @@
     <summary>Cross-conversation shared memory: MEMORY.md + USER.md injected into every session's system prompt, with a memory tool and a GUI panel (Hermes-style).</summary>
   </entry>
   <entry>
+    <title>Anlushu/hkinsure</title>
+    <id>https://github.com/Anlushu/hkinsure</id>
+    <link href="https://github.com/Anlushu/hkinsure"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Hong Kong insurance data MCP: 260+ real products, 17 insurers, dividend fulfillment rates. Query/compare/calculate for any AI tool (Hermes / dsh / Claude Code).</summary>
+  </entry>
+  <entry>
     <title>gongyijie85/dsh-repo-setup</title>
     <id>https://github.com/gongyijie85/dsh-repo-setup</id>
     <link href="https://github.com/gongyijie85/dsh-repo-setup"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/beancookie/dsh-plugin-anydoc"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Registers @firecrawl/anydoc as an `anydoc` tool for the Agent, converting Word/PPT/Excel/PDF/EPUB and other document formats into GitHub-Flavored Markdown.</summary>
-  </entry>
-  <entry>
-    <title>xmutfyh/dsh-plugin-writing-guard</title>
-    <id>https://github.com/xmutfyh/dsh-plugin-writing-guard</id>
-    <link href="https://github.com/xmutfyh/dsh-plugin-writing-guard"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Academic writing guard: local-regex linter for revision-process residue, defensive writing and AI-writing tells (em-dash abuse, not-X-but-Y, LLM word spikes, rule of three), with incremental auto-audit on paper file writes (writing_audit + writing_rules).</summary>
   </entry>
 </feed>

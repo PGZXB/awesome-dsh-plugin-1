@@ -71,6 +71,10 @@
   "npm": "@dsh-external/dsh-vision-toolkit",
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/Anlushu/hkinsure": {
+  "npm": null,
+  "checkedAt": "2026-08-16"
+ },
  "https://github.com/anweat/dsh-browser": {
   "npm": "@anweat/dsh-browser",
   "checkedAt": "2026-08-14"

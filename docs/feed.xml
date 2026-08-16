@@ -41,6 +41,13 @@
     <summary>跨对话共享记忆：MEMORY.md + USER.md 注入每个会话系统提示词，memory 工具 + 可视化记忆面板，Hermes 式实现。</summary>
   </entry>
   <entry>
+    <title>Anlushu/hkinsure</title>
+    <id>https://github.com/Anlushu/hkinsure</id>
+    <link href="https://github.com/Anlushu/hkinsure"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>香港保险数据 MCP：260+ 真实产品、17 家保司、分红实现率，供 Hermes / dsh / Claude Code 等 AI 工具查询/对比/测算。</summary>
+  </entry>
+  <entry>
     <title>gongyijie85/dsh-repo-setup</title>
     <id>https://github.com/gongyijie85/dsh-repo-setup</id>
     <link href="https://github.com/gongyijie85/dsh-repo-setup"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/beancookie/dsh-plugin-anydoc"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>将 @firecrawl/anydoc 作为 anydoc 工具注册给 Agent，把 Word/PPT/Excel/PDF/EPUB 等多种文档格式转换为 GitHub-Flavored Markdown。</summary>
-  </entry>
-  <entry>
-    <title>xmutfyh/dsh-plugin-writing-guard</title>
-    <id>https://github.com/xmutfyh/dsh-plugin-writing-guard</id>
-    <link href="https://github.com/xmutfyh/dsh-plugin-writing-guard"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>论文写作守卫：本地规则扫描修改过程残留、防御性写作与 AI 写作痕迹（破折号滥用、不是X而是Y、LLM 高频词、三连排比），论文文件写入后增量自动审计（writing_audit / writing_rules）。</summary>
   </entry>
 </feed>

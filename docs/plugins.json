@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 305,
+ "count": 306,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1336,6 +1336,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:futongxu9-maker/dsh-shared-memory",
+   "added": "2026-08-16"
+  },
+  {
+   "name": "hkinsure",
+   "owner": "Anlushu",
+   "url": "https://github.com/Anlushu/hkinsure",
+   "category": "tools",
+   "description": {
+    "zh": "香港保险数据 MCP：260+ 真实产品、17 家保司、分红实现率，供 Hermes / dsh / Claude Code 等 AI 工具查询/对比/测算。",
+    "en": "Hong Kong insurance data MCP: 260+ real products, 17 insurers, dividend fulfillment rates. Query/compare/calculate for any AI tool (Hermes / dsh / Claude Code)."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:Anlushu/hkinsure",
    "added": "2026-08-16"
   },
   {
