@@ -62,6 +62,13 @@
     <summary>Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine.</summary>
   </entry>
   <entry>
+    <title>futongxu9-maker/dsh-path-reveal</title>
+    <id>https://github.com/futongxu9-maker/dsh-path-reveal</id>
+    <link href="https://github.com/futongxu9-maker/dsh-path-reveal"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Click any absolute Windows path in DSH messages to reveal it in Explorer (select the file or open the folder).</summary>
+  </entry>
+  <entry>
     <title>yangyunsong023/dsh-sxs-anti-bot-http</title>
     <id>https://github.com/yangyunsong023/dsh-sxs-anti-bot-http</id>
     <link href="https://github.com/yangyunsong023/dsh-sxs-anti-bot-http"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/xiehuan123/dsh-deepread"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>DeepRead: deep-reading assistant with four modes (incl. a claim-evidence-data-relations knowledge map with four confidence levels), WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, and optional MD / FreeMind / styled HTML export.</summary>
-  </entry>
-  <entry>
-    <title>beancookie/dsh-plugin-anydoc</title>
-    <id>https://github.com/beancookie/dsh-plugin-anydoc</id>
-    <link href="https://github.com/beancookie/dsh-plugin-anydoc"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Registers @firecrawl/anydoc as an `anydoc` tool for the Agent, converting Word/PPT/Excel/PDF/EPUB and other document formats into GitHub-Flavored Markdown.</summary>
   </entry>
 </feed>

@@ -62,6 +62,13 @@
     <summary>为纯文本 DeepSeek Harness 提供本地优先视觉：由本地 VLM（LM Studio / Ollama / vLLM）产出结构化 JSON 证据（OCR / 版面 / 语义），零 API 成本，图片数据完全不出本机。</summary>
   </entry>
   <entry>
+    <title>futongxu9-maker/dsh-path-reveal</title>
+    <id>https://github.com/futongxu9-maker/dsh-path-reveal</id>
+    <link href="https://github.com/futongxu9-maker/dsh-path-reveal"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>点击消息里的 Windows 绝对路径在资源管理器中打开所在文件夹（文件定位选中/目录直接打开）。</summary>
+  </entry>
+  <entry>
     <title>yangyunsong023/dsh-sxs-anti-bot-http</title>
     <id>https://github.com/yangyunsong023/dsh-sxs-anti-bot-http</id>
     <link href="https://github.com/yangyunsong023/dsh-sxs-anti-bot-http"/>
@@ -73,7 +80,7 @@
     <id>https://github.com/yangyunsong023/dsh-sxs-news-collector</id>
     <link href="https://github.com/yangyunsong023/dsh-sxs-news-collector"/>
     <updated>2026-08-16T00:00:00Z</updated>
-    <summary>时事热点采集：一次调用聚合百度热搜 / 头条热榜 / 抖音热点 / 微博热搜（微博可选 cookie），返回标题+热度值，供内容创作借势——工具：`sxs_news_hot`。 — 点击消息里的 Windows 绝对路径在资源管理器中打开所在文件夹（文件定位选中/目录直接打开）。</summary>
+    <summary>时事热点采集：一次调用聚合百度热搜 / 头条热榜 / 抖音热点 / 微博热搜（微博可选 cookie），返回标题+热度值，供内容创作借势——工具：`sxs_news_hot`。</summary>
   </entry>
   <entry>
     <title>cdxiaodong/dsh-llm-inspector</title>
@@ -207,12 +214,5 @@
     <link href="https://github.com/xiehuan123/dsh-deepread"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>DeepRead 精读助手：四种精读模式（含「观点—证据—数据—关系」知识地图与四档置信度）、微信公众号链接 / .pdf 文件（内置纯 JS 提取器）/ 粘贴文本，可选导出 MD / FreeMind 思维导图（XMind 可导入）/ 编辑风网页报告。</summary>
-  </entry>
-  <entry>
-    <title>beancookie/dsh-plugin-anydoc</title>
-    <id>https://github.com/beancookie/dsh-plugin-anydoc</id>
-    <link href="https://github.com/beancookie/dsh-plugin-anydoc"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>将 @firecrawl/anydoc 作为 anydoc 工具注册给 Agent，把 Word/PPT/Excel/PDF/EPUB 等多种文档格式转换为 GitHub-Flavored Markdown。</summary>
   </entry>
 </feed>
