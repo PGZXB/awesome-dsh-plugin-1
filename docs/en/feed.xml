@@ -213,6 +213,6 @@
     <id>https://github.com/xiehuan123/dsh-deepread</id>
     <link href="https://github.com/xiehuan123/dsh-deepread"/>
     <updated>2026-08-15T00:00:00Z</updated>
-    <summary>DeepRead: deep-reading assistant with four modes (incl. a claim-evidence-data-relations knowledge map with four confidence levels), WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, and optional MD / FreeMind / styled HTML export.</summary>
+    <summary>DeepRead: deep-reading assistant with five modes (quick / deep / knowledge map with four confidence levels / Feynman reading / whole book), batch comparison, budget preflight, and transparent background-job progress, from WeChat article links / local .pdf (built-in pure-JS extractor) / pasted text, with optional MD / FreeMind / styled HTML export.</summary>
   </entry>
 </feed>
