@@ -48,6 +48,13 @@
     <summary>对话右缘消息轨道：每条用户消息一个品牌色圆点，悬停预览、点击跳转、自动加载未加载历史，纯插件零宿主侵入。</summary>
   </entry>
   <entry>
+    <title>edfrey0044/dsh-unarchive</title>
+    <id>https://github.com/edfrey0044/dsh-unarchive</id>
+    <link href="https://github.com/edfrey0044/dsh-unarchive"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>恢复已归档会话：/unarchive 命令与 unarchive_session 工具，把会话移出归档集合、在原位置重新出现在工作区（归档从不删除数据）。</summary>
+  </entry>
+  <entry>
     <title>bowenliang123/dsh-context</title>
     <id>https://github.com/bowenliang123/dsh-context</id>
     <link href="https://github.com/bowenliang123/dsh-context"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Session log 按钮左侧的实时计费徽章：余额、每会话消耗、峰谷/平价价格，按模型/货币/思考强度自动切换，每天抓官方定价。</summary>
-  </entry>
-  <entry>
-    <title>BeiZi6/dsh-opencodego-usage</title>
-    <id>https://github.com/BeiZi6/dsh-opencodego-usage</id>
-    <link href="https://github.com/BeiZi6/dsh-opencodego-usage"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>OpenCodeGo 剩余额度监视器：输入框右下角呼吸指示灯（按剩余额度绿/黄/红），液态玻璃面板显示滚动/周/月用量窗口与重置时间，每 30 秒自动刷新，API Key 自动读取 DSH 凭据。</summary>
   </entry>
 </feed>

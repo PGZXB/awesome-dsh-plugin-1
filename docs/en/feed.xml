@@ -48,6 +48,13 @@
     <summary>Message-index rail at the conversation's right edge: one brand-colored dot per user message, hover to preview, click to jump, auto-loads older history; pure plugin with no host patching.</summary>
   </entry>
   <entry>
+    <title>edfrey0044/dsh-unarchive</title>
+    <id>https://github.com/edfrey0044/dsh-unarchive</id>
+    <link href="https://github.com/edfrey0044/dsh-unarchive"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Restore archived sessions: a /unarchive command and an unarchive_session tool that remove sessions from the archive set so they reappear in the workspace at their original position (archiving never deletes data).</summary>
+  </entry>
+  <entry>
     <title>bowenliang123/dsh-context</title>
     <id>https://github.com/bowenliang123/dsh-context</id>
     <link href="https://github.com/bowenliang123/dsh-context"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>A real-time billing badge left of the Session log button: balance, per-conversation spend, peak/off-peak/flat pricing, auto-switching by model/currency/effort, daily official pricing fetch.</summary>
-  </entry>
-  <entry>
-    <title>BeiZi6/dsh-opencodego-usage</title>
-    <id>https://github.com/BeiZi6/dsh-opencodego-usage</id>
-    <link href="https://github.com/BeiZi6/dsh-opencodego-usage"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials.</summary>
   </entry>
 </feed>
