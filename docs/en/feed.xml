@@ -97,6 +97,13 @@
     <summary>Voice chat: 🎤 speech input (Web Speech, live editable interim results) plus 🔊 automatic/manual read-aloud replies (TTS), with voice, speed, pitch and recognition-language settings (Mandarin/Cantonese, etc.); fully client-side with zero keys, and Markdown is stripped before reading.</summary>
   </entry>
   <entry>
+    <title>lak321/dsh-screen-agent</title>
+    <id>https://github.com/lak321/dsh-screen-agent</id>
+    <link href="https://github.com/lak321/dsh-screen-agent"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Desktop and web automation: 📸 multi-screen screenshots, 🔍 Windows OCR (text + pixel coordinates), 🖱️ mouse click/drag, ⌨️ Chinese typing/keys, and 🪟 window activation, with battle-tested drawing in Paint (mouse acceleration compensation, canvas positioning, Bézier curves).</summary>
+  </entry>
+  <entry>
     <title>futongxu9-maker/dsh-path-reveal</title>
     <id>https://github.com/futongxu9-maker/dsh-path-reveal</id>
     <link href="https://github.com/futongxu9-maker/dsh-path-reveal"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/BeiZi6/dsh-opencodego-usage"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>OpenCodeGo quota monitor for the DSH Web GUI: a breathing indicator at the input's bottom-right (green/yellow/red by remaining share), a liquid-glass panel with rolling/weekly/monthly usage windows and reset times, auto-refreshing every 30 s; API key read from DSH credentials.</summary>
-  </entry>
-  <entry>
-    <title>Lanxing6480/dsh-galgame</title>
-    <id>https://github.com/Lanxing6480/dsh-galgame</id>
-    <link href="https://github.com/Lanxing6480/dsh-galgame"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>A visual-novel presentation layer for the DSH Web chat view: portrait diffs, streaming thought bubble, typewriter dialogue, and GalGame-style question/approval panels; switch back to the normal chat anytime.</summary>
   </entry>
 </feed>

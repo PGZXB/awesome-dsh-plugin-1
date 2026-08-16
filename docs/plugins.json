@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 313,
+ "count": 314,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1999,6 +1999,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:lak321/dsh-voice-chat",
+   "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-screen-agent",
+   "owner": "lak321",
+   "url": "https://github.com/lak321/dsh-screen-agent",
+   "category": "tools",
+   "description": {
+    "zh": "桌面与网页自动化：📸 多屏截图 + 🔍 Windows OCR（文字+像素坐标）+ 🖱️ 鼠标点击/拖拽 + ⌨️ 中文打字/按键 + 🪟 窗口激活，含实战打磨的画图能力（鼠标加速度补偿、画布定位、贝塞尔曲线，可在画图中绘制图形）。",
+    "en": "Desktop and web automation: 📸 multi-screen screenshots, 🔍 Windows OCR (text + pixel coordinates), 🖱️ mouse click/drag, ⌨️ Chinese typing/keys, and 🪟 window activation, with battle-tested drawing in Paint (mouse acceleration compensation, canvas positioning, Bézier curves)."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:lak321/dsh-screen-agent",
    "added": "2026-08-16"
   },
   {
