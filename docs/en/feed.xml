@@ -20,6 +20,13 @@
     <summary>8 curated color schemes plus custom palette import (name + scheme + seed colors derive a full token map), a Palette row in General settings, hot-plug install.</summary>
   </entry>
   <entry>
+    <title>ink5897/dsh-theme-kit</title>
+    <id>https://github.com/ink5897/dsh-theme-kit</id>
+    <link href="https://github.com/ink5897/dsh-theme-kit"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>32 preset themes across three palettes (Morandi, Macaron, Chinese traditional), animated and static wallpapers, paper textures, per-zone opacity and text depth, plus a keyboard desktop pet.</summary>
+  </entry>
+  <entry>
     <title>futongxu9-maker/dsh-msgrail</title>
     <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
     <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Gumiho12345/dsh-plugin-net-access"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Net Access permission mode: keeps workspace-write protection while making curl.exe HTTPS work inside the sandbox (Windows).</summary>
-  </entry>
-  <entry>
-    <title>xiehuan123/coding-coach</title>
-    <id>https://github.com/xiehuan123/coding-coach</id>
-    <link href="https://github.com/xiehuan123/coding-coach"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Coding Coach: a 35-skill bundle plus a full agent preset for non-developers (8-stage product→launch pipeline with engineering/product/UI skills), installable via npm (`dsh plugin add coding-coach`) and as a Claude Code plugin.</summary>
   </entry>
 </feed>

@@ -20,6 +20,13 @@
     <summary>8 套精选配色方案与自定义调色板导入（名称+方案+种子色推导完整 token 映射），设置页「调色板」行，热插拔安装。</summary>
   </entry>
   <entry>
+    <title>ink5897/dsh-theme-kit</title>
+    <id>https://github.com/ink5897/dsh-theme-kit</id>
+    <link href="https://github.com/ink5897/dsh-theme-kit"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>32 款预设主题（莫兰迪 / 马卡龙 / 中国传统色）、动态与静态壁纸、纸纹纹理、分区透明度与文字深浅，附按键桌宠。</summary>
+  </entry>
+  <entry>
     <title>futongxu9-maker/dsh-msgrail</title>
     <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
     <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Gumiho12345/dsh-plugin-net-access"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>DSH 的 net-access 权限模式：文件写保护不变，沙箱内 curl.exe 可用 HTTPS（Windows）。</summary>
-  </entry>
-  <entry>
-    <title>xiehuan123/coding-coach</title>
-    <id>https://github.com/xiehuan123/coding-coach</id>
-    <link href="https://github.com/xiehuan123/coding-coach"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Coding Coach 编程教练：面向非开发人员的 35 技能 bundle + 完整 Agent 预设（八段编排流水线 + 工程/产品/界面技能），npm 可装 `dsh plugin add coding-coach`，同时提供 Claude Code 插件。</summary>
   </entry>
 </feed>

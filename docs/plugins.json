@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 308,
+ "count": 309,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -920,6 +920,19 @@
    },
    "npm": null,
    "install": "dsh plugin --profile web add github:xiaoyanzi191/dsh-premium-themes",
+   "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-theme-kit",
+   "owner": "ink5897",
+   "url": "https://github.com/ink5897/dsh-theme-kit",
+   "category": "theme",
+   "description": {
+    "zh": "32 款预设主题（莫兰迪 / 马卡龙 / 中国传统色）、动态与静态壁纸、纸纹纹理、分区透明度与文字深浅，附按键桌宠。",
+    "en": "32 preset themes across three palettes (Morandi, Macaron, Chinese traditional), animated and static wallpapers, paper textures, per-zone opacity and text depth, plus a keyboard desktop pet."
+   },
+   "npm": "dsh-theme-kit",
+   "install": "dsh plugin --profile web add dsh-theme-kit",
    "added": "2026-08-16"
   },
   {
