@@ -13,6 +13,13 @@
     <summary>工程文件浏览器：会话视图文件页签，目录树 + VSCode 风格编辑器（C 语法高亮/行号/自动缩进/状态栏），跟随当前工作区。</summary>
   </entry>
   <entry>
+    <title>Laplace-bit/dsh-smooth-stream</title>
+    <id>https://github.com/Laplace-bit/dsh-smooth-stream</id>
+    <link href="https://github.com/Laplace-bit/dsh-smooth-stream"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>丝滑流式渲染：字跟着模型到达走、换行滑入、不闪，滚动归用户，尊重 `prefers-reduced-motion`。</summary>
+  </entry>
+  <entry>
     <title>xiaoyanzi191/dsh-premium-themes</title>
     <id>https://github.com/xiaoyanzi191/dsh-premium-themes</id>
     <link href="https://github.com/xiaoyanzi191/dsh-premium-themes"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/zhtx2024/dsh-skin-switcher"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>在设置界面新增「皮肤」页，自动发现已安装皮肤并一键切换，支持一键恢复官方默认外观。</summary>
-  </entry>
-  <entry>
-    <title>flyingtimes/dsh-trajectory-reader</title>
-    <id>https://github.com/flyingtimes/dsh-trajectory-reader</id>
-    <link href="https://github.com/flyingtimes/dsh-trajectory-reader"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>轨迹解读标签页：按用户轮次解读助手做了什么（需求/思路/执行/结果），规则引擎 + 可选 LLM 叙述，文件/命令/错误一目了然，用户消息原样保留。</summary>
   </entry>
 </feed>

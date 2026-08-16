@@ -13,6 +13,13 @@
     <summary>Project file browser: per-session file tabs, a directory tree, and a VSCode-style editor (C syntax highlighting, line numbers, auto-indent, status bar) that follows the current workspace.</summary>
   </entry>
   <entry>
+    <title>Laplace-bit/dsh-smooth-stream</title>
+    <id>https://github.com/Laplace-bit/dsh-smooth-stream</id>
+    <link href="https://github.com/Laplace-bit/dsh-smooth-stream"/>
+    <updated>2026-08-16T00:00:00Z</updated>
+    <summary>Silky streaming reveal for the Web UI: text appears at the model's arrival rate, new lines glide in, no flicker; follow stays with the user and `prefers-reduced-motion` is respected.</summary>
+  </entry>
+  <entry>
     <title>xiaoyanzi191/dsh-premium-themes</title>
     <id>https://github.com/xiaoyanzi191/dsh-premium-themes</id>
     <link href="https://github.com/xiaoyanzi191/dsh-premium-themes"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/zhtx2024/dsh-skin-switcher"/>
     <updated>2026-08-15T00:00:00Z</updated>
     <summary>Adds a Skins page to Settings that auto-discovers installed skins for one-click switching, with one-click restore to the official default look.</summary>
-  </entry>
-  <entry>
-    <title>flyingtimes/dsh-trajectory-reader</title>
-    <id>https://github.com/flyingtimes/dsh-trajectory-reader</id>
-    <link href="https://github.com/flyingtimes/dsh-trajectory-reader"/>
-    <updated>2026-08-15T00:00:00Z</updated>
-    <summary>Trajectory interpretation tab: summarizes each user round — what was wanted and how the assistant fulfilled it (needs/thinking/execution/results) via a rules engine plus optional LLM narrative; files, commands and errors at a glance; user messages stay verbatim.</summary>
   </entry>
 </feed>

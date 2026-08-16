@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-16",
- "count": 310,
+ "count": 311,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -830,6 +830,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:Lanxing6480/dsh-galgame",
    "added": "2026-08-15"
+  },
+  {
+   "name": "dsh-smooth-stream",
+   "owner": "Laplace-bit",
+   "url": "https://github.com/Laplace-bit/dsh-smooth-stream",
+   "category": "ui",
+   "description": {
+    "zh": "丝滑流式渲染：字跟着模型到达走、换行滑入、不闪，滚动归用户，尊重 `prefers-reduced-motion`。",
+    "en": "Silky streaming reveal for the Web UI: text appears at the model's arrival rate, new lines glide in, no flicker; follow stays with the user and `prefers-reduced-motion` is respected."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:Laplace-bit/dsh-smooth-stream",
+   "added": "2026-08-16"
   },
   {
    "name": "dsh-skin",
