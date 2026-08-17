@@ -167,6 +167,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [edfrey0044/dsh-unarchive](https://github.com/edfrey0044/dsh-unarchive) — 恢复已归档会话：/unarchive 命令与 unarchive_session 工具，把会话移出归档集合、在原位置重新出现在工作区（归档从不删除数据）。
 - [chenproton/dsh-history](https://github.com/chenproton/dsh-history) — 会话历史消息查看：列出当前会话全部你发送的消息，支持排序、搜索、一键复制与点击跳转定位（目标未加载时自动加载更早历史）。
 
+- [session-titler](https://github.com/JohnXu22786/session-titler) — 双阶段会话标题生成：忙碌时即时关键词标题，空闲时由经济模型精修。
+
 ### 🧠 记忆
 
 - [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) — 上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。
@@ -188,6 +190,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [futongxu9-maker/dsh-shared-memory](https://github.com/futongxu9-maker/dsh-shared-memory) — 跨对话共享记忆：MEMORY.md + USER.md 注入每个会话系统提示词，memory 工具 + 可视化记忆面板，Hermes 式实现。
 
 
+
+- [memory-vault](https://github.com/JohnXu22786/memory-vault) — 跨会话持久记忆插件：SQLite 本地存储 + 关键词/语义混合检索 + Web/MCP 界面，供编码代理存取经验与决策。
 
 ### 🛠️ 工具与能力
 - [Anlushu/hkinsure](https://github.com/Anlushu/hkinsure) — 香港保险数据 MCP：260+ 真实产品、17 家保司、分红实现率，供 Hermes / dsh / Claude Code 等 AI 工具查询/对比/测算。
@@ -286,6 +290,22 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [moon09300731/dsh-vision-tools](https://github.com/moon09300731/dsh-vision-tools) — DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。
 - [moon09300731/dsh-approval-gate](https://github.com/moon09300731/dsh-approval-gate) — 自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。
 - [dsh-verify](https://github.com/263311487-ux/dsh-verify) — 独立浏览器验收测试：JSON 清单驱动真实 Chromium，断言计算样式与像素差异，输出 HTML 报告 + 0/1 退出码；提供 npm CLI、GitHub Action 与 MCP Server。
+- [safety-net](https://github.com/JohnXu22786/safety-net) — 编码 agent 破坏性命令拦截闸门：rm -rf / git reset --hard / push --force 执行前解析判定并要求人工确认（dsh 插件 + 通用 CLI）。
+- [context-pruner](https://github.com/JohnXu22786/context-pruner) — 会话上下文整理插件：修剪过期、重复、失败与过大的上下文以节省 token 预算。
+- [command-scout](https://github.com/JohnXu22786/command-scout) — 扫描项目声明的构建命令（Makefile、package.json scripts、justfile、deno tasks）并作为 agent 工具暴露。
+- [browser-automation](https://github.com/JohnXu22786/browser-automation) — Web Bridge：面向 dsh 的浏览器自动化 MCP 服务器——真实浏览器导航、点击、填表、截图、JS 执行，无障碍快照驱动。
+- [github-mcp](https://github.com/JohnXu22786/github-mcp) — repogate：GitHub 开发者工作台 MCP 服务器——仓库、issue、PR、代码审查、搜索，零运行时依赖。
+- [snippet-expander](https://github.com/JohnXu22786/snippet-expander) — Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。
+- [secret-guard](https://github.com/JohnXu22786/secret-guard) — 阻止 agent 读写敏感文件（.env、凭据），掩码工具结果中泄露的密钥，附审计日志与安全的 sg_* 检查工具。
+- [adversarial-review](https://github.com/JohnXu22786/adversarial-review) — gavel-review：对抗式多视角代码审查——并行攻击视角、确定性静态哨兵、严重度定级与审查历史。
+- [docs-retriever](https://github.com/JohnXu22786/docs-retriever) — doctrove：版本化库文档检索 MCP 服务器，零运行时依赖，可作 dsh 插件 bundle 安装。
+- [fs-mcp](https://github.com/JohnXu22786/fs-mcp) — paddock：受限本地文件系统 MCP 服务器——文件访问限定在可配置区域，零运行时依赖。
+- [worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) — 任务隔离的 git 工作区：按任务自动创建、同步与收尾隔离工作区。
+- [statusline](https://github.com/JohnXu22786/statusline) — 实时终端状态行：一行展示模型、上下文占用、子代理、速率限制与会话时长。
+- [codegraph](https://github.com/JohnXu22786/codegraph) — 代码知识图谱：把符号、调用点与导入索引进 SQLite，回答调用/依赖问题。
+- [pty-runner](https://github.com/JohnXu22786/pty-runner) — 后台终端（PTY）任务管理：启动长时进程、喂入输入、翻页输出、按需停止。
+- [computer-control](https://github.com/JohnXu22786/computer-control) — 桌面控制：屏幕捕获、指针/键盘注入、无障碍树操作、确认流程与紧急停止。
+
 ### 🧩 技能包
 
 - [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) — 最懒资深工程师模式（Ponytail）的 DSH 移植：6 个技能（ponytail、ponytail-audit、ponytail-debt、ponytail-gain、ponytail-help、ponytail-review），改编自 DietrichGebert/ponytail（MIT）。
@@ -297,6 +317,11 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 
 - [gwrsfsfeefdsfs/dsh-skill-curator](https://github.com/gwrsfsfeefdsfs/dsh-skill-curator) — DSH skill 经验回流与知识积累元技能：其他 skill 出问题解决后自动回流解决方案并登记知识库（关键词 + 本地 bge 语义双通道检索、7 项写回判断清单、防臃肿归档），附自校验与事件钩子工具。
+- [skill-framework](https://github.com/JohnXu22786/skill-framework) — Praxis：面向 dsh 的工程方法论技能库（Agent Skills），以 Cordis 插件形式经 ctx.skills 提供。
+- [skill-manager](https://github.com/JohnXu22786/skill-manager) — 多区域技能发现、渐进式披露、创建向导、审计与统计。
+- [spec-driven](https://github.com/JohnXu22786/spec-driven) — keel（龙骨）：规格驱动开发纪律技能包——先立规格、验证假设、防止过度工程与范围蔓延。
+- [docgen](https://github.com/JohnXu22786/docgen) — 文档工坊技能包：纯提示词文档生成——README、PR 描述、changelog 与代码审查。
+
 ### 🔁 工作流与自动化
 
 - [940842546/dsh-usage-billing](https://github.com/940842546/dsh-usage-billing) — 用量与消费统计：8/17 调价前后峰谷计费，主界面汇总面板、按会话明细与用量热力图。
@@ -323,6 +348,9 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) — plan/execute 双模型路由：规划模型思考、执行模型干活。
 - [timwhitez/dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving) — 证据优先、可崩溃恢复的自进化引擎：有界生成 Cordis 候选插件、一次性真实 Loader 准入、Harbor 评估，并保留可审计的日志化谱系。
 
+- [file-planning](https://github.com/JohnXu22786/file-planning) — trailmap：磁盘持久化执行规划——里程碑状态机、依赖标注、审计事件与复盘纪要。
+- [task-board](https://github.com/JohnXu22786/task-board) — 跨会话事件溯源工作台账：任务跟踪、审计历史、看板导出。
+
 ### 🔔 通知与集成
 
 - [omdsh-dev/dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) — 从 Web GUI 一键在 VS Code 中打开工作区目录。
@@ -343,6 +371,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) — 通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。
 - [Laplace-bit/dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) — 生命周期铃声与状态点：为每个环节合成专属提示音（Web Audio，零音频文件），右下角呼吸状态点显示工作状态。
 
+- [notifier](https://github.com/JohnXu22786/notifier) — dsh-chime：桌面信号插件——任务完成、等待批准或出错时发送通知与提示音。
+
 ### 🔌 模型与账号接入
 
 - [dylan121322/llm-adaptive](https://github.com/dylan121322/llm-adaptive) — 自适应模型路由：请求级复杂度分类，按配置链自动选择后端 provider。
@@ -352,6 +382,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [omdsh-dev/Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) — Qwen 多模态插件支持。
 - [suntianc/dsh-codex-auth](https://github.com/suntianc/dsh-codex-auth) — 复用 Codex CLI 的 ChatGPT 登录态注册 `openai-codex` LLM 路由，并在 DSH Web 设置中提供 GPT Auth 控件。
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) — 视觉桥接：view_image 工具接任意 OpenAI 兼容 VLM。
+
+- [model-catalog](https://github.com/JohnXu22786/model-catalog) — 模型目录自动发现：从 OpenAI 兼容主机获取模型列表、价格与能力，归一化为即用配置。
 
 ### 🧑‍💻 开发与运行时
 
@@ -411,6 +443,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [15828148/dsh-portable-launcher](https://github.com/15828148/dsh-portable-launcher) — Windows 一键便携启动器，国内镜像回退。
 - [cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) — Agent 安全护栏：拦截并审计所有工具调用，命中敏感操作就要求人工确认。
 - [xgone/dsh-remote](https://github.com/xgone/dsh-remote) — DeepSeek Harness 网页端远程访问与认证：账号/密码登录门、MFA（TOTP 两步验证）、签名会话 Cookie、基于角色的访问控制、浏览器内目录选择器，以及账号管理设置页。
+
+- [hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) — 通用 hooks 兼容层：在 dsh 上运行 Claude Code / Codex / opencode 配置中声明的 hooks。
 
 ### 🎮 娱乐
 
