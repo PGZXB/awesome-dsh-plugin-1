@@ -57,6 +57,7 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 
 ### UI Enhancements
 
+- [daetz-coder/dsh-multi-chat](https://github.com/daetz-coder/dsh-multi-chat) - A multi-window wall for the DSH Web UI: run and monitor N conversations side-by-side in one screen, with auto-discovery, per-window controls, and an authenticated LAN gateway for phone/tablet access.
 - [pk7j7sqryy-ops/dsh-token-pet](https://github.com/pk7j7sqryy-ops/dsh-token-pet) - Cute token-usage widget in the session header: context occupancy, session usage and breakdown, plus date/weekday, weather, 3-day forecast and severe-weather alerts.
 
 - [Zhangbo-cn/dsh-voice-input-plugin](https://github.com/Zhangbo-cn/dsh-voice-input-plugin) - Composer microphone: click for continuous monitoring or hold to talk; browser speech recognition types words into the composer as you speak, while replies are read aloud as they stream via host Edge TTS (sentence-split), pausing recognition while reading to avoid echo, click to stop.
