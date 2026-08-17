@@ -1211,6 +1211,10 @@
   "npm": null,
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/xgone/dsh-remote": {
+  "npm": "@xgone/dsh-remote",
+  "checkedAt": "2026-08-17"
+ },
  "https://github.com/xiaoyanzi191/dsh-premium-themes": {
   "npm": null,
   "checkedAt": "2026-08-16"

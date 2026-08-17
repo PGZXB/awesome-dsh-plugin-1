@@ -90,6 +90,13 @@
     <summary>DSH skill 经验回流与知识积累元技能：其他 skill 出问题解决后自动回流解决方案并登记知识库（关键词 + 本地 bge 语义双通道检索、7 项写回判断清单、防臃肿归档），附自校验与事件钩子工具。</summary>
   </entry>
   <entry>
+    <title>xgone/dsh-remote</title>
+    <id>https://github.com/xgone/dsh-remote</id>
+    <link href="https://github.com/xgone/dsh-remote"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>DeepSeek Harness 网页端远程访问与认证：账号/密码登录门、MFA（TOTP 两步验证）、签名会话 Cookie、基于角色的访问控制、浏览器内目录选择器，以及账号管理设置页。</summary>
+  </entry>
+  <entry>
     <title>beancookie/dsh-plugin-nintendo</title>
     <id>https://github.com/beancookie/dsh-plugin-nintendo</id>
     <link href="https://github.com/beancookie/dsh-plugin-nintendo"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/lak321/dsh-screen-agent"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>桌面与网页自动化：📸 多屏截图 + 🔍 Windows OCR（文字+像素坐标）+ 🖱️ 鼠标点击/拖拽 + ⌨️ 中文打字/按键 + 🪟 窗口激活，含实战打磨的画图能力（鼠标加速度补偿、画布定位、贝塞尔曲线，可在画图中绘制图形）。</summary>
-  </entry>
-  <entry>
-    <title>futongxu9-maker/dsh-path-reveal</title>
-    <id>https://github.com/futongxu9-maker/dsh-path-reveal</id>
-    <link href="https://github.com/futongxu9-maker/dsh-path-reveal"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>点击消息里的 Windows 绝对路径在资源管理器中打开所在文件夹（文件定位选中/目录直接打开）。</summary>
   </entry>
 </feed>

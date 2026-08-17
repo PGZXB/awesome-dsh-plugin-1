@@ -90,6 +90,13 @@
     <summary>Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools.</summary>
   </entry>
   <entry>
+    <title>xgone/dsh-remote</title>
+    <id>https://github.com/xgone/dsh-remote</id>
+    <link href="https://github.com/xgone/dsh-remote"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Remote access &amp; authentication for the DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and an account-management settings page.</summary>
+  </entry>
+  <entry>
     <title>beancookie/dsh-plugin-nintendo</title>
     <id>https://github.com/beancookie/dsh-plugin-nintendo</id>
     <link href="https://github.com/beancookie/dsh-plugin-nintendo"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/lak321/dsh-screen-agent"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Desktop and web automation: 📸 multi-screen screenshots, 🔍 Windows OCR (text + pixel coordinates), 🖱️ mouse click/drag, ⌨️ Chinese typing/keys, and 🪟 window activation, with battle-tested drawing in Paint (mouse acceleration compensation, canvas positioning, Bézier curves).</summary>
-  </entry>
-  <entry>
-    <title>futongxu9-maker/dsh-path-reveal</title>
-    <id>https://github.com/futongxu9-maker/dsh-path-reveal</id>
-    <link href="https://github.com/futongxu9-maker/dsh-path-reveal"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Click any absolute Windows path in DSH messages to reveal it in Explorer (select the file or open the folder).</summary>
   </entry>
 </feed>

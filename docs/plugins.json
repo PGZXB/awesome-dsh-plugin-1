@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 332,
+ "count": 333,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -4700,6 +4700,21 @@
    "createdAt": "2026-08-14",
    "install": "dsh plugin --profile web add github:cdxiaodong/dsh-guardian",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-remote",
+   "owner": "xgone",
+   "url": "https://github.com/xgone/dsh-remote",
+   "category": "dev",
+   "description": {
+    "zh": "DeepSeek Harness 网页端远程访问与认证：账号/密码登录门、MFA（TOTP 两步验证）、签名会话 Cookie、基于角色的访问控制、浏览器内目录选择器，以及账号管理设置页。",
+    "en": "Remote access & authentication for the DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and an account-management settings page."
+   },
+   "npm": "@xgone/dsh-remote",
+   "stars": 4,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add @xgone/dsh-remote",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-ads",
