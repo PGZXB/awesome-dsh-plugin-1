@@ -2852,7 +2852,7 @@
    },
    "npm": "dsh-plugin-writing-guard",
    "stars": 10,
-   "createdAt": null,
+   "createdAt": "2026-08-15",
    "install": "dsh plugin --profile web add dsh-plugin-writing-guard",
    "added": "2026-08-15"
   },
