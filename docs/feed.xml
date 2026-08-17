@@ -62,6 +62,13 @@
     <summary>DSH Web GUI 对话迷你地图（复刻 ChatGPT 桌面端）：每轮 Prompt 一个等距胶囊锚点，鱼眼钟形悬停放大 + 完整 Prompt 预览，顶部/底部渐隐，蓝色高亮跟随当前 Prompt，点击跳转对应消息，自动拉取完整历史。</summary>
   </entry>
   <entry>
+    <title>dsh-odette-skin</title>
+    <id>https://github.com/lkdx0220/Genshin-odette-skin-dsh</id>
+    <link href="https://github.com/lkdx0220/Genshin-odette-skin-dsh"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>DSH 原神「奥黛塔」主题 UI 皮肤：深/浅双模式背景图 + 13 个主题 token 毛玻璃覆盖 + 侧栏 Q 版小兽皮肤开关，npm 即装即用。</summary>
+  </entry>
+  <entry>
     <title>sjh9714/dsh-what-changed</title>
     <id>https://github.com/sjh9714/dsh-what-changed</id>
     <link href="https://github.com/sjh9714/dsh-what-changed"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/worktree-mgr"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>任务隔离的 git 工作区：按任务自动创建、同步与收尾隔离工作区。</summary>
-  </entry>
-  <entry>
-    <title>statusline</title>
-    <id>https://github.com/JohnXu22786/statusline</id>
-    <link href="https://github.com/JohnXu22786/statusline"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>实时终端状态行：一行展示模型、上下文占用、子代理、速率限制与会话时长。</summary>
   </entry>
 </feed>

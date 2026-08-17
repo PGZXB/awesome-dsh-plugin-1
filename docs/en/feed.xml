@@ -62,6 +62,13 @@
     <summary>A conversation minimap for the DSH Web GUI (ChatGPT desktop style): one evenly-spaced capsule anchor per user prompt, fish-eye bell-curve magnification on hover with full prompt preview, top/bottom edge fade, blue highlight that follows the current prompt, click to jump to the message, and automatic full-history loading.</summary>
   </entry>
   <entry>
+    <title>dsh-odette-skin</title>
+    <id>https://github.com/lkdx0220/Genshin-odette-skin-dsh</id>
+    <link href="https://github.com/lkdx0220/Genshin-odette-skin-dsh"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>A Genshin Impact &quot;Odette&quot; themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm</summary>
+  </entry>
+  <entry>
     <title>sjh9714/dsh-what-changed</title>
     <id>https://github.com/sjh9714/dsh-what-changed</id>
     <link href="https://github.com/sjh9714/dsh-what-changed"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/worktree-mgr"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>Task-isolated git worktrees: auto-create, sync and tear down isolated workspaces per task.</summary>
-  </entry>
-  <entry>
-    <title>statusline</title>
-    <id>https://github.com/JohnXu22786/statusline</id>
-    <link href="https://github.com/JohnXu22786/statusline"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>Real-time terminal statusline: model, context usage, sub-agents, rate limits and session time in one line.</summary>
   </entry>
 </feed>

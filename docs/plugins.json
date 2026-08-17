@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 365,
+ "count": 366,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1234,6 +1234,21 @@
    "stars": 1,
    "createdAt": "2026-08-17",
    "install": "dsh plugin --profile web add github:Braidy-Wu/dsh-conversation-minimap",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "dsh-odette-skin",
+   "owner": "lkdx0220",
+   "url": "https://github.com/lkdx0220/Genshin-odette-skin-dsh",
+   "category": "theme",
+   "description": {
+    "zh": "DSH 原神「奥黛塔」主题 UI 皮肤：深/浅双模式背景图 + 13 个主题 token 毛玻璃覆盖 + 侧栏 Q 版小兽皮肤开关，npm 即装即用。",
+    "en": "A Genshin Impact \"Odette\" themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm"
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-17",
+   "install": "dsh plugin --profile web add github:lkdx0220/Genshin-odette-skin-dsh",
    "added": "2026-08-17"
   },
   {
