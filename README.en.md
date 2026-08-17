@@ -288,6 +288,8 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) - Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT).
 - [gongyijie85/mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) - Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT).
 
+
+- [gwrsfsfeefdsfs/dsh-skill-curator](https://github.com/gwrsfsfeefdsfs/dsh-skill-curator) — Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools.
 ### Workflow & Automation
 
 - [940842546/dsh-usage-billing](https://github.com/940842546/dsh-usage-billing) - Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a floating summary panel, per-session breakdowns, and a usage heatmap.

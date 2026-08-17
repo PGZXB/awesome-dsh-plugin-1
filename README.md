@@ -289,6 +289,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [gongyijie85/mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh) — Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DeepSeek Harness 插件：改编自 mattpocock/skills（MIT）。
 - [gongyijie85/mattpocock-skills-dsh-zh](https://github.com/gongyijie85/mattpocock-skills-dsh-zh) — Matt Pocock 技能中文版的 DeepSeek Harness 插件：25 个 SKILL.md 正文全译中文（技术术语保留英文并附注释），改编自 mattpocock/skills（MIT）。
 
+
+- [gwrsfsfeefdsfs/dsh-skill-curator](https://github.com/gwrsfsfeefdsfs/dsh-skill-curator) — DSH skill 经验回流与知识积累元技能：其他 skill 出问题解决后自动回流解决方案并登记知识库（关键词 + 本地 bge 语义双通道检索、7 项写回判断清单、防臃肿归档），附自校验与事件钩子工具。
 ### 🔁 工作流与自动化
 
 - [940842546/dsh-usage-billing](https://github.com/940842546/dsh-usage-billing) — 用量与消费统计：8/17 调价前后峰谷计费，主界面汇总面板、按会话明细与用量热力图。
