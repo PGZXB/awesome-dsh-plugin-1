@@ -34,6 +34,13 @@
     <summary>Risk-gated approval automation: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe).</summary>
   </entry>
   <entry>
+    <title>beancookie/dsh-plugin-nintendo</title>
+    <id>https://github.com/beancookie/dsh-plugin-nintendo</id>
+    <link href="https://github.com/beancookie/dsh-plugin-nintendo"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>NES emulator built on jsnes: play in a popup window with a hotkey toggle, agents can load ROMs via the `nes_play` tool, with save/load and screenshots.</summary>
+  </entry>
+  <entry>
     <title>Zhangbo-cn/dsh-voice-input-plugin</title>
     <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
     <link href="https://github.com/Zhangbo-cn/dsh-voice-input-plugin"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/940842546/dsh-permissions"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Claude Code-style permission rules engine: hard/deny/ask/allow tiers with a hard tier above full access, workspace-scoped rules, wildcard path protection, and a visual staged editor; rules persist in settings.yaml.</summary>
-  </entry>
-  <entry>
-    <title>timwhitez/dsh-self-evolving</title>
-    <id>https://github.com/timwhitez/dsh-self-evolving</id>
-    <link href="https://github.com/timwhitez/dsh-self-evolving"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Evidence-first, crash-resumable self-evolution engine for DSH: bounded Cordis candidate generation, one-shot real-Loader admission, Harbor evaluation, and an auditable journaled lineage.</summary>
   </entry>
 </feed>

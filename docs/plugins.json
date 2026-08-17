@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 323,
+ "count": 324,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -4249,6 +4249,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:JAdpp/dsh-whale-galgame",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-plugin-nintendo",
+   "owner": "beancookie",
+   "url": "https://github.com/beancookie/dsh-plugin-nintendo",
+   "category": "fun",
+   "description": {
+    "zh": "基于 jsnes 的 NES 模拟器：独立弹窗游玩、快捷键开关，Agent 可调用 `nes_play` 工具加载 ROM，支持存档/读档/截图。",
+    "en": "NES emulator built on jsnes: play in a popup window with a hotkey toggle, agents can load ROMs via the `nes_play` tool, with save/load and screenshots."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:beancookie/dsh-plugin-nintendo",
+   "added": "2026-08-17"
   }
  ]
 }

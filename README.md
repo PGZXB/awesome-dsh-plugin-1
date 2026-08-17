@@ -32,7 +32,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 </details>
 
-**323** 个插件 · 欢迎 [PR](#贡献)
+**324** 个插件 · 欢迎 [PR](#贡献)
 
 ## 目录
 
@@ -424,6 +424,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [sunshine-lang/dsh-pdf](https://github.com/sunshine-lang/dsh-pdf) — PDF 工具箱：基于 pdfjs-dist 提取文本、元数据与页码范围。
 - [dsh-ui-whale](https://github.com/dsh-external/dsh-ui-whale) — 像素鲸鱼伙伴（眨眼/摆尾/喷水/爱心）。
 - [JAdpp/dsh-whale-galgame](https://github.com/JAdpp/dsh-whale-galgame) — 多角色 Galgame 对话界面：角色与回复模型可独立切换，分角色保存好感度、记忆、对话历史与 CG 图鉴，并根据 Harness 跨会话任务事件做出角色回应。
+- [beancookie/dsh-plugin-nintendo](https://github.com/beancookie/dsh-plugin-nintendo) — 基于 jsnes 的 NES 模拟器：独立弹窗游玩、快捷键开关，Agent 可调用 `nes_play` 工具加载 ROM，支持存档/读档/截图。
 
 ## 相关
 

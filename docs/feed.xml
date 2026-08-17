@@ -34,6 +34,13 @@
     <summary>自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。</summary>
   </entry>
   <entry>
+    <title>beancookie/dsh-plugin-nintendo</title>
+    <id>https://github.com/beancookie/dsh-plugin-nintendo</id>
+    <link href="https://github.com/beancookie/dsh-plugin-nintendo"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>基于 jsnes 的 NES 模拟器：独立弹窗游玩、快捷键开关，Agent 可调用 `nes_play` 工具加载 ROM，支持存档/读档/截图。</summary>
+  </entry>
+  <entry>
     <title>Zhangbo-cn/dsh-voice-input-plugin</title>
     <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
     <link href="https://github.com/Zhangbo-cn/dsh-voice-input-plugin"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/940842546/dsh-permissions"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Claude Code 风格权限规则引擎：hard/deny/ask/allow 四级规则（hard 高于全访问、不可豁免）、workspace 作用域、通配符路径保护、可视化草稿式编辑器，规则持久化于 settings.yaml。</summary>
-  </entry>
-  <entry>
-    <title>timwhitez/dsh-self-evolving</title>
-    <id>https://github.com/timwhitez/dsh-self-evolving</id>
-    <link href="https://github.com/timwhitez/dsh-self-evolving"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>证据优先、可崩溃恢复的自进化引擎：有界生成 Cordis 候选插件、一次性真实 Loader 准入、Harbor 评估，并保留可审计的日志化谱系。</summary>
   </entry>
 </feed>
