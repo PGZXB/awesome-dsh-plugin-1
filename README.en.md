@@ -169,6 +169,8 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [edfrey0044/dsh-unarchive](https://github.com/edfrey0044/dsh-unarchive) - Restore archived sessions: a /unarchive command and an unarchive_session tool that remove sessions from the archive set so they reappear in the workspace at their original position (archiving never deletes data).
 - [chenproton/dsh-history](https://github.com/chenproton/dsh-history) - Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded.
 
+- [session-titler](https://github.com/JohnXu22786/session-titler) - Two-phase session captioning: instant keyword captions while busy, budget-model refinement when idle.
+
 ### Memory
 
 - [dsh-context](https://github.com/bowenliang123/dsh-context) - Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.
@@ -190,6 +192,8 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [futongxu9-maker/dsh-shared-memory](https://github.com/futongxu9-maker/dsh-shared-memory) - Cross-conversation shared memory: MEMORY.md + USER.md injected into every session's system prompt, with a memory tool and a GUI panel (Hermes-style).
 
 
+
+- [memory-vault](https://github.com/JohnXu22786/memory-vault) - Cross-session persistent memory for coding agents: SQLite local storage, hybrid keyword/semantic retrieval, Web and MCP interfaces.
 
 ### Tools & Capabilities
 - [Anlushu/hkinsure](https://github.com/Anlushu/hkinsure) — Hong Kong insurance data MCP: 260+ real products, 17 insurers, dividend fulfillment rates. Query/compare/calculate for any AI tool (Hermes / dsh / Claude Code).
@@ -289,6 +293,22 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [AlloyPlane/dsh-eye-vision](https://github.com/AlloyPlane/dsh-eye-vision) - Vision bridge for text-only models: image_understand tool via any OpenAI-compatible multimodal API (OCR/UI analysis), with an allowed-directories whitelist.
 - [moon09300731/dsh-approval-gate](https://github.com/moon09300731/dsh-approval-gate) — Risk-gated approval automation: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe).
 - [dsh-verify](https://github.com/263311487-ux/dsh-verify) — Independent browser acceptance testing for agent deliverables: JSON spec drives real headless Chromium, asserts computed styles and pixel diffs, returns an HTML report and 0/1 exit code; ships npm CLI, GitHub Action, and MCP server.
+- [safety-net](https://github.com/JohnXu22786/safety-net) - Destructive-command interception gate: parses and requires human approval for rm -rf / git reset --hard / push --force before execution (dsh plugin + standalone CLI).
+- [context-pruner](https://github.com/JohnXu22786/context-pruner) - Session context triage: prunes stale, repeated, failed and oversized context to save token budget.
+- [command-scout](https://github.com/JohnXu22786/command-scout) - Scans declared project build commands (Makefile, package.json scripts, justfile, deno tasks) and exposes them as agent tools.
+- [browser-automation](https://github.com/JohnXu22786/browser-automation) - Web Bridge: real-browser automation MCP server — navigation, click, form-fill, screenshots, JS execution, accessibility-snapshot driven.
+- [github-mcp](https://github.com/JohnXu22786/github-mcp) - repogate: GitHub developer workbench MCP server — repos, issues, PRs, code review, search, zero runtime dependencies.
+- [snippet-expander](https://github.com/JohnXu22786/snippet-expander) - Steno: inline #tag shorthand expansion before send — multi-library, aliases, {{variables}}, recursion guards.
+- [secret-guard](https://github.com/JohnXu22786/secret-guard) - Blocks agents from reading/writing sensitive files, masks leaked secrets in tool results, with an audit journal.
+- [adversarial-review](https://github.com/JohnXu22786/adversarial-review) - gavel-review: adversarial multi-perspective code review — parallel attack lenses, static sentinels, severity grading.
+- [docs-retriever](https://github.com/JohnXu22786/docs-retriever) - doctrove: versioned library documentation retrieval MCP server, zero runtime dependencies.
+- [fs-mcp](https://github.com/JohnXu22786/fs-mcp) - paddock: constrained local filesystem MCP server — file access confined to configurable zones, zero runtime dependencies.
+- [worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) - Task-isolated git worktrees: auto-create, sync and tear down isolated workspaces per task.
+- [statusline](https://github.com/JohnXu22786/statusline) - Real-time terminal statusline: model, context usage, sub-agents, rate limits and session time in one line.
+- [codegraph](https://github.com/JohnXu22786/codegraph) - Code knowledge graph: indexes symbols, call sites and imports into SQLite, answers call/dependency questions.
+- [pty-runner](https://github.com/JohnXu22786/pty-runner) - Background terminal (PTY) job management: launch long-running processes, feed input, page output, stop on demand.
+- [computer-control](https://github.com/JohnXu22786/computer-control) - Desktop control: screen capture, pointer/keyboard injection, accessibility-tree actions, confirmation flow, emergency stop.
+
 ### Skills
 
 - [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) - Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT).
@@ -300,6 +320,11 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 
 
 - [gwrsfsfeefdsfs/dsh-skill-curator](https://github.com/gwrsfsfeefdsfs/dsh-skill-curator) — Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools.
+- [skill-framework](https://github.com/JohnXu22786/skill-framework) - Praxis: bundled engineering-methodology skill library (Agent Skills) for dsh, served as a Cordis plugin via ctx.skills.
+- [skill-manager](https://github.com/JohnXu22786/skill-manager) - Multi-zone skill discovery, progressive disclosure, creation wizard, audit and statistics.
+- [spec-driven](https://github.com/JohnXu22786/spec-driven) - keel (龙骨): spec-driven development discipline skill pack — spec first, verify assumptions, prevent over-engineering.
+- [docgen](https://github.com/JohnXu22786/docgen) - Documentation workshop skill pack: pure-prompt doc generation — README, PR description, changelog, code review.
+
 ### Workflow & Automation
 
 - [940842546/dsh-usage-billing](https://github.com/940842546/dsh-usage-billing) - Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a floating summary panel, per-session breakdowns, and a usage heatmap.
@@ -326,6 +351,9 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [dsh-plan-execute](https://github.com/dsh-external/dsh-plan-execute) - Dual-model plan/execute routing: a planner model thinks, an executor model acts.
 - [timwhitez/dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving) - Evidence-first, crash-resumable self-evolution engine for DSH: bounded Cordis candidate generation, one-shot real-Loader admission, Harbor evaluation, and an auditable journaled lineage.
 
+- [file-planning](https://github.com/JohnXu22786/file-planning) - trailmap: disk-persisted execution planning — milestone state machines, dependency tagging, audit events, retrospective notes.
+- [task-board](https://github.com/JohnXu22786/task-board) - Cross-session event-sourced work ledger: task tracking, audit history, kanban export.
+
 ### Notifications & Integrations
 
 - [omdsh-dev/dsh-open-in-vscode](https://github.com/omdsh-dev/dsh-open-in-vscode) - Open DSH workspace directories in VS Code directly from the web GUI.
@@ -346,6 +374,8 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [cdxiaodong/dsh-island](https://github.com/cdxiaodong/dsh-island) - Bridge DSH agent sessions, tool calls, and approvals to the CodeIsland macOS notch panel over a Unix socket, with in-panel allow/deny.
 - [Laplace-bit/dsh-bell-notify](https://github.com/Laplace-bit/dsh-bell-notify) - Lifecycle bells and a status dot: per-event chimes synthesized live with Web Audio (zero audio files), plus a breathing indicator for agent state.
 
+- [notifier](https://github.com/JohnXu22786/notifier) - dsh-chime: desktop signal plugin — notifications and tones when a task finishes, waits for approval, or errors out.
+
 ### Models & Providers
 
 - [dylan121322/llm-adaptive](https://github.com/dylan121322/llm-adaptive) - Adaptive model routing: per-request complexity classification with automatic provider routing.
@@ -356,6 +386,8 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [omdsh-dev/Qwen-MM-Plugins](https://github.com/omdsh-dev/Qwen-MM-Plugins) - Qwen multi-modal plugin support.
 - [suntianc/dsh-codex-auth](https://github.com/suntianc/dsh-codex-auth) - Reuses the Codex CLI ChatGPT login as an `openai-codex` LLM route and adds GPT Auth controls to DSH Web settings.
 - [dsh-vision](https://github.com/dsh-external/dsh-vision) - Vision bridge: view_image tool over any OpenAI-compatible VLM.
+
+- [model-catalog](https://github.com/JohnXu22786/model-catalog) - Model catalog auto-discovery: fetches model listings, pricing and capabilities from OpenAI-compatible hosts into ready-to-use config.
 
 ### Development & Runtime
 
@@ -415,6 +447,8 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [dsh-portable-launcher](https://github.com/15828148/dsh-portable-launcher) - One-click portable Windows launcher with CN mirror fallback.
 - [cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
 - [xgone/dsh-remote](https://github.com/xgone/dsh-remote) - Remote access & authentication for the DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and an account-management settings page.
+
+- [hooks-adapter](https://github.com/JohnXu22786/hooks-adapter) - Universal hooks compatibility layer: runs hooks declared in Claude Code / Codex / opencode configs on dsh.
 
 ### Just for Fun
 
