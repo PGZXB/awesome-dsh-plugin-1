@@ -90,6 +90,13 @@
     <summary>Two-phase session captioning: instant keyword captions while busy, budget-model refinement when idle.</summary>
   </entry>
   <entry>
+    <title>Breeze136/dsh-kb-rag</title>
+    <id>https://github.com/Breeze136/dsh-kb-rag</id>
+    <link href="https://github.com/Breeze136/dsh-kb-rag"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Local literature knowledge-base RAG: 8 tools (PDF/folder/Zotero ingest, hybrid BM25+vector+reranker search, cited QA with clickable DOI links, scope/strict modes, dedup/clear/stats), all-local bge embeddings + single-file SQLite, measured 242-doc/86s ingest and sub-second hot queries on 20k chunks.</summary>
+  </entry>
+  <entry>
     <title>memory-vault</title>
     <id>https://github.com/JohnXu22786/memory-vault</id>
     <link href="https://github.com/JohnXu22786/memory-vault"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/fs-mcp"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>paddock: constrained local filesystem MCP server — file access confined to configurable zones, zero runtime dependencies.</summary>
-  </entry>
-  <entry>
-    <title>worktree-mgr</title>
-    <id>https://github.com/JohnXu22786/worktree-mgr</id>
-    <link href="https://github.com/JohnXu22786/worktree-mgr"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>Task-isolated git worktrees: auto-create, sync and tear down isolated workspaces per task.</summary>
   </entry>
 </feed>

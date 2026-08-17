@@ -90,6 +90,13 @@
     <summary>双阶段会话标题生成：忙碌时即时关键词标题，空闲时由经济模型精修。</summary>
   </entry>
   <entry>
+    <title>Breeze136/dsh-kb-rag</title>
+    <id>https://github.com/Breeze136/dsh-kb-rag</id>
+    <link href="https://github.com/Breeze136/dsh-kb-rag"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>本地文献知识库 RAG：8 个工具（PDF/文件夹/Zotero 入库、BM25+向量+重排混合检索、DOI 可点击溯源问答、范围/严格模式、去重/清空/统计），全本地 bge 嵌入 + 单文件 SQLite，实测 242 篇 86s 入库、2 万块亚秒热查询。</summary>
+  </entry>
+  <entry>
     <title>memory-vault</title>
     <id>https://github.com/JohnXu22786/memory-vault</id>
     <link href="https://github.com/JohnXu22786/memory-vault"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/fs-mcp"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>paddock：受限本地文件系统 MCP 服务器——文件访问限定在可配置区域，零运行时依赖。</summary>
-  </entry>
-  <entry>
-    <title>worktree-mgr</title>
-    <id>https://github.com/JohnXu22786/worktree-mgr</id>
-    <link href="https://github.com/JohnXu22786/worktree-mgr"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>任务隔离的 git 工作区：按任务自动创建、同步与收尾隔离工作区。</summary>
   </entry>
 </feed>
