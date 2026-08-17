@@ -115,9 +115,9 @@ function buildRows(loc, only) {
         ? `dsh plugin --profile web add github:${repo}#path:/${sub}`
         : `dsh plugin --profile web add github:${repo}`
       const search = LOCALES.map((l) => e.descs[l.code]).join(' ')
-      const badge = e.stars === null ? '' : `\n      <span class="stars" title="${loc.STARS_TITLE}">★ ${e.stars.toLocaleString('en-US')}</span>`
+      const no = `★ ${e.stars === null ? '—' : e.stars.toLocaleString('en-US')}`
       return `    <li class="item" data-cat="${e.cat}" data-stars="${e.stars ?? ''}" data-search="${esc(search)}" style="animation-delay:${delay}s">
-      <span class="no" aria-hidden="true">№ ${String(idx).padStart(2, '0')}</span>${badge}
+      <span class="no">${no}</span>
       <div>
         <h3><a href="${e.url}" rel="noopener" translate="no">${esc(e.name)}</a></h3>
         <p>${esc(e.descs[loc.code])}</p>
@@ -176,7 +176,6 @@ const inlineByLoc = Object.fromEntries(LOCALES.map((loc) => [loc.code, JSON.stri
   urlPath: loc.urlPath,
   copyLabel: loc.COPY_LABEL,
   copyText: loc.COPY_TEXT,
-  starsTitle: loc.STARS_TITLE,
   all: loc.strings.ALL,
   categories: CAT_NAMES,
   plugins: ordered.map((e) => ({

@@ -159,7 +159,6 @@ ol.dex li.item{
 .no{font-family:var(--mono);font-size:.7rem;color:var(--accent);padding-top:.45rem;font-variant-numeric:tabular-nums;
   transition:transform .18s cubic-bezier(.22,1,.36,1)}
 li.item:hover .no{transform:translateX(5px)}
-.stars{display:block;font-family:var(--mono);font-size:.62rem;color:var(--text-3);margin-top:.35rem;font-variant-numeric:tabular-nums;white-space:nowrap}
 .dex h3{font-weight:700;font-size:1.12rem;letter-spacing:-.005em;line-height:1.35;text-wrap:balance}
 .dex h3 a{color:var(--text)}
 .dex h3 a:hover{color:var(--accent-strong);text-decoration:none}
@@ -291,7 +290,6 @@ footer{padding-block:0 3rem}
       <label class="sortbox" title="__T_SORT_BY__">
         <span class="sort-label">__T_SORT_BY__</span>
         <select id="sort" aria-label="__T_SORT_BY__">
-          <option value="default">__T_SORT_DEFAULT__</option>
           <option value="stars">__T_SORT_STARS__</option>
           <option value="starsFlat">__T_SORT_STARS_FLAT__</option>
         </select>
@@ -1299,8 +1297,7 @@ function renderRegistry(data) {
       if (p.search) li.dataset.search = p.search;
       li.style.animationDelay = `${Math.min(idx * 0.02, 0.4).toFixed(2)}s`;
       li.dataset.stars = p.stars ?? '';
-      const badge = p.stars == null ? '' : `<span class="stars" title="${esc(data.starsTitle)}">★ ${Number(p.stars).toLocaleString()}</span>`;
-      li.innerHTML = `<span class="no" aria-hidden="true">№ ${String(idx).padStart(2, '0')}</span>` + badge +
+      li.innerHTML = `<span class="no">★ ${p.stars == null ? '—' : Number(p.stars).toLocaleString()}</span>` +
         `<div><h3><a href="${esc(p.url)}" rel="noopener" translate="no">${esc(p.name)}</a></h3>` +
         `<p>${esc(p.description)}</p></div>` +
         `<button class="copy" type="button" data-cmd="${esc(p.install)}" aria-label="${esc(data.copyLabel)}">${esc(data.copyText)}</button>`;
@@ -1346,15 +1343,11 @@ for (const li of items) {
     : '';
   li._hay = (li._name + ' ' + ownerRepo + ' ' + li._search).toLowerCase();
   li._stars = Number(li.dataset.stars) || 0;
-  const no = li.querySelector('.no');
-  li._no = no;
-  li._noText = no ? no.textContent : '';
 }
 
 let activeCat = urlParams.get('cat') || 'all';
 let query = (urlParams.get('q') || '').toLowerCase();
-const sortParam = urlParams.get('sort');
-let sortMode = (sortParam === 'stars' || sortParam === 'starsFlat') ? sortParam : 'default';
+let sortMode = urlParams.get('sort') === 'starsFlat' ? 'starsFlat' : 'stars';
 if (sortSel) sortSel.value = sortMode;
 
 function setActiveChip() {
@@ -1368,26 +1361,13 @@ function syncUrl() {
   const p = new URLSearchParams(location.search);
   activeCat === 'all' ? p.delete('cat') : p.set('cat', activeCat);
   query ? p.set('q', query) : p.delete('q');
-  sortMode === 'default' ? p.delete('sort') : p.set('sort', sortMode);
+  sortMode === 'starsFlat' ? p.set('sort', 'starsFlat') : p.delete('sort');
   history.replaceState(null, '', p.size ? `?${p}` : location.pathname);
 }
-// Sort modes: default keeps the README order; 'stars' reorders within each
-// category section by GitHub stars; 'starsFlat' collapses the sections into
-// one list sorted by stars (the number is then the global rank).
+// Sort modes: 'stars' keeps the category sections and reorders within each by
+// GitHub stars (default); 'starsFlat' collapses the sections into one list
+// sorted by stars. Plugins without star data sort last.
 const byStars = (a, b) => (b._stars || 0) - (a._stars || 0) || a._name.localeCompare(b._name);
-function renumber() {
-  let n = 0;
-  for (const li of dex.querySelectorAll('li.item')) {
-    n++;
-    if (!li._no) continue;
-    const starMode = sortMode !== 'default';
-    li._no.textContent = starMode
-      ? `★ ${(li._stars || 0).toLocaleString()}`
-      : (li._noText || `№ ${String(n).padStart(2, '0')}`);
-    const badge = li.querySelector('.stars');
-    if (badge) badge.style.display = starMode ? 'none' : '';
-  }
-}
 function applySort() {
   const frag = document.createDocumentFragment();
   if (sortMode === 'starsFlat') {
@@ -1396,12 +1376,11 @@ function applySort() {
     for (const s of secs) {
       frag.appendChild(s);
       const group = items.filter((li) => li.dataset.cat === s.dataset.sec);
-      if (sortMode === 'stars') group.sort(byStars);
+      group.sort(byStars);
       for (const li of group) frag.appendChild(li);
     }
   }
   dex.appendChild(frag);
-  renumber();
 }
 function applyFilter() {
   let shown = 0;
