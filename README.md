@@ -32,7 +32,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 </details>
 
-**336** 个插件 · 欢迎 [PR](#贡献)
+**337** 个插件 · 欢迎 [PR](#贡献)
 
 ## 目录
 

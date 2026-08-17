@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 336,
+ "count": 337,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1865,6 +1865,21 @@
    "createdAt": "2026-08-13",
    "install": "dsh plugin --profile web add github:ysr666/dsh-vision-router",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-with-pencil",
+   "owner": "IWAIBAOLI",
+   "url": "https://github.com/IWAIBAOLI/dsh-with-pencil",
+   "category": "tools",
+   "description": {
+    "zh": "将官方 pen.dev Pencil 设计能力接入 DeepSeek Harness：桥接官方 CLI，Agent 可在会话中编辑 .pen 文件，并针对 DeepSeek 纯文本模型做了专门优化。",
+    "en": "Bring the official pen.dev Pencil into DeepSeek Harness via the official CLI: in-conversation .pen editing tools, optimized specifically for DeepSeek's text-only model."
+   },
+   "npm": "dsh-with-pencil",
+   "stars": 1,
+   "createdAt": "2026-08-15",
+   "install": "dsh plugin --profile web add dsh-with-pencil",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-undo-plugin",

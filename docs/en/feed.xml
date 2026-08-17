@@ -69,6 +69,13 @@
     <summary>Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded.</summary>
   </entry>
   <entry>
+    <title>IWAIBAOLI/dsh-with-pencil</title>
+    <id>https://github.com/IWAIBAOLI/dsh-with-pencil</id>
+    <link href="https://github.com/IWAIBAOLI/dsh-with-pencil"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Bring the official pen.dev Pencil into DeepSeek Harness via the official CLI: in-conversation .pen editing tools, optimized specifically for DeepSeek's text-only model.</summary>
+  </entry>
+  <entry>
     <title>phelpsyacht/dshmath-manim</title>
     <id>https://github.com/phelpsyacht/dshmath-manim</id>
     <link href="https://github.com/phelpsyacht/dshmath-manim"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Anlushu/hkinsure"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Hong Kong insurance data MCP: 260+ real products, 17 insurers, dividend fulfillment rates. Query/compare/calculate for any AI tool (Hermes / dsh / Claude Code).</summary>
-  </entry>
-  <entry>
-    <title>gongyijie85/dsh-repo-setup</title>
-    <id>https://github.com/gongyijie85/dsh-repo-setup</id>
-    <link href="https://github.com/gongyijie85/dsh-repo-setup"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db hints and recommends skill plugins, MCP servers and hygiene files (claude-code-setup counterpart).</summary>
   </entry>
 </feed>

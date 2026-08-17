@@ -69,6 +69,13 @@
     <summary>会话历史消息查看：列出当前会话全部你发送的消息，支持排序、搜索、一键复制与点击跳转定位（目标未加载时自动加载更早历史）。</summary>
   </entry>
   <entry>
+    <title>IWAIBAOLI/dsh-with-pencil</title>
+    <id>https://github.com/IWAIBAOLI/dsh-with-pencil</id>
+    <link href="https://github.com/IWAIBAOLI/dsh-with-pencil"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>将官方 pen.dev Pencil 设计能力接入 DeepSeek Harness：桥接官方 CLI，Agent 可在会话中编辑 .pen 文件，并针对 DeepSeek 纯文本模型做了专门优化。</summary>
+  </entry>
+  <entry>
     <title>phelpsyacht/dshmath-manim</title>
     <id>https://github.com/phelpsyacht/dshmath-manim</id>
     <link href="https://github.com/phelpsyacht/dshmath-manim"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Anlushu/hkinsure"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>香港保险数据 MCP：260+ 真实产品、17 家保司、分红实现率，供 Hermes / dsh / Claude Code 等 AI 工具查询/对比/测算。</summary>
-  </entry>
-  <entry>
-    <title>gongyijie85/dsh-repo-setup</title>
-    <id>https://github.com/gongyijie85/dsh-repo-setup</id>
-    <link href="https://github.com/gongyijie85/dsh-repo-setup"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>只读仓库体检引导工具（repo_setup_scan）：识别技术栈/测试/文档/git/数据库线索，给出技能插件、MCP 服务器与卫生文件的安装建议（claude-code-setup 的 DSH 对应）。</summary>
   </entry>
 </feed>
