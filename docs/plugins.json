@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 364,
+ "count": 365,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -800,6 +800,21 @@
    "createdAt": "2026-08-14",
    "install": "dsh plugin --profile web add github:a903067276-rgb/dsh-file-mentions",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-plugin-task-panel",
+   "owner": "xiaogu619520",
+   "url": "https://github.com/xiaogu619520/dsh-plugin-task-panel",
+   "category": "ui",
+   "description": {
+    "zh": "任务摘要与上下文用量监控浮动面板（待办事项跟踪、文件与系统 Token 占用统计、8向缩放与快捷键）。",
+    "en": "Task & Context Summary Floating Panel (todo tracking, file/system token breakdown, 8-way resize, shortcut)."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-17",
+   "install": "dsh plugin --profile web add github:xiaogu619520/dsh-plugin-task-panel",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-calculator",

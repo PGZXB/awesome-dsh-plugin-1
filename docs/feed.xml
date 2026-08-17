@@ -27,6 +27,13 @@
     <summary>每条 AI 回复下方显示该轮真实花费：人民币、官方峰谷价、缓存读占比；纯本地读会话日志，零上报零密钥。</summary>
   </entry>
   <entry>
+    <title>xiaogu619520/dsh-plugin-task-panel</title>
+    <id>https://github.com/xiaogu619520/dsh-plugin-task-panel</id>
+    <link href="https://github.com/xiaogu619520/dsh-plugin-task-panel"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>任务摘要与上下文用量监控浮动面板（待办事项跟踪、文件与系统 Token 占用统计、8向缩放与快捷键）。</summary>
+  </entry>
+  <entry>
     <title>yoli-mi/dsh-client-ui-custom</title>
     <id>https://github.com/yoli-mi/dsh-client-ui-custom</id>
     <link href="https://github.com/yoli-mi/dsh-client-ui-custom"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/statusline"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>实时终端状态行：一行展示模型、上下文占用、子代理、速率限制与会话时长。</summary>
-  </entry>
-  <entry>
-    <title>codegraph</title>
-    <id>https://github.com/JohnXu22786/codegraph</id>
-    <link href="https://github.com/JohnXu22786/codegraph"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>代码知识图谱：把符号、调用点与导入索引进 SQLite，回答调用/依赖问题。</summary>
   </entry>
 </feed>

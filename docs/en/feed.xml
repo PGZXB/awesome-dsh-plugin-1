@@ -27,6 +27,13 @@
     <summary>Per-turn real cost under every assistant reply: CNY at official peak/off-peak rates with cache-hit ratio; reads local session logs only, zero telemetry, zero keys.</summary>
   </entry>
   <entry>
+    <title>xiaogu619520/dsh-plugin-task-panel</title>
+    <id>https://github.com/xiaogu619520/dsh-plugin-task-panel</id>
+    <link href="https://github.com/xiaogu619520/dsh-plugin-task-panel"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Task &amp; Context Summary Floating Panel (todo tracking, file/system token breakdown, 8-way resize, shortcut).</summary>
+  </entry>
+  <entry>
     <title>yoli-mi/dsh-client-ui-custom</title>
     <id>https://github.com/yoli-mi/dsh-client-ui-custom</id>
     <link href="https://github.com/yoli-mi/dsh-client-ui-custom"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/statusline"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>Real-time terminal statusline: model, context usage, sub-agents, rate limits and session time in one line.</summary>
-  </entry>
-  <entry>
-    <title>codegraph</title>
-    <id>https://github.com/JohnXu22786/codegraph</id>
-    <link href="https://github.com/JohnXu22786/codegraph"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>Code knowledge graph: indexes symbols, call sites and imports into SQLite, answers call/dependency questions.</summary>
   </entry>
 </feed>
