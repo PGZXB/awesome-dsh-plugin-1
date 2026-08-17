@@ -1031,6 +1031,10 @@
   "npm": null,
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/RevolutionLA/dsh-dream-skin": {
+  "npm": "dsh-dream-skin",
+  "checkedAt": "2026-08-17"
+ },
  "https://github.com/ruimin251204/dsh-plugin-surgery": {
   "npm": null,
   "checkedAt": "2026-08-16"
@@ -1286,6 +1290,10 @@
  "https://github.com/zealot00/dsh-pet": {
   "npm": null,
   "checkedAt": "2026-08-14"
+ },
+ "https://github.com/zh667/TokenLedger": {
+  "npm": "dsh-tokenledger",
+  "checkedAt": "2026-08-17"
  },
  "https://github.com/Zhangbo-cn/dsh-voice-input-plugin": {
   "npm": null,

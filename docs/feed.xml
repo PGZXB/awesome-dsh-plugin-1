@@ -13,6 +13,13 @@
     <summary>在 DSH Web 界面里并排运行、监控多个对话实例的插件：多窗口墙 + 自动发现 + 单窗控制，内置带口令认证的局域网网关，手机/平板也能看。</summary>
   </entry>
   <entry>
+    <title>zh667/TokenLedger</title>
+    <id>https://github.com/zh667/TokenLedger</id>
+    <link href="https://github.com/zh667/TokenLedger"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期。</summary>
+  </entry>
+  <entry>
     <title>WFMinerva/dsh-turn-cost</title>
     <id>https://github.com/WFMinerva/dsh-turn-cost</id>
     <link href="https://github.com/WFMinerva/dsh-turn-cost"/>
@@ -32,6 +39,13 @@
     <link href="https://github.com/stopchewing/dsh-mcp-view"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>MCP 服务器与工具清单面板：侧边栏一键悬浮面板，按服务器分组展示全部 MCP 工具（传输方式、端点、JSON Schema、最近使用时间），默认折叠、支持搜索与实时刷新；最近使用时间来自真实会话日志。</summary>
+  </entry>
+  <entry>
+    <title>RevolutionLA/dsh-dream-skin</title>
+    <id>https://github.com/RevolutionLA/dsh-dream-skin</id>
+    <link href="https://github.com/RevolutionLA/dsh-dream-skin"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>DSH Web 一键换肤插件：8 套原创主题、背景壁纸（透明度/模糊/渐变/URL）、每用户强调色、主题包导入导出与分享链接、收藏与随机，纯原生 token 系统。</summary>
   </entry>
   <entry>
     <title>Braidy-Wu/dsh-conversation-minimap</title>
@@ -200,19 +214,5 @@
     <link href="https://github.com/gongyijie85/dsh-repo-setup"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>只读仓库体检引导工具（repo_setup_scan）：识别技术栈/测试/文档/git/数据库线索，给出技能插件、MCP 服务器与卫生文件的安装建议（claude-code-setup 的 DSH 对应）。</summary>
-  </entry>
-  <entry>
-    <title>gloryxpnv/dsh-tool-vision</title>
-    <id>https://github.com/gloryxpnv/dsh-tool-vision</id>
-    <link href="https://github.com/gloryxpnv/dsh-tool-vision"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>为纯文本 DeepSeek Harness 提供本地优先视觉：由本地 VLM（LM Studio / Ollama / vLLM）产出结构化 JSON 证据（OCR / 版面 / 语义），零 API 成本，图片数据完全不出本机。</summary>
-  </entry>
-  <entry>
-    <title>lak321/dsh-voice-chat</title>
-    <id>https://github.com/lak321/dsh-voice-chat</id>
-    <link href="https://github.com/lak321/dsh-voice-chat"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>语音对话：🎤 语音输入（Web Speech，实时中间结果可编辑）+ 🔊 自动/手动朗读回复（TTS），支持人声/语速/语调设置与识别语言（普通话/粤语等），纯客户端零密钥，朗读前自动清理 Markdown 标记。</summary>
   </entry>
 </feed>

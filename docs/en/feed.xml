@@ -13,6 +13,13 @@
     <summary>A multi-window wall for the DSH Web UI: run and monitor N conversations side-by-side in one screen, with auto-discovery, per-window controls, and an authenticated LAN gateway for phone/tablet access.</summary>
   </entry>
   <entry>
+    <title>zh667/TokenLedger</title>
+    <id>https://github.com/zh667/TokenLedger</id>
+    <link href="https://github.com/zh667/TokenLedger"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Shows local DSH token usage by relay site, project, and model, with account balances and subscription quota windows.</summary>
+  </entry>
+  <entry>
     <title>WFMinerva/dsh-turn-cost</title>
     <id>https://github.com/WFMinerva/dsh-turn-cost</id>
     <link href="https://github.com/WFMinerva/dsh-turn-cost"/>
@@ -32,6 +39,13 @@
     <link href="https://github.com/stopchewing/dsh-mcp-view"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>MCP servers &amp; tools inventory panel: one-click floating panel from the sidebar that lists every MCP server and tool (transport, endpoint, JSON schema, last-used time), grouped by server, collapsed by default, with live search and refresh; last-used times come from real session logs.</summary>
+  </entry>
+  <entry>
+    <title>RevolutionLA/dsh-dream-skin</title>
+    <id>https://github.com/RevolutionLA/dsh-dream-skin</id>
+    <link href="https://github.com/RevolutionLA/dsh-dream-skin"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>One-command skinning for DSH Web: 8 original themes, wallpaper (opacity/blur/gradient/URL), per-user accent, and shareable theme-pack import/export + favorites + surprise-me. Purely native on DSH's token system.</summary>
   </entry>
   <entry>
     <title>Braidy-Wu/dsh-conversation-minimap</title>
@@ -200,19 +214,5 @@
     <link href="https://github.com/gongyijie85/dsh-repo-setup"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Read-only repo bootstrap scanner (repo_setup_scan tool): detects stack/tests/docs/git/db hints and recommends skill plugins, MCP servers and hygiene files (claude-code-setup counterpart).</summary>
-  </entry>
-  <entry>
-    <title>gloryxpnv/dsh-tool-vision</title>
-    <id>https://github.com/gloryxpnv/dsh-tool-vision</id>
-    <link href="https://github.com/gloryxpnv/dsh-tool-vision"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Local-first vision for the text-only DeepSeek Harness: a local VLM (LM Studio / Ollama / vLLM) produces structured JSON evidence (OCR / layout / semantics) at zero API cost, with image data never leaving the machine.</summary>
-  </entry>
-  <entry>
-    <title>lak321/dsh-voice-chat</title>
-    <id>https://github.com/lak321/dsh-voice-chat</id>
-    <link href="https://github.com/lak321/dsh-voice-chat"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Voice chat: 🎤 speech input (Web Speech, live editable interim results) plus 🔊 automatic/manual read-aloud replies (TTS), with voice, speed, pitch and recognition-language settings (Mandarin/Cantonese, etc.); fully client-side with zero keys, and Markdown is stripped before reading.</summary>
   </entry>
 </feed>

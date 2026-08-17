@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 334,
+ "count": 336,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -530,6 +530,21 @@
    "createdAt": "2026-08-13",
    "install": "dsh plugin --profile web add github:Han-1413141/dsh-cost-meter",
    "added": "2026-08-14"
+  },
+  {
+   "name": "TokenLedger",
+   "owner": "zh667",
+   "url": "https://github.com/zh667/TokenLedger",
+   "category": "ui",
+   "description": {
+    "zh": "按中转站点、项目和模型统计本地 DSH Token 用量，并显示账户余额与订阅额度周期。",
+    "en": "Shows local DSH token usage by relay site, project, and model, with account balances and subscription quota windows."
+   },
+   "npm": "dsh-tokenledger",
+   "stars": 23,
+   "createdAt": "2026-08-14",
+   "install": "dsh plugin --profile web add dsh-tokenledger",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-plugin-deepseek-balance",
@@ -1175,6 +1190,21 @@
    "createdAt": "2026-08-15",
    "install": "dsh plugin --profile web add dsh-theme-kit",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-dream-skin",
+   "owner": "RevolutionLA",
+   "url": "https://github.com/RevolutionLA/dsh-dream-skin",
+   "category": "theme",
+   "description": {
+    "zh": "DSH Web 一键换肤插件：8 套原创主题、背景壁纸（透明度/模糊/渐变/URL）、每用户强调色、主题包导入导出与分享链接、收藏与随机，纯原生 token 系统。",
+    "en": "One-command skinning for DSH Web: 8 original themes, wallpaper (opacity/blur/gradient/URL), per-user accent, and shareable theme-pack import/export + favorites + surprise-me. Purely native on DSH's token system."
+   },
+   "npm": "dsh-dream-skin",
+   "stars": 45,
+   "createdAt": "2026-08-15",
+   "install": "dsh plugin --profile web add dsh-dream-skin",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-conversation-minimap",
