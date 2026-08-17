@@ -20,6 +20,13 @@
     <summary>Web 外观主题定制（壁纸、毛玻璃、强调色、预设）、键盘快捷键、用量统计、插件市场、浮动历史条与用户消息 Markdown 渲染。</summary>
   </entry>
   <entry>
+    <title>Braidy-Wu/dsh-conversation-minimap</title>
+    <id>https://github.com/Braidy-Wu/dsh-conversation-minimap</id>
+    <link href="https://github.com/Braidy-Wu/dsh-conversation-minimap"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>DSH Web GUI 对话迷你地图（复刻 ChatGPT 桌面端）：每轮 Prompt 一个等距胶囊锚点，鱼眼钟形悬停放大 + 完整 Prompt 预览，顶部/底部渐隐，蓝色高亮跟随当前 Prompt，点击跳转对应消息，自动拉取完整历史。</summary>
+  </entry>
+  <entry>
     <title>sjh9714/dsh-what-changed</title>
     <id>https://github.com/sjh9714/dsh-what-changed</id>
     <link href="https://github.com/sjh9714/dsh-what-changed"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/cdxiaodong/dsh-llm-inspector"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。</summary>
-  </entry>
-  <entry>
-    <title>siweina/dsh-novel-writer</title>
-    <id>https://github.com/siweina/dsh-novel-writer</id>
-    <link href="https://github.com/siweina/dsh-novel-writer"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。</summary>
   </entry>
 </feed>

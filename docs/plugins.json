@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 328,
+ "count": 329,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1145,6 +1145,21 @@
    "createdAt": "2026-08-15",
    "install": "dsh plugin --profile web add dsh-theme-kit",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-conversation-minimap",
+   "owner": "Braidy-Wu",
+   "url": "https://github.com/Braidy-Wu/dsh-conversation-minimap",
+   "category": "theme",
+   "description": {
+    "zh": "DSH Web GUI 对话迷你地图（复刻 ChatGPT 桌面端）：每轮 Prompt 一个等距胶囊锚点，鱼眼钟形悬停放大 + 完整 Prompt 预览，顶部/底部渐隐，蓝色高亮跟随当前 Prompt，点击跳转对应消息，自动拉取完整历史。",
+    "en": "A conversation minimap for the DSH Web GUI (ChatGPT desktop style): one evenly-spaced capsule anchor per user prompt, fish-eye bell-curve magnification on hover with full prompt preview, top/bottom edge fade, blue highlight that follows the current prompt, click to jump to the message, and automatic full-history loading."
+   },
+   "npm": null,
+   "stars": 1,
+   "createdAt": "2026-08-17",
+   "install": "dsh plugin --profile web add github:Braidy-Wu/dsh-conversation-minimap",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-turn-rewind",

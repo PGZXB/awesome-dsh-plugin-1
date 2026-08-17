@@ -20,6 +20,13 @@
     <summary>Web theming (wallpaper, glass, accent, presets), keyboard shortcuts, usage stats, a plugin marketplace, a floating history strip, and user-message Markdown rendering.</summary>
   </entry>
   <entry>
+    <title>Braidy-Wu/dsh-conversation-minimap</title>
+    <id>https://github.com/Braidy-Wu/dsh-conversation-minimap</id>
+    <link href="https://github.com/Braidy-Wu/dsh-conversation-minimap"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>A conversation minimap for the DSH Web GUI (ChatGPT desktop style): one evenly-spaced capsule anchor per user prompt, fish-eye bell-curve magnification on hover with full prompt preview, top/bottom edge fade, blue highlight that follows the current prompt, click to jump to the message, and automatic full-history loading.</summary>
+  </entry>
+  <entry>
     <title>sjh9714/dsh-what-changed</title>
     <id>https://github.com/sjh9714/dsh-what-changed</id>
     <link href="https://github.com/sjh9714/dsh-what-changed"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/cdxiaodong/dsh-llm-inspector"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic &amp; bundle analysis.</summary>
-  </entry>
-  <entry>
-    <title>siweina/dsh-novel-writer</title>
-    <id>https://github.com/siweina/dsh-novel-writer</id>
-    <link href="https://github.com/siweina/dsh-novel-writer"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Novel writing assistant: chapter library, sentence-pattern analysis (9 categories / emotion curve / style fingerprint), style check, plot tracking, batch import and continuation writing, with per-tool Web UI toggles.</summary>
   </entry>
 </feed>
