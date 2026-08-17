@@ -123,6 +123,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [Lanxing6480/dsh-galgame](https://github.com/Lanxing6480/dsh-galgame) — DSH Web 聊天界面 GalGame 演出层：立绘差分、流式思考气泡、打字机对话框与 GalGame 式提问/审批选项框，可随时切回普通聊天。
 - [Laplace-bit/dsh-smooth-stream](https://github.com/Laplace-bit/dsh-smooth-stream) — 丝滑流式渲染：字跟着模型到达走、换行滑入、不闪，滚动归用户，尊重 `prefers-reduced-motion`。
 
+- [yoli-mi/dsh-client-ui-custom](https://github.com/yoli-mi/dsh-client-ui-custom) — Web 外观主题定制（壁纸、毛玻璃、强调色、预设）、键盘快捷键、用量统计、插件市场、浮动历史条与用户消息 Markdown 渲染。
+
 ### 🎭 主题与外观
 
 - [Liu-ZA-81/dsh-theme-firefly](https://github.com/Liu-ZA-81/dsh-theme-firefly) — 崩坏：星穹铁道「流萤」主题：立绘/动态壁纸、萤火绿霓虹配色、开屏变身动画、萤火氛围粒子、背景音乐、打字音效与按对话触发的表情包彩蛋。
