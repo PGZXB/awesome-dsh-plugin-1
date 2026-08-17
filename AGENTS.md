@@ -6,17 +6,17 @@ DeepSeek Harness（`dsh`）插件的精选列表（awesome list）。两个 READ
 
 - `README.md`（中文，GitHub 默认展示）与 `README.en.md`（英文）是唯一需要手动编辑内容的文件。二者必须保持同步：插件集合相同、分类相同、每个插件各占一行。
 - 语言映射：`site/locales.mjs` 中 `zh` locale 的 `readme` 指向 `README.md`（中文内容）、`en` locale 指向 `README.en.md`（英文内容）——`zh` 是默认 locale（`x-default`），站点 `/` 为中文、`/en/` 为英文。改动时保持这个映射。
-- `docs/`（生成的网站）、`data/npm-map.json`、`data/added-dates.json` 都是自动生成的——切勿手动编辑。
+- `docs/`（生成的网站）、`data/npm-map.json`、`data/added-dates.json`、`data/stars.json` 都是自动生成的——切勿手动编辑。
 - 插件计数行由构建脚本自动改写（`README.md` 用 `**N** 个插件`、`README.en.md` 用 `**N** plugins`），不要手动改动。
 
 ## 目录结构（每个文件夹的作用）
 
 - `site/` — 网站源码：`template.html`（页面骨架，含 CSS 样式与前端交互 JS，用 `__TOKEN__` 占位）与 `locales.mjs`（语言与文案的唯一来源：分类名、标题、界面字符串）。build-site.mjs 据此生成页面。
-- `scripts/` — 构建与探测脚本：`build-site.mjs`（解析两个 README，生成站点、`data/` 产物并同步计数）与 `probe-npm.mjs`（探测各仓库对应的 npm 包，写入缓存；需联网）。
+- `scripts/` — 构建与探测脚本：`build-site.mjs`（解析两个 README，生成站点、`data/` 产物并同步计数）、`probe-npm.mjs`（探测各仓库对应的 npm 包，写入缓存）与 `probe-stars.mjs`（探测各仓库 GitHub Star 数，写入缓存；需联网）。
 - `docs/` — 生成的网站（GitHub Pages 部署目录）：`index.html`、各分类页、`plugins.json`、`sitemap.xml`、`feed.xml`、`logo.png`、`badge.svg`。自动生成，切勿手动编辑。
-- `data/` — 自动生成的账本/缓存：`npm-map.json`（repo → npm 包映射）与 `added-dates.json`（插件收录日期）。由脚本维护，切勿手动编辑。
+- `data/` — 自动生成的账本/缓存：`npm-map.json`（repo → npm 包映射）、`stars.json`（repo → GitHub Star 数）与 `added-dates.json`（插件收录日期）。由脚本维护，切勿手动编辑。
 - `images/` — 源素材：`logo.png`（站点与 README 使用的 logo 源文件）。
-- `.github/` — GitHub 配置：`workflows/build-site.yml`（推送 `main` 时自动构建并提交生成文件）与 `pull_request_template.md`（PR 提交模板）。
+- `.github/` — GitHub 配置：`workflows/build-site.yml`（每 6 小时定时 + 推送 `main` 时自动构建并提交生成文件）与 `pull_request_template.md`（PR 提交模板）。
 - `.git/` — git 内部元数据，无需改动。
 
 ## 添加插件
@@ -67,11 +67,12 @@ DeepSeek Harness（`dsh`）插件的精选列表（awesome list）。两个 READ
 没有 npm scripts、测试或 lint。需要 Node 22（脚本使用 ESM、`fetch`、顶层 await）：
 
 ```
-node scripts/probe-npm.mjs   # 探测 npm 仓库（需联网；失败时不会改动缓存）
+node scripts/probe-npm.mjs    # 探测 npm 仓库（需联网；失败时不会改动缓存）
+node scripts/probe-stars.mjs  # 探测 GitHub Star 数（需联网；可用 GITHUB_TOKEN 提升配额）
 node scripts/build-site.mjs   # 重新生成 docs/ 与 data/，并同步 README 计数
 ```
 
-先跑 probe，再跑 build。CI（`.github/workflows/build-site.yml`）在推送到 `main` 时会依次运行两者并自动提交生成的文件——所以不要手动提交 `docs/`/`data/`；注意 CI 只在 `main` 分支触发，PR 分支不会触发。
+先跑 probe，再跑 build。CI（`.github/workflows/build-site.yml`）在推送 `main` 时与每 6 小时定时会依次运行两者并自动提交生成的文件——所以不要手动提交 `docs/`/`data/`；注意 CI 只在 `main` 分支触发，PR 分支不会触发。
 
 ## 收录规则（见 contributing.md）
 

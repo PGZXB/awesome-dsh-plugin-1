@@ -126,6 +126,10 @@ h1 .h1-sm{display:block;font-size:.42em;font-weight:700;letter-spacing:.16em;tex
 .chip:hover{border-color:var(--text)}
 .chip.active{color:var(--on-accent);border-color:var(--accent);background:var(--accent)}
 .chip.active small{color:var(--on-accent)}
+.sortbox{display:flex;align-items:center;gap:.4rem;font-family:var(--mono);font-size:.72rem;color:var(--text-3);white-space:nowrap}
+.sortbox select{font-family:inherit;font-size:.72rem;color:var(--text-2);background:var(--canvas-0);
+  border:1px solid var(--text-3);border-radius:4px;padding:.28rem .4rem;cursor:pointer;max-width:11rem}
+.sortbox select:hover{border-color:var(--text)}
 
 /* ── the parts catalog ── */
 ol.dex{list-style:none;padding:0}
@@ -155,6 +159,7 @@ ol.dex li.item{
 .no{font-family:var(--mono);font-size:.7rem;color:var(--accent);padding-top:.45rem;font-variant-numeric:tabular-nums;
   transition:transform .18s cubic-bezier(.22,1,.36,1)}
 li.item:hover .no{transform:translateX(5px)}
+.stars{display:block;font-family:var(--mono);font-size:.62rem;color:var(--text-3);margin-top:.35rem;font-variant-numeric:tabular-nums;white-space:nowrap}
 .dex h3{font-weight:700;font-size:1.12rem;letter-spacing:-.005em;line-height:1.35;text-wrap:balance}
 .dex h3 a{color:var(--text)}
 .dex h3 a:hover{color:var(--accent-strong);text-decoration:none}
@@ -228,6 +233,9 @@ footer{padding-block:0 3rem}
   .masthead{gap:1.2rem}
   /* top bar: tighter links; nav wraps under the brand instead of overflowing */
   .nav{gap:.9rem;font-size:.8rem}
+  /* finder row: let the sort control wrap instead of crowding the input */
+  .finder .row1{flex-wrap:wrap}
+  .sortbox select{max-width:8rem}
   /* category chips become one horizontally scrollable row (no 4-row stack) */
   .filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:.8rem;
     scrollbar-width:none;-webkit-overflow-scrolling:touch}
@@ -280,6 +288,14 @@ footer{padding-block:0 3rem}
       <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
       <input id="q" type="search" autocomplete="off" spellcheck="false" name="plugin-search"
         placeholder="Search plugins…" aria-label="Search plugins…">
+      <label class="sortbox" title="Sort">
+        <span class="sort-label">Sort</span>
+        <select id="sort" aria-label="Sort">
+          <option value="default">By category</option>
+          <option value="stars">Stars in category</option>
+          <option value="starsFlat">All by stars</option>
+        </select>
+      </label>
       <span class="count" id="count" aria-live="polite">0 / 0</span>
     </div>
     <div class="filters" id="filters">
@@ -305,7 +321,7 @@ footer{padding-block:0 3rem}
 
     <li class="sec" data-sec="skill"><h2 id="skill"><a href="/en/skill/"><span class="em">🧩</span><span class="names"><span class="zh">技能包</span><span class="en">Skills</span></span></a> <small>7</small></h2></li>
 
-    <li class="item" data-cat="skill" data-search="最懒资深工程师模式（Ponytail）的 DSH 移植：6 个技能（ponytail、ponytail-audit、ponytail-debt、ponytail-gain、ponytail-help、ponytail-review），改编自 DietrichGebert/ponytail（MIT）。 Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT)." style="animation-delay:0.02s">
+    <li class="item" data-cat="skill" data-stars="" data-search="最懒资深工程师模式（Ponytail）的 DSH 移植：6 个技能（ponytail、ponytail-audit、ponytail-debt、ponytail-gain、ponytail-help、ponytail-review），改编自 DietrichGebert/ponytail（MIT）。 Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT)." style="animation-delay:0.02s">
       <span class="no" aria-hidden="true">№ 01</span>
       <div>
         <h3><a href="https://github.com/gongyijie85/dsh-ponytail" rel="noopener" translate="no">gongyijie85/dsh-ponytail</a></h3>
@@ -314,7 +330,7 @@ footer{padding-block:0 3rem}
       <button class="copy" type="button" data-cmd="dsh plugin --profile web add github:gongyijie85/dsh-ponytail" aria-label="Copy install command">copy install</button>
     </li>
 
-    <li class="item" data-cat="skill" data-search="Creght 平台建站技能包：CLI 拉取/推送同步、页面与组件规范、CMS、表单、Auth、SEO、发布与版本回滚。 Skills for building websites on the Creght platform: CLI pull/push sync, page and component conventions, CMS, forms, auth, SEO, publishing and version rollback." style="animation-delay:0.04s">
+    <li class="item" data-cat="skill" data-stars="" data-search="Creght 平台建站技能包：CLI 拉取/推送同步、页面与组件规范、CMS、表单、Auth、SEO、发布与版本回滚。 Skills for building websites on the Creght platform: CLI pull/push sync, page and component conventions, CMS, forms, auth, SEO, publishing and version rollback." style="animation-delay:0.04s">
       <span class="no" aria-hidden="true">№ 02</span>
       <div>
         <h3><a href="https://github.com/creght-dev/skills" rel="noopener" translate="no">creght-dev/skills</a></h3>
@@ -323,7 +339,7 @@ footer{padding-block:0 3rem}
       <button class="copy" type="button" data-cmd="dsh plugin --profile web add github:creght-dev/skills" aria-label="Copy install command">copy install</button>
     </li>
 
-    <li class="item" data-cat="skill" data-search="从现有代码生成 Function、MCP、Agent Skill 和离线测试包，并作为可安装的 DSH Bundle 分发。 Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle." style="animation-delay:0.06s">
+    <li class="item" data-cat="skill" data-stars="" data-search="从现有代码生成 Function、MCP、Agent Skill 和离线测试包，并作为可安装的 DSH Bundle 分发。 Generates Function, MCP, Agent Skill, and offline test packages from existing code as an installable DSH bundle." style="animation-delay:0.06s">
       <span class="no" aria-hidden="true">№ 03</span>
       <div>
         <h3><a href="https://github.com/leechen298/Code2Skill" rel="noopener" translate="no">leechen298/Code2Skill</a></h3>
@@ -332,7 +348,7 @@ footer{padding-block:0 3rem}
       <button class="copy" type="button" data-cmd="dsh plugin --profile web add github:leechen298/Code2Skill" aria-label="Copy install command">copy install</button>
     </li>
 
-    <li class="item" data-cat="skill" data-search="完整 reverse-skill 技能包（85 个 SKILL.md）的 DeepSeek Harness 插件：面向逆向工程、授权渗透测试与安全研究的技能路由包。 Complete reverse-skill pack (85 SKILL.md files) as a DeepSeek Harness plugin: a skill router for reverse engineering, authorized penetration testing, and security research." style="animation-delay:0.08s">
+    <li class="item" data-cat="skill" data-stars="" data-search="完整 reverse-skill 技能包（85 个 SKILL.md）的 DeepSeek Harness 插件：面向逆向工程、授权渗透测试与安全研究的技能路由包。 Complete reverse-skill pack (85 SKILL.md files) as a DeepSeek Harness plugin: a skill router for reverse engineering, authorized penetration testing, and security research." style="animation-delay:0.08s">
       <span class="no" aria-hidden="true">№ 04</span>
       <div>
         <h3><a href="https://github.com/dhicoc/dsh-reverse-skill" rel="noopener" translate="no">dhicoc/dsh-reverse-skill</a></h3>
@@ -341,7 +357,7 @@ footer{padding-block:0 3rem}
       <button class="copy" type="button" data-cmd="dsh plugin --profile web add github:dhicoc/dsh-reverse-skill" aria-label="Copy install command">copy install</button>
     </li>
 
-    <li class="item" data-cat="skill" data-search="Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DeepSeek Harness 插件：改编自 mattpocock/skills（MIT）。 Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT)." style="animation-delay:0.10s">
+    <li class="item" data-cat="skill" data-stars="" data-search="Matt Pocock 完整发布技能集（25 个 SKILL.md：grilling、writing-for-agents、wait-what、TDD、code-review、wayfinder、ask-matt 路由等）的 DeepSeek Harness 插件：改编自 mattpocock/skills（MIT）。 Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT)." style="animation-delay:0.10s">
       <span class="no" aria-hidden="true">№ 05</span>
       <div>
         <h3><a href="https://github.com/gongyijie85/mattpocock-skills-dsh" rel="noopener" translate="no">gongyijie85/mattpocock-skills-dsh</a></h3>
@@ -350,7 +366,7 @@ footer{padding-block:0 3rem}
       <button class="copy" type="button" data-cmd="dsh plugin --profile web add github:gongyijie85/mattpocock-skills-dsh" aria-label="Copy install command">copy install</button>
     </li>
 
-    <li class="item" data-cat="skill" data-search="Matt Pocock 技能中文版的 DeepSeek Harness 插件：25 个 SKILL.md 正文全译中文（技术术语保留英文并附注释），改编自 mattpocock/skills（MIT）。 Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT)." style="animation-delay:0.12s">
+    <li class="item" data-cat="skill" data-stars="" data-search="Matt Pocock 技能中文版的 DeepSeek Harness 插件：25 个 SKILL.md 正文全译中文（技术术语保留英文并附注释），改编自 mattpocock/skills（MIT）。 Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT)." style="animation-delay:0.12s">
       <span class="no" aria-hidden="true">№ 06</span>
       <div>
         <h3><a href="https://github.com/gongyijie85/mattpocock-skills-dsh-zh" rel="noopener" translate="no">gongyijie85/mattpocock-skills-dsh-zh</a></h3>
@@ -359,7 +375,7 @@ footer{padding-block:0 3rem}
       <button class="copy" type="button" data-cmd="dsh plugin --profile web add github:gongyijie85/mattpocock-skills-dsh-zh" aria-label="Copy install command">copy install</button>
     </li>
 
-    <li class="item" data-cat="skill" data-search="DSH skill 经验回流与知识积累元技能：其他 skill 出问题解决后自动回流解决方案并登记知识库（关键词 + 本地 bge 语义双通道检索、7 项写回判断清单、防臃肿归档），附自校验与事件钩子工具。 Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools." style="animation-delay:0.14s">
+    <li class="item" data-cat="skill" data-stars="" data-search="DSH skill 经验回流与知识积累元技能：其他 skill 出问题解决后自动回流解决方案并登记知识库（关键词 + 本地 bge 语义双通道检索、7 项写回判断清单、防臃肿归档），附自校验与事件钩子工具。 Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools." style="animation-delay:0.14s">
       <span class="no" aria-hidden="true">№ 07</span>
       <div>
         <h3><a href="https://github.com/gwrsfsfeefdsfs/dsh-skill-curator" rel="noopener" translate="no">gwrsfsfeefdsfs/dsh-skill-curator</a></h3>
@@ -487,7 +503,9 @@ function renderRegistry(data) {
       li.className = 'item'; li.dataset.cat = id;
       if (p.search) li.dataset.search = p.search;
       li.style.animationDelay = `${Math.min(idx * 0.02, 0.4).toFixed(2)}s`;
-      li.innerHTML = `<span class="no" aria-hidden="true">№ ${String(idx).padStart(2, '0')}</span>` +
+      li.dataset.stars = p.stars ?? '';
+      const badge = p.stars == null ? '' : `<span class="stars" title="${esc(data.starsTitle)}">★ ${Number(p.stars).toLocaleString()}</span>`;
+      li.innerHTML = `<span class="no" aria-hidden="true">№ ${String(idx).padStart(2, '0')}</span>` + badge +
         `<div><h3><a href="${esc(p.url)}" rel="noopener" translate="no">${esc(p.name)}</a></h3>` +
         `<p>${esc(p.description)}</p></div>` +
         `<button class="copy" type="button" data-cmd="${esc(p.install)}" aria-label="${esc(data.copyLabel)}">${esc(data.copyText)}</button>`;
@@ -511,6 +529,7 @@ const noresult = document.getElementById('noresult');
 const total = document.getElementById('total');
 const q = document.getElementById('q');
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+const sortSel = document.getElementById('sort');
 total.textContent = items.length;
 
 // cache raw name/description: matching stays on content (not button labels),
@@ -531,10 +550,17 @@ for (const li of items) {
     ? href.slice('https://github.com/'.length).split('/').slice(0, 2).join('/')
     : '';
   li._hay = (li._name + ' ' + ownerRepo + ' ' + li._search).toLowerCase();
+  li._stars = Number(li.dataset.stars) || 0;
+  const no = li.querySelector('.no');
+  li._no = no;
+  li._noText = no ? no.textContent : '';
 }
 
 let activeCat = urlParams.get('cat') || 'all';
 let query = (urlParams.get('q') || '').toLowerCase();
+const sortParam = urlParams.get('sort');
+let sortMode = (sortParam === 'stars' || sortParam === 'starsFlat') ? sortParam : 'default';
+if (sortSel) sortSel.value = sortMode;
 
 function setActiveChip() {
   for (const c of filters.querySelectorAll('.chip')) {
@@ -547,7 +573,40 @@ function syncUrl() {
   const p = new URLSearchParams(location.search);
   activeCat === 'all' ? p.delete('cat') : p.set('cat', activeCat);
   query ? p.set('q', query) : p.delete('q');
+  sortMode === 'default' ? p.delete('sort') : p.set('sort', sortMode);
   history.replaceState(null, '', p.size ? `?${p}` : location.pathname);
+}
+// Sort modes: default keeps the README order; 'stars' reorders within each
+// category section by GitHub stars; 'starsFlat' collapses the sections into
+// one list sorted by stars (the number is then the global rank).
+const byStars = (a, b) => (b._stars || 0) - (a._stars || 0) || a._name.localeCompare(b._name);
+function renumber() {
+  let n = 0;
+  for (const li of dex.querySelectorAll('li.item')) {
+    n++;
+    if (!li._no) continue;
+    const starMode = sortMode !== 'default';
+    li._no.textContent = starMode
+      ? `★ ${(li._stars || 0).toLocaleString()}`
+      : (li._noText || `№ ${String(n).padStart(2, '0')}`);
+    const badge = li.querySelector('.stars');
+    if (badge) badge.style.display = starMode ? 'none' : '';
+  }
+}
+function applySort() {
+  const frag = document.createDocumentFragment();
+  if (sortMode === 'starsFlat') {
+    for (const li of items.slice().sort(byStars)) frag.appendChild(li);
+  } else {
+    for (const s of secs) {
+      frag.appendChild(s);
+      const group = items.filter((li) => li.dataset.cat === s.dataset.sec);
+      if (sortMode === 'stars') group.sort(byStars);
+      for (const li of group) frag.appendChild(li);
+    }
+  }
+  dex.appendChild(frag);
+  renumber();
 }
 function applyFilter() {
   let shown = 0;
@@ -564,7 +623,7 @@ function applyFilter() {
       if (li._a) li._a.innerHTML = markText(li._name, tokens);
     }
   }
-  for (const s of secs) s.classList.toggle('hidden', !perSec[s.dataset.sec]);
+  for (const s of secs) s.classList.toggle('hidden', sortMode === 'starsFlat' || !perSec[s.dataset.sec]);
   count.textContent = `${shown} / ${items.length}`;
   noresult.style.display = shown ? 'none' : 'block';
   syncUrl();
@@ -616,6 +675,13 @@ document.getElementById('clearFilter').addEventListener('click', () => {
   applyFilter();
 });
 
+if (sortSel) sortSel.addEventListener('change', () => {
+  sortMode = sortSel.value;
+  applySort();
+  applyFilter();
+  pulseDex();
+});
+
 // robust copy: async clipboard, legacy textarea fallback for non-secure contexts
 async function copyCmd(text) {
   try { await navigator.clipboard.writeText(text); return true; }
@@ -658,6 +724,7 @@ toTop.addEventListener('click', () => {
 
 // restore state from URL on load (without scrolling)
 setActiveChip();
+applySort();
 applyFilter();
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7723c30caf6949b6b95780fb3ed9f6ac"}'></script><!-- End Cloudflare Web Analytics -->

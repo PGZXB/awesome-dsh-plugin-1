@@ -30,6 +30,7 @@ export default [
     CAT_DESC: 'DeepSeek Harness（dsh）{CAT}插件精选，共 {N} 个：功能描述、安装命令与仓库链接，持续更新。',
     COPY_LABEL: '复制安装命令',
     COPY_TEXT: '复制安装命令',
+    STARS_TITLE: 'GitHub Star 数',
     categories: {
       ui: 'UI 增强',
       theme: '主题与外观',
@@ -63,6 +64,10 @@ export default [
       NOTAFF: '与 DeepSeek 无隶属关系',
       DISCLAIMER: '插件由各自作者开发维护，收录不构成背书；安装即运行第三方代码，请自行审阅源码、风险自担。',
       ALL: '全部',
+      SORT_BY: '排序',
+      SORT_DEFAULT: '分类顺序',
+      SORT_STARS: '分类内按 Star',
+      SORT_STARS_FLAT: '全局按 Star',
     },
   },
   {
@@ -83,6 +88,7 @@ export default [
     CAT_DESC: '{N} curated {CAT} plugins for DeepSeek Harness (dsh). Descriptions, install commands, and repo links — updated continuously.',
     COPY_LABEL: 'Copy install command',
     COPY_TEXT: 'copy install',
+    STARS_TITLE: 'GitHub stars',
     categories: {
       ui: 'UI Enhancements',
       theme: 'Themes & Appearance',
@@ -116,6 +122,10 @@ export default [
       NOTAFF: 'Not affiliated with DeepSeek',
       DISCLAIMER: 'Plugins are developed by their respective authors; listing is not an endorsement. Installing runs third-party code — review the source and proceed at your own risk.',
       ALL: 'All',
+      SORT_BY: 'Sort',
+      SORT_DEFAULT: 'By category',
+      SORT_STARS: 'Stars in category',
+      SORT_STARS_FLAT: 'All by stars',
     },
   },
 ]

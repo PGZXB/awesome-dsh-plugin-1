@@ -16,6 +16,7 @@ import LOCALES from '../site/locales.mjs'
 const ORIGIN = 'https://beancookie.github.io/awesome-dsh-plugin'
 const DATES_FILE = 'data/added-dates.json'
 const NPM_MAP_FILE = 'data/npm-map.json'
+const STARS_FILE = 'data/stars.json'
 const CAT_IDS = ['ui', 'theme', 'session', 'memory', 'tools', 'skill', 'workflow', 'notify', 'model', 'dev', 'fun']
 const CAT_EMOJI = { ui: '🎨', theme: '🎭', session: '💬', memory: '🧠', tools: '🛠️', skill: '🧩', workflow: '🔁', notify: '🔔', model: '🔌', dev: '🧑‍💻', fun: '🎮' }
 const CAT_NAMES = Object.fromEntries(CAT_IDS.map((id) => [id, {
@@ -44,6 +45,7 @@ function parseReadme(loc) {
 // Join all locales on plugin URL; the default locale defines the roster.
 const parsed = LOCALES.map((loc) => ({ loc, entries: parseReadme(loc) }))
 const [base, ...others] = parsed
+const starsMap = fs.existsSync(STARS_FILE) ? JSON.parse(fs.readFileSync(STARS_FILE, 'utf8')) : {}
 const entries = []
 for (const [url, e] of base.entries) {
   const descs = { [base.loc.code]: e.desc }
@@ -53,7 +55,7 @@ for (const [url, e] of base.entries) {
     if (!t) { console.error(`${loc.readme} missing: ${url}`); ok = false; break }
     descs[loc.code] = t.desc
   }
-  if (ok) entries.push({ name: e.name, url: e.url, cat: e.cat, owner: url.split('/')[3], descs })
+  if (ok) entries.push({ name: e.name, url: e.url, cat: e.cat, owner: url.split('/')[3], stars: starsMap[e.url]?.stars ?? null, descs })
 }
 console.log(`${entries.length} entries parsed across ${LOCALES.length} locales`)
 
@@ -113,8 +115,9 @@ function buildRows(loc, only) {
         ? `dsh plugin --profile web add github:${repo}#path:/${sub}`
         : `dsh plugin --profile web add github:${repo}`
       const search = LOCALES.map((l) => e.descs[l.code]).join(' ')
-      return `    <li class="item" data-cat="${e.cat}" data-search="${esc(search)}" style="animation-delay:${delay}s">
-      <span class="no" aria-hidden="true">№ ${String(idx).padStart(2, '0')}</span>
+      const badge = e.stars === null ? '' : `\n      <span class="stars" title="${loc.STARS_TITLE}">★ ${e.stars.toLocaleString('en-US')}</span>`
+      return `    <li class="item" data-cat="${e.cat}" data-stars="${e.stars ?? ''}" data-search="${esc(search)}" style="animation-delay:${delay}s">
+      <span class="no" aria-hidden="true">№ ${String(idx).padStart(2, '0')}</span>${badge}
       <div>
         <h3><a href="${e.url}" rel="noopener" translate="no">${esc(e.name)}</a></h3>
         <p>${esc(e.descs[loc.code])}</p>
@@ -173,6 +176,7 @@ const inlineByLoc = Object.fromEntries(LOCALES.map((loc) => [loc.code, JSON.stri
   urlPath: loc.urlPath,
   copyLabel: loc.COPY_LABEL,
   copyText: loc.COPY_TEXT,
+  starsTitle: loc.STARS_TITLE,
   all: loc.strings.ALL,
   categories: CAT_NAMES,
   plugins: ordered.map((e) => ({
@@ -181,6 +185,7 @@ const inlineByLoc = Object.fromEntries(LOCALES.map((loc) => [loc.code, JSON.stri
     category: e.cat,
     description: e.descs[loc.code],
     search: LOCALES.map((l) => e.descs[l.code]).join(' '),
+    stars: e.stars ?? null,
     install: installCmd(e),
   })),
 }).replace(/</g, '\\u003c')]))
@@ -311,6 +316,7 @@ const registry = {
       category: e.cat,
       description: Object.fromEntries(LOCALES.map((l) => [l.code, e.descs[l.code]])),
       npm,
+      stars: e.stars ?? null,
       install: installCmd(e),
       added: e.added,
     }
