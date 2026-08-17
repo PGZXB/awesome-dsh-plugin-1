@@ -263,6 +263,10 @@
   "npm": null,
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/daetz-coder/dsh-multi-chat": {
+  "npm": "dsh-multi-chat",
+  "checkedAt": "2026-08-17"
+ },
  "https://github.com/deepseek-ai/deepseek-harness": {
   "npm": null,
   "checkedAt": "2026-08-14"

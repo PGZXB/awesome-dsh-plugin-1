@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 324,
+ "count": 325,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -51,6 +51,19 @@
   }
  },
  "plugins": [
+  {
+   "name": "dsh-multi-chat",
+   "owner": "daetz-coder",
+   "url": "https://github.com/daetz-coder/dsh-multi-chat",
+   "category": "ui",
+   "description": {
+    "zh": "在 DSH Web 界面里并排运行、监控多个对话实例的插件：多窗口墙 + 自动发现 + 单窗控制，内置带口令认证的局域网网关，手机/平板也能看。",
+    "en": "A multi-window wall for the DSH Web UI: run and monitor N conversations side-by-side in one screen, with auto-discovery, per-window controls, and an authenticated LAN gateway for phone/tablet access."
+   },
+   "npm": "dsh-multi-chat",
+   "install": "dsh plugin --profile web add dsh-multi-chat",
+   "added": "2026-08-17"
+  },
   {
    "name": "dsh-token-pet",
    "owner": "pk7j7sqryy-ops",
