@@ -27,6 +27,13 @@
     <summary>整会话改动审阅。会话顶栏列出本次 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection。</summary>
   </entry>
   <entry>
+    <title>chenproton/dsh-history</title>
+    <id>https://github.com/chenproton/dsh-history</id>
+    <link href="https://github.com/chenproton/dsh-history"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>会话历史消息查看：列出当前会话全部你发送的消息，支持排序、搜索、一键复制与点击跳转定位（目标未加载时自动加载更早历史）。</summary>
+  </entry>
+  <entry>
     <title>phelpsyacht/dshmath-manim</title>
     <id>https://github.com/phelpsyacht/dshmath-manim</id>
     <link href="https://github.com/phelpsyacht/dshmath-manim"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/siweina/dsh-novel-writer"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。</summary>
-  </entry>
-  <entry>
-    <title>gongyijie85/dsh-ponytail</title>
-    <id>https://github.com/gongyijie85/dsh-ponytail</id>
-    <link href="https://github.com/gongyijie85/dsh-ponytail"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>最懒资深工程师模式（Ponytail）的 DSH 移植：6 个技能（ponytail、ponytail-audit、ponytail-debt、ponytail-gain、ponytail-help、ponytail-review），改编自 DietrichGebert/ponytail（MIT）。</summary>
   </entry>
 </feed>

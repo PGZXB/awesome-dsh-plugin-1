@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 327,
+ "count": 328,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1415,6 +1415,21 @@
    "createdAt": "2026-08-16",
    "install": "dsh plugin --profile web add github:edfrey0044/dsh-unarchive",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-history",
+   "owner": "chenproton",
+   "url": "https://github.com/chenproton/dsh-history",
+   "category": "session",
+   "description": {
+    "zh": "会话历史消息查看：列出当前会话全部你发送的消息，支持排序、搜索、一键复制与点击跳转定位（目标未加载时自动加载更早历史）。",
+    "en": "Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded."
+   },
+   "npm": "dsh-history",
+   "stars": 2,
+   "createdAt": "2026-08-17",
+   "install": "dsh plugin --profile web add dsh-history",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-context",

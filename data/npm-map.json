@@ -243,6 +243,10 @@
   "npm": "dsh-harmony",
   "checkedAt": "2026-08-15"
  },
+ "https://github.com/chenproton/dsh-history": {
+  "npm": "dsh-history",
+  "checkedAt": "2026-08-17"
+ },
  "https://github.com/Chinesezjc/dsh-interconnect": {
   "npm": null,
   "checkedAt": "2026-08-14"
