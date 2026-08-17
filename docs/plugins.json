@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 320,
+ "count": 321,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2520,6 +2520,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:cdxiaodong/dsh-llm-inspector",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dshmath-manim",
+   "owner": "phelpsyacht",
+   "url": "https://github.com/phelpsyacht/dshmath-manim",
+   "category": "tools",
+   "description": {
+    "zh": "基于 Manim CE 的数学动画插件：6 个内置模板（函数/导数/积分/几何/极坐标/3D 曲面）+ 零代码技能包（math-animation / manim-codegen），模型说人话即可生成动画视频，含 AST 静态安全校验。",
+    "en": "Manim CE based math animation plugin: 6 built-in templates (function/derivative/integral/geometry/polar/3D surface) plus a zero-code skill pack (math-animation / manim-codegen) - natural language to animated math videos, with AST static security validation."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:phelpsyacht/dshmath-manim",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-novel-writer",

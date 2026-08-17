@@ -13,6 +13,13 @@
     <summary>Web 外观主题定制（壁纸、毛玻璃、强调色、预设）、键盘快捷键、用量统计、插件市场、浮动历史条与用户消息 Markdown 渲染。</summary>
   </entry>
   <entry>
+    <title>phelpsyacht/dshmath-manim</title>
+    <id>https://github.com/phelpsyacht/dshmath-manim</id>
+    <link href="https://github.com/phelpsyacht/dshmath-manim"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>基于 Manim CE 的数学动画插件：6 个内置模板（函数/导数/积分/几何/极坐标/3D 曲面）+ 零代码技能包（math-animation / manim-codegen），模型说人话即可生成动画视频，含 AST 静态安全校验。</summary>
+  </entry>
+  <entry>
     <title>Zhangbo-cn/dsh-voice-input-plugin</title>
     <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
     <link href="https://github.com/Zhangbo-cn/dsh-voice-input-plugin"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/cdxiaodong/dsh-island"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>通过 Unix socket 把 DSH agent 的会话、工具调用与审批实时桥接到 CodeIsland macOS 刘海面板，可直接在面板上批准/拒绝。</summary>
-  </entry>
-  <entry>
-    <title>Laplace-bit/dsh-bell-notify</title>
-    <id>https://github.com/Laplace-bit/dsh-bell-notify</id>
-    <link href="https://github.com/Laplace-bit/dsh-bell-notify"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>生命周期铃声与状态点：为每个环节合成专属提示音（Web Audio，零音频文件），右下角呼吸状态点显示工作状态。</summary>
   </entry>
 </feed>

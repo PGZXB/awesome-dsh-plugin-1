@@ -13,6 +13,13 @@
     <summary>Web theming (wallpaper, glass, accent, presets), keyboard shortcuts, usage stats, a plugin marketplace, a floating history strip, and user-message Markdown rendering.</summary>
   </entry>
   <entry>
+    <title>phelpsyacht/dshmath-manim</title>
+    <id>https://github.com/phelpsyacht/dshmath-manim</id>
+    <link href="https://github.com/phelpsyacht/dshmath-manim"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Manim CE based math animation plugin: 6 built-in templates (function/derivative/integral/geometry/polar/3D surface) plus a zero-code skill pack (math-animation / manim-codegen) - natural language to animated math videos, with AST static security validation.</summary>
+  </entry>
+  <entry>
     <title>Zhangbo-cn/dsh-voice-input-plugin</title>
     <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
     <link href="https://github.com/Zhangbo-cn/dsh-voice-input-plugin"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/cdxiaodong/dsh-island"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Bridge DSH agent sessions, tool calls, and approvals to the CodeIsland macOS notch panel over a Unix socket, with in-panel allow/deny.</summary>
-  </entry>
-  <entry>
-    <title>Laplace-bit/dsh-bell-notify</title>
-    <id>https://github.com/Laplace-bit/dsh-bell-notify</id>
-    <link href="https://github.com/Laplace-bit/dsh-bell-notify"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Lifecycle bells and a status dot: per-event chimes synthesized live with Web Audio (zero audio files), plus a breathing indicator for agent state.</summary>
   </entry>
 </feed>

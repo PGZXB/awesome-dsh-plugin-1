@@ -979,6 +979,10 @@
   "npm": null,
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/phelpsyacht/dshmath-manim": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
  "https://github.com/PicGo/dsh-plugin": {
   "npm": "@picgo/dsh-plugin",
   "checkedAt": "2026-08-14"
