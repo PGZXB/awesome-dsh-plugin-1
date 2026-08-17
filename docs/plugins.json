@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 331,
+ "count": 332,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -3049,6 +3049,21 @@
    "stars": 2,
    "createdAt": "2026-08-14",
    "install": "dsh plugin --profile web add dsh-approval-gate",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "dsh-verify",
+   "owner": "263311487-ux",
+   "url": "https://github.com/263311487-ux/dsh-verify",
+   "category": "tools",
+   "description": {
+    "zh": "独立浏览器验收测试：JSON 清单驱动真实 Chromium，断言计算样式与像素差异，输出 HTML 报告 + 0/1 退出码；提供 npm CLI、GitHub Action 与 MCP Server。",
+    "en": "Independent browser acceptance testing for agent deliverables: JSON spec drives real headless Chromium, asserts computed styles and pixel diffs, returns an HTML report and 0/1 exit code; ships npm CLI, GitHub Action, and MCP server."
+   },
+   "npm": "dsh-verify",
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add dsh-verify",
    "added": "2026-08-17"
   },
   {

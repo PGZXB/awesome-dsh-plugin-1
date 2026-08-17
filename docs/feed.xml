@@ -76,6 +76,13 @@
     <summary>自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。</summary>
   </entry>
   <entry>
+    <title>dsh-verify</title>
+    <id>https://github.com/263311487-ux/dsh-verify</id>
+    <link href="https://github.com/263311487-ux/dsh-verify"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>独立浏览器验收测试：JSON 清单驱动真实 Chromium，断言计算样式与像素差异，输出 HTML 报告 + 0/1 退出码；提供 npm CLI、GitHub Action 与 MCP Server。</summary>
+  </entry>
+  <entry>
     <title>gwrsfsfeefdsfs/dsh-skill-curator</title>
     <id>https://github.com/gwrsfsfeefdsfs/dsh-skill-curator</id>
     <link href="https://github.com/gwrsfsfeefdsfs/dsh-skill-curator"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/futongxu9-maker/dsh-path-reveal"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>点击消息里的 Windows 绝对路径在资源管理器中打开所在文件夹（文件定位选中/目录直接打开）。</summary>
-  </entry>
-  <entry>
-    <title>yangyunsong023/dsh-sxs-anti-bot-http</title>
-    <id>https://github.com/yangyunsong023/dsh-sxs-anti-bot-http</id>
-    <link href="https://github.com/yangyunsong023/dsh-sxs-anti-bot-http"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>反爬 HTTP 工具：UA 池轮换、指数退避重试、反爬墙检测（验证码/安全验证）与自适应限流，提炼自 SXS 生产采集体系（每日数百万请求）——工具：`sxs_fetch` / `sxs_fetch_json` / `sxs_rate_status`。</summary>
   </entry>
 </feed>
