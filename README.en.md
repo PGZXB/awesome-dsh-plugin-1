@@ -161,6 +161,7 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 
 
 - [edfrey0044/dsh-unarchive](https://github.com/edfrey0044/dsh-unarchive) - Restore archived sessions: a /unarchive command and an unarchive_session tool that remove sessions from the archive set so they reappear in the workspace at their original position (archiving never deletes data).
+- [chenproton/dsh-history](https://github.com/chenproton/dsh-history) - Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded.
 
 ### Memory
 

@@ -161,6 +161,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 
 - [edfrey0044/dsh-unarchive](https://github.com/edfrey0044/dsh-unarchive) — 恢复已归档会话：/unarchive 命令与 unarchive_session 工具，把会话移出归档集合、在原位置重新出现在工作区（归档从不删除数据）。
+- [chenproton/dsh-history](https://github.com/chenproton/dsh-history) — 会话历史消息查看：列出当前会话全部你发送的消息，支持排序、搜索、一键复制与点击跳转定位（目标未加载时自动加载更早历史）。
 
 ### 🧠 记忆
 
