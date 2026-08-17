@@ -292,6 +292,8 @@ footer{padding-block:0 3rem}
         <select id="sort" aria-label="__T_SORT_BY__">
           <option value="stars">__T_SORT_STARS__</option>
           <option value="starsFlat">__T_SORT_STARS_FLAT__</option>
+          <option value="recent">__T_SORT_RECENT__</option>
+          <option value="recentFlat">__T_SORT_RECENT_FLAT__</option>
         </select>
       </label>
       <span class="count" id="count" aria-live="polite">0 / 0</span>
@@ -1297,6 +1299,7 @@ function renderRegistry(data) {
       if (p.search) li.dataset.search = p.search;
       li.style.animationDelay = `${Math.min(idx * 0.02, 0.4).toFixed(2)}s`;
       li.dataset.stars = p.stars ?? '';
+      li.dataset.created = p.createdAt ?? '';
       li.innerHTML = `<span class="no">★ ${p.stars == null ? '—' : Number(p.stars).toLocaleString()}</span>` +
         `<div><h3><a href="${esc(p.url)}" rel="noopener" translate="no">${esc(p.name)}</a></h3>` +
         `<p>${esc(p.description)}</p></div>` +
@@ -1343,11 +1346,13 @@ for (const li of items) {
     : '';
   li._hay = (li._name + ' ' + ownerRepo + ' ' + li._search).toLowerCase();
   li._stars = Number(li.dataset.stars) || 0;
+  li._created = li.dataset.created || '';
 }
 
 let activeCat = urlParams.get('cat') || 'all';
 let query = (urlParams.get('q') || '').toLowerCase();
-let sortMode = urlParams.get('sort') === 'starsFlat' ? 'starsFlat' : 'stars';
+const SORTS = ['stars', 'starsFlat', 'recent', 'recentFlat'];
+let sortMode = SORTS.includes(urlParams.get('sort')) ? urlParams.get('sort') : 'stars';
 if (sortSel) sortSel.value = sortMode;
 
 function setActiveChip() {
@@ -1361,26 +1366,46 @@ function syncUrl() {
   const p = new URLSearchParams(location.search);
   activeCat === 'all' ? p.delete('cat') : p.set('cat', activeCat);
   query ? p.set('q', query) : p.delete('q');
-  sortMode === 'starsFlat' ? p.set('sort', 'starsFlat') : p.delete('sort');
+  sortMode === 'stars' ? p.delete('sort') : p.set('sort', sortMode);
   history.replaceState(null, '', p.size ? `?${p}` : location.pathname);
 }
-// Sort modes: 'stars' keeps the category sections and reorders within each by
-// GitHub stars (default); 'starsFlat' collapses the sections into one list
-// sorted by stars. Plugins without star data sort last.
+// Sort modes (default 'stars'): the "…Flat" variants collapse the category
+// sections into one list. 'stars'/'starsFlat' rank by GitHub stars; 'recent'/
+// 'recentFlat' rank by repo creation date (newest first). Items without data
+// sort last. The left rail mirrors the active metric (★ count or YY.MM.DD).
+const isFlat = (m) => m === 'starsFlat' || m === 'recentFlat';
+const isRecent = (m) => m === 'recent' || m === 'recentFlat';
 const byStars = (a, b) => (b._stars || 0) - (a._stars || 0) || a._name.localeCompare(b._name);
+const byRecent = (a, b) => {
+  const da = a._created ? Date.parse(a._created) : -1;
+  const db = b._created ? Date.parse(b._created) : -1;
+  return db - da;
+};
 function applySort() {
   const frag = document.createDocumentFragment();
-  if (sortMode === 'starsFlat') {
-    for (const li of items.slice().sort(byStars)) frag.appendChild(li);
+  const cmp = isRecent(sortMode) ? byRecent : byStars;
+  if (isFlat(sortMode)) {
+    for (const li of items.slice().sort(cmp)) frag.appendChild(li);
   } else {
     for (const s of secs) {
       frag.appendChild(s);
       const group = items.filter((li) => li.dataset.cat === s.dataset.sec);
-      group.sort(byStars);
+      group.sort(cmp);
       for (const li of group) frag.appendChild(li);
     }
   }
   dex.appendChild(frag);
+  updateNo();
+}
+function updateNo() {
+  const recent = isRecent(sortMode);
+  for (const li of items) {
+    const no = li.querySelector('.no');
+    if (!no) continue;
+    no.textContent = recent
+      ? (li._created ? li._created.slice(2).replace(/-/g, '.') : '—')
+      : `★ ${(li._stars || 0).toLocaleString()}`;
+  }
 }
 function applyFilter() {
   let shown = 0;
@@ -1397,7 +1422,7 @@ function applyFilter() {
       if (li._a) li._a.innerHTML = markText(li._name, tokens);
     }
   }
-  for (const s of secs) s.classList.toggle('hidden', sortMode === 'starsFlat' || !perSec[s.dataset.sec]);
+  for (const s of secs) s.classList.toggle('hidden', isFlat(sortMode) || !perSec[s.dataset.sec]);
   count.textContent = `${shown} / ${items.length}`;
   noresult.style.display = shown ? 'none' : 'block';
   syncUrl();

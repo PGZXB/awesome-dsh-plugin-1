@@ -1,19 +1,24 @@
 #!/usr/bin/env node
 /**
- * Probe GitHub star counts for the listed plugins and cache them, so the
+ * Probe GitHub repo stats for the listed plugins and cache them, so the
  * site can rank plugins by popularity (the sort control on the web page).
+ * Each entry records the star count plus the repo creation date (a proxy for
+ * the first-commit time), which powers the "latest" sort modes.
  *
  * For every plugin URL in the default-locale README that is missing from
- * data/stars.json (or was last checked over RECHECK_DAYS ago):
+ * data/stars.json, lacks a field, or was last checked over RECHECK_DAYS ago:
  *   GET https://api.github.com/repos/{owner}/{repo}
  *
  * Revalidation uses If-None-Match (the stored ETag): GitHub answers 304 for
  * unchanged repos without consuming the primary rate limit, so routine runs
- * are cheap. A GITHUB_TOKEN (5000 req/hr) makes the initial full seed fast;
- * without one the unauthenticated 60 req/hr wall just stops the probe early
- * and leaves the existing cache intact.
+ * are cheap. Entries missing a recorded createdAt are backfilled with an
+ * unconditional request (a 304 carries no body to read the date from).
+ * A GITHUB_TOKEN (5000 req/hr) makes the initial full seed fast; without one
+ * the unauthenticated 60 req/hr wall just stops the probe early and leaves
+ * the existing cache intact.
  *
- * Results are cached in data/stars.json: { "<github url>": { stars, etag, checkedAt } }.
+ * Results are cached in data/stars.json:
+ *   { "<github url>": { stars, createdAt, etag, checkedAt } }.
  * Network failures or rate-limit exhaustion keep the existing entry untouched.
  *
  * Usage: node scripts/probe-stars.mjs
@@ -34,6 +39,7 @@ const urls = [...readme.matchAll(/^- \[.+?\]\((https:\/\/github\.com\/[^)]+)\) [
 const today = new Date().toISOString().slice(0, 10)
 const stale = (entry) =>
   entry === undefined
+  || entry.createdAt === undefined
   || (Date.now() - new Date(entry.checkedAt).getTime()) / 86400000 > RECHECK_DAYS
 
 const pending = urls.filter((url) => stale(cache[url]))
@@ -48,7 +54,9 @@ async function fetchRepo(url) {
   }
   if (TOKEN) headers.authorization = `Bearer ${TOKEN}`
   const prev = cache[url]
-  if (prev?.etag) headers['if-none-match'] = prev.etag
+  // Backfill entries that predate the createdAt field: skip the conditional
+  // header so a 200 (with the body we need) is returned instead of a 304.
+  if (prev?.etag && prev.createdAt !== undefined) headers['if-none-match'] = prev.etag
   let res
   try {
     res = await fetch(`https://api.github.com/repos/${repoPath}`, {
@@ -58,13 +66,14 @@ async function fetchRepo(url) {
   } catch {
     return { defer: true }
   }
-  if (res.status === 304) return { entry: { stars: prev.stars, etag: prev.etag, checkedAt: today } }
+  if (res.status === 304) return { entry: { stars: prev.stars, createdAt: prev.createdAt, etag: prev.etag, checkedAt: today } }
   if (res.status === 403 && res.headers.get('x-ratelimit-remaining') === '0') return { rate: true }
   if (res.status === 429) return { rate: true }
   if (!res.ok) return { defer: true }
   const body = await res.json().catch(() => null)
   if (!body) return { defer: true }
-  return { entry: { stars: body.stargazers_count ?? 0, etag: res.headers.get('etag'), checkedAt: today } }
+  const createdAt = typeof body.created_at === 'string' ? body.created_at.slice(0, 10) : null
+  return { entry: { stars: body.stargazers_count ?? 0, createdAt, etag: res.headers.get('etag'), checkedAt: today } }
 }
 
 let done = 0

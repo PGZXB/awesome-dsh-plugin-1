@@ -66,6 +66,8 @@ export default [
       SORT_BY: '排序',
       SORT_STARS: '分类内按 Star',
       SORT_STARS_FLAT: '全局按 Star',
+      SORT_RECENT: '分类内按最新',
+      SORT_RECENT_FLAT: '全局按最新',
     },
   },
   {
@@ -122,6 +124,8 @@ export default [
       SORT_BY: 'Sort',
       SORT_STARS: 'Stars in category',
       SORT_STARS_FLAT: 'All by stars',
+      SORT_RECENT: 'Latest in category',
+      SORT_RECENT_FLAT: 'All by latest',
     },
   },
 ]

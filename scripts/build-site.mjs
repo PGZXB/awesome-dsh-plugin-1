@@ -55,7 +55,7 @@ for (const [url, e] of base.entries) {
     if (!t) { console.error(`${loc.readme} missing: ${url}`); ok = false; break }
     descs[loc.code] = t.desc
   }
-  if (ok) entries.push({ name: e.name, url: e.url, cat: e.cat, owner: url.split('/')[3], stars: starsMap[e.url]?.stars ?? null, descs })
+  if (ok) entries.push({ name: e.name, url: e.url, cat: e.cat, owner: url.split('/')[3], stars: starsMap[e.url]?.stars ?? null, createdAt: starsMap[e.url]?.createdAt ?? null, descs })
 }
 console.log(`${entries.length} entries parsed across ${LOCALES.length} locales`)
 
@@ -116,7 +116,7 @@ function buildRows(loc, only) {
         : `dsh plugin --profile web add github:${repo}`
       const search = LOCALES.map((l) => e.descs[l.code]).join(' ')
       const no = `★ ${e.stars === null ? '—' : e.stars.toLocaleString('en-US')}`
-      return `    <li class="item" data-cat="${e.cat}" data-stars="${e.stars ?? ''}" data-search="${esc(search)}" style="animation-delay:${delay}s">
+      return `    <li class="item" data-cat="${e.cat}" data-stars="${e.stars ?? ''}" data-created="${e.createdAt ?? ''}" data-search="${esc(search)}" style="animation-delay:${delay}s">
       <span class="no">${no}</span>
       <div>
         <h3><a href="${e.url}" rel="noopener" translate="no">${esc(e.name)}</a></h3>
@@ -185,6 +185,7 @@ const inlineByLoc = Object.fromEntries(LOCALES.map((loc) => [loc.code, JSON.stri
     description: e.descs[loc.code],
     search: LOCALES.map((l) => e.descs[l.code]).join(' '),
     stars: e.stars ?? null,
+    createdAt: e.createdAt ?? null,
     install: installCmd(e),
   })),
 }).replace(/</g, '\\u003c')]))
@@ -316,6 +317,7 @@ const registry = {
       description: Object.fromEntries(LOCALES.map((l) => [l.code, e.descs[l.code]])),
       npm,
       stars: e.stars ?? null,
+      createdAt: e.createdAt ?? null,
       install: installCmd(e),
       added: e.added,
     }
