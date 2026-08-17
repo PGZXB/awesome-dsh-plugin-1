@@ -148,7 +148,7 @@ ol.dex li.sec h2 .en{font-weight:500;font-size:.78rem;color:var(--text-3);line-h
 ol.dex li.sec small{font-family:var(--mono);font-size:.72rem;color:var(--text-3);font-weight:400;margin-left:auto;flex:none}
 ol.dex li.item{
   display:grid;
-  grid-template-columns:4rem 1fr auto;
+  grid-template-columns:4.6rem 1fr auto;
   gap:0 1.2rem;
   padding-block:1.15rem;
   border-bottom:1px solid var(--line);
@@ -1372,7 +1372,7 @@ function syncUrl() {
 // Sort modes (default 'stars'): the "…Flat" variants collapse the category
 // sections into one list. 'stars'/'starsFlat' rank by GitHub stars; 'recent'/
 // 'recentFlat' rank by repo creation date (newest first). Items without data
-// sort last. The left rail mirrors the active metric (★ count or YY.MM.DD).
+// sort last. The left rail mirrors the active metric (★ count or YYYY.MM.DD).
 const isFlat = (m) => m === 'starsFlat' || m === 'recentFlat';
 const isRecent = (m) => m === 'recent' || m === 'recentFlat';
 const byStars = (a, b) => (b._stars || 0) - (a._stars || 0) || a._name.localeCompare(b._name);
@@ -1403,7 +1403,7 @@ function updateNo() {
     const no = li.querySelector('.no');
     if (!no) continue;
     no.textContent = recent
-      ? (li._created ? li._created.slice(2).replace(/-/g, '.') : '—')
+      ? (li._created ? li._created.replace(/-/g, '.') : '—')
       : `★ ${(li._stars || 0).toLocaleString()}`;
   }
 }
