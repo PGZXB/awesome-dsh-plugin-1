@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 321,
+ "count": 323,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2546,6 +2546,32 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:siweina/dsh-novel-writer",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-vision-tools",
+   "owner": "moon09300731",
+   "url": "https://github.com/moon09300731/dsh-vision-tools",
+   "category": "tools",
+   "description": {
+    "zh": "DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。",
+    "en": "Full vision-capability bundle for DeepSeek Harness: a `vision_understand` tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition."
+   },
+   "npm": "dsh-vision-tools",
+   "install": "dsh plugin --profile web add dsh-vision-tools",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "dsh-approval-gate",
+   "owner": "moon09300731",
+   "url": "https://github.com/moon09300731/dsh-approval-gate",
+   "category": "tools",
+   "description": {
+    "zh": "自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。",
+    "en": "Risk-gated approval automation: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe)."
+   },
+   "npm": "dsh-approval-gate",
+   "install": "dsh plugin --profile web add dsh-approval-gate",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-ponytail",

@@ -20,6 +20,20 @@
     <summary>Manim CE based math animation plugin: 6 built-in templates (function/derivative/integral/geometry/polar/3D surface) plus a zero-code skill pack (math-animation / manim-codegen) - natural language to animated math videos, with AST static security validation.</summary>
   </entry>
   <entry>
+    <title>moon09300731/dsh-vision-tools</title>
+    <id>https://github.com/moon09300731/dsh-vision-tools</id>
+    <link href="https://github.com/moon09300731/dsh-vision-tools"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Full vision-capability bundle for DeepSeek Harness: a `vision_understand` tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition.</summary>
+  </entry>
+  <entry>
+    <title>moon09300731/dsh-approval-gate</title>
+    <id>https://github.com/moon09300731/dsh-approval-gate</id>
+    <link href="https://github.com/moon09300731/dsh-approval-gate"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Risk-gated approval automation: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe).</summary>
+  </entry>
+  <entry>
     <title>Zhangbo-cn/dsh-voice-input-plugin</title>
     <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
     <link href="https://github.com/Zhangbo-cn/dsh-voice-input-plugin"/>
@@ -200,19 +214,5 @@
     <link href="https://github.com/timwhitez/dsh-self-evolving"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Evidence-first, crash-resumable self-evolution engine for DSH: bounded Cordis candidate generation, one-shot real-Loader admission, Harbor evaluation, and an auditable journaled lineage.</summary>
-  </entry>
-  <entry>
-    <title>Andyqwe44/dsh-notify-win</title>
-    <id>https://github.com/Andyqwe44/dsh-notify-win</id>
-    <link href="https://github.com/Andyqwe44/dsh-notify-win"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Native Windows toast + taskbar flash for task done / approval / ask_user_question, Win10/11, npm install `dsh plugin --profile web add dsh-notify-win`.</summary>
-  </entry>
-  <entry>
-    <title>cdxiaodong/dsh-island</title>
-    <id>https://github.com/cdxiaodong/dsh-island</id>
-    <link href="https://github.com/cdxiaodong/dsh-island"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Bridge DSH agent sessions, tool calls, and approvals to the CodeIsland macOS notch panel over a Unix socket, with in-panel allow/deny.</summary>
   </entry>
 </feed>
