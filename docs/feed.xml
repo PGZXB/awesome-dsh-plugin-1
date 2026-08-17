@@ -4,7 +4,14 @@
   <id>https://beancookie.github.io/awesome-dsh-plugin/</id>
   <link href="https://beancookie.github.io/awesome-dsh-plugin/"/>
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/feed.xml"/>
-  <updated>2026-08-16T00:00:00Z</updated>
+  <updated>2026-08-17T00:00:00Z</updated>
+  <entry>
+    <title>yoli-mi/dsh-client-ui-custom</title>
+    <id>https://github.com/yoli-mi/dsh-client-ui-custom</id>
+    <link href="https://github.com/yoli-mi/dsh-client-ui-custom"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Web 外观主题定制（壁纸、毛玻璃、强调色、预设）、键盘快捷键、用量统计、插件市场、浮动历史条与用户消息 Markdown 渲染。</summary>
+  </entry>
   <entry>
     <title>Zhangbo-cn/dsh-voice-input-plugin</title>
     <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Laplace-bit/dsh-bell-notify"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>生命周期铃声与状态点：为每个环节合成专属提示音（Web Audio，零音频文件），右下角呼吸状态点显示工作状态。</summary>
-  </entry>
-  <entry>
-    <title>ruimin251204/dsh-plugin-surgery</title>
-    <id>https://github.com/ruimin251204/dsh-plugin-surgery</id>
-    <link href="https://github.com/ruimin251204/dsh-plugin-surgery"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>插件手术刀：安全卸载（dry-run 预览影响面、快照、三方对账、失败自动回滚）、一键回滚、restart-pending 确认与插件体检。</summary>
   </entry>
 </feed>

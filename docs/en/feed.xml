@@ -4,7 +4,14 @@
   <id>https://beancookie.github.io/awesome-dsh-plugin/en/</id>
   <link href="https://beancookie.github.io/awesome-dsh-plugin/en/"/>
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
-  <updated>2026-08-16T00:00:00Z</updated>
+  <updated>2026-08-17T00:00:00Z</updated>
+  <entry>
+    <title>yoli-mi/dsh-client-ui-custom</title>
+    <id>https://github.com/yoli-mi/dsh-client-ui-custom</id>
+    <link href="https://github.com/yoli-mi/dsh-client-ui-custom"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Web theming (wallpaper, glass, accent, presets), keyboard shortcuts, usage stats, a plugin marketplace, a floating history strip, and user-message Markdown rendering.</summary>
+  </entry>
   <entry>
     <title>Zhangbo-cn/dsh-voice-input-plugin</title>
     <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
@@ -207,12 +214,5 @@
     <link href="https://github.com/Laplace-bit/dsh-bell-notify"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Lifecycle bells and a status dot: per-event chimes synthesized live with Web Audio (zero audio files), plus a breathing indicator for agent state.</summary>
-  </entry>
-  <entry>
-    <title>ruimin251204/dsh-plugin-surgery</title>
-    <id>https://github.com/ruimin251204/dsh-plugin-surgery</id>
-    <link href="https://github.com/ruimin251204/dsh-plugin-surgery"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Plugin surgery: safe uninstall (dry-run impact preview, snapshot, three-way verification, auto-rollback on failure), one-click rollback, restart-pending confirmation, and a plugin doctor.</summary>
   </entry>
 </feed>

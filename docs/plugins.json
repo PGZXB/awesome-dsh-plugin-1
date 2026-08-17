@@ -2,8 +2,8 @@
  "name": "awesome-dsh-plugin",
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
- "updated": "2026-08-16",
- "count": 319,
+ "updated": "2026-08-17",
+ "count": 320,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -856,6 +856,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:Laplace-bit/dsh-smooth-stream",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-client-ui-custom",
+   "owner": "yoli-mi",
+   "url": "https://github.com/yoli-mi/dsh-client-ui-custom",
+   "category": "ui",
+   "description": {
+    "zh": "Web 外观主题定制（壁纸、毛玻璃、强调色、预设）、键盘快捷键、用量统计、插件市场、浮动历史条与用户消息 Markdown 渲染。",
+    "en": "Web theming (wallpaper, glass, accent, presets), keyboard shortcuts, usage stats, a plugin marketplace, a floating history strip, and user-message Markdown rendering."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:yoli-mi/dsh-client-ui-custom",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-theme-firefly",
