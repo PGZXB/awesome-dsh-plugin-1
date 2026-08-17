@@ -913,6 +913,148 @@
   "etag": "W/\"7a0cbef2f6015ccbaa5f315b283490124266827cb9ac50b595af83fdad2136b1\"",
   "checkedAt": "2026-08-17"
  },
+ "https://github.com/JohnXu22786/adversarial-review": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"677eaac63dc66d514b12516cdb7f1aafc80badd09ee74750204fd409594e9340\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/browser-automation": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"4600f99df1a95f3622e78590fbc8706f5cf4f3890381949414abd6b7d36fb7ac\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/codegraph": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"4ab0891731e2f6159ac107f104eb617d95b4f6365c05fdccf0fa110a0d7a0fe6\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/command-scout": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"49f6770a0edef9d4ae183ccde57edf478fad63a6e3f4d979382a466a2d85076f\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/computer-control": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"0c44abe506e51b78d6ba459dccfa1586b0eb35b90b530235e2f6694a882ea7c9\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/context-pruner": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"173beebd12a65cea0b698d20106a29a72708d040736a89bb64d1d0d8d1851f53\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/docgen": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"f5ddd0ca83d82bcde7e531e4f47295e83821827db5d5844469726aacaa752650\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/docs-retriever": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"273ee1815921d4ce0a50536e471c1d39e64d14343b9c3670b6e95b2e8e8945a4\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/file-planning": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"681fde079a4612af3c8cea7200e7f8c9c443354d44566f63c5726f7daacc41fe\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/fs-mcp": {
+  "stars": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/github-mcp": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"fd5ec17a2108f6afbb99b64a105471a7e9dbf66c5f84fba3b5573dc3e8d6a730\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/hooks-adapter": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"8c06436915769e600d93d7dd81d4c57826d598971efff5df28e38ef2f7a0ffeb\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/memory-vault": {
+  "stars": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/model-catalog": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"8dc028af49e51cf997a5fd355b47437256854d4cd33958f3d7aac363dad709cf\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/notifier": {
+  "stars": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/pty-runner": {
+  "stars": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/safety-net": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"075143307bccb2c0a834c650cbc74ff57c45c5beebc943ca8392f0bb982af15a\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/secret-guard": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"c24877a61d9968e128c24ecf097d318d099d1e924085aef0ec75132050f2e3cf\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/session-titler": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"5399300a98342f1c4b17d070c282c19e8c6db32b1568825b9d706dd7ea7f57af\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/skill-framework": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"4ed7790076521e72e60b47a95ca150257f95b8d4dd1d8eeaa6ec041f1ae313c9\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/skill-manager": {
+  "stars": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/snippet-expander": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"464a7260121d2a23251eb8a0ea323f822860922fed27f7c8589e21b34319cabc\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/spec-driven": {
+  "stars": 0,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"8ad301f988f88c13909acc6094c7676dc17472b152a38e9eb17c22bd9262e578\"",
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/statusline": {
+  "stars": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/task-board": {
+  "stars": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/worktree-mgr": {
+  "stars": 1,
+  "createdAt": "2026-08-16",
+  "etag": "W/\"78989e50e514386b9cd3aff4eb6811d77f02ece9ca4724b9cf3e82bfa9d20ab6\"",
+  "checkedAt": "2026-08-17"
+ },
  "https://github.com/Jolly-J/dsh-deepseek-billing": {
   "stars": 4,
   "createdAt": "2026-08-14",

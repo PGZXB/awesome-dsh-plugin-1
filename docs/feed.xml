@@ -69,6 +69,20 @@
     <summary>会话历史消息查看：列出当前会话全部你发送的消息，支持排序、搜索、一键复制与点击跳转定位（目标未加载时自动加载更早历史）。</summary>
   </entry>
   <entry>
+    <title>session-titler</title>
+    <id>https://github.com/JohnXu22786/session-titler</id>
+    <link href="https://github.com/JohnXu22786/session-titler"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>双阶段会话标题生成：忙碌时即时关键词标题，空闲时由经济模型精修。</summary>
+  </entry>
+  <entry>
+    <title>memory-vault</title>
+    <id>https://github.com/JohnXu22786/memory-vault</id>
+    <link href="https://github.com/JohnXu22786/memory-vault"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>跨会话持久记忆插件：SQLite 本地存储 + 关键词/语义混合检索 + Web/MCP 界面，供编码代理存取经验与决策。</summary>
+  </entry>
+  <entry>
     <title>IWAIBAOLI/dsh-with-pencil</title>
     <id>https://github.com/IWAIBAOLI/dsh-with-pencil</id>
     <link href="https://github.com/IWAIBAOLI/dsh-with-pencil"/>
@@ -111,108 +125,94 @@
     <summary>独立浏览器验收测试：JSON 清单驱动真实 Chromium，断言计算样式与像素差异，输出 HTML 报告 + 0/1 退出码；提供 npm CLI、GitHub Action 与 MCP Server。</summary>
   </entry>
   <entry>
-    <title>gwrsfsfeefdsfs/dsh-skill-curator</title>
-    <id>https://github.com/gwrsfsfeefdsfs/dsh-skill-curator</id>
-    <link href="https://github.com/gwrsfsfeefdsfs/dsh-skill-curator"/>
+    <title>safety-net</title>
+    <id>https://github.com/JohnXu22786/safety-net</id>
+    <link href="https://github.com/JohnXu22786/safety-net"/>
     <updated>2026-08-17T00:00:00Z</updated>
-    <summary>DSH skill 经验回流与知识积累元技能：其他 skill 出问题解决后自动回流解决方案并登记知识库（关键词 + 本地 bge 语义双通道检索、7 项写回判断清单、防臃肿归档），附自校验与事件钩子工具。</summary>
+    <summary>编码 agent 破坏性命令拦截闸门：rm -rf / git reset --hard / push --force 执行前解析判定并要求人工确认（dsh 插件 + 通用 CLI）。</summary>
   </entry>
   <entry>
-    <title>tianxia--/dsh-llm-local-token</title>
-    <id>https://github.com/tianxia--/dsh-llm-local-token</id>
-    <link href="https://github.com/tianxia--/dsh-llm-local-token"/>
+    <title>context-pruner</title>
+    <id>https://github.com/JohnXu22786/context-pruner</id>
+    <link href="https://github.com/JohnXu22786/context-pruner"/>
     <updated>2026-08-17T00:00:00Z</updated>
-    <summary>复用本机 Codex CLI 与 Claude Code 的 OAuth 凭据注册 OpenAI Codex 和 Anthropic 模型路由，并在 Web 中显示订阅用量。</summary>
+    <summary>会话上下文整理插件：修剪过期、重复、失败与过大的上下文以节省 token 预算。</summary>
   </entry>
   <entry>
-    <title>xgone/dsh-remote</title>
-    <id>https://github.com/xgone/dsh-remote</id>
-    <link href="https://github.com/xgone/dsh-remote"/>
+    <title>command-scout</title>
+    <id>https://github.com/JohnXu22786/command-scout</id>
+    <link href="https://github.com/JohnXu22786/command-scout"/>
     <updated>2026-08-17T00:00:00Z</updated>
-    <summary>DeepSeek Harness 网页端远程访问与认证：账号/密码登录门、MFA（TOTP 两步验证）、签名会话 Cookie、基于角色的访问控制、浏览器内目录选择器，以及账号管理设置页。</summary>
+    <summary>扫描项目声明的构建命令（Makefile、package.json scripts、justfile、deno tasks）并作为 agent 工具暴露。</summary>
   </entry>
   <entry>
-    <title>beancookie/dsh-plugin-nintendo</title>
-    <id>https://github.com/beancookie/dsh-plugin-nintendo</id>
-    <link href="https://github.com/beancookie/dsh-plugin-nintendo"/>
+    <title>browser-automation</title>
+    <id>https://github.com/JohnXu22786/browser-automation</id>
+    <link href="https://github.com/JohnXu22786/browser-automation"/>
     <updated>2026-08-17T00:00:00Z</updated>
-    <summary>基于 jsnes 的 NES 模拟器：独立弹窗游玩、快捷键开关，Agent 可调用 `nes_play` 工具加载 ROM，支持存档/读档/截图。</summary>
+    <summary>Web Bridge：面向 dsh 的浏览器自动化 MCP 服务器——真实浏览器导航、点击、填表、截图、JS 执行，无障碍快照驱动。</summary>
   </entry>
   <entry>
-    <title>Zhangbo-cn/dsh-voice-input-plugin</title>
-    <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
-    <link href="https://github.com/Zhangbo-cn/dsh-voice-input-plugin"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>输入框麦克风：点击持续监控、按住对话；浏览器语音识别逐字上屏，回复由 host Edge TTS 边生成边朗读（句子切分），朗读时暂停识别防回声，点击可停止。</summary>
+    <title>github-mcp</title>
+    <id>https://github.com/JohnXu22786/github-mcp</id>
+    <link href="https://github.com/JohnXu22786/github-mcp"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>repogate：GitHub 开发者工作台 MCP 服务器——仓库、issue、PR、代码审查、搜索，零运行时依赖。</summary>
   </entry>
   <entry>
-    <title>lak321/dsh-filetree</title>
-    <id>https://github.com/lak321/dsh-filetree</id>
-    <link href="https://github.com/lak321/dsh-filetree"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>工程文件浏览器：会话视图文件页签，目录树 + VSCode 风格编辑器（C 语法高亮/行号/自动缩进/状态栏），跟随当前工作区。</summary>
+    <title>snippet-expander</title>
+    <id>https://github.com/JohnXu22786/snippet-expander</id>
+    <link href="https://github.com/JohnXu22786/snippet-expander"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。</summary>
   </entry>
   <entry>
-    <title>Laplace-bit/dsh-smooth-stream</title>
-    <id>https://github.com/Laplace-bit/dsh-smooth-stream</id>
-    <link href="https://github.com/Laplace-bit/dsh-smooth-stream"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>丝滑流式渲染：字跟着模型到达走、换行滑入、不闪，滚动归用户，尊重 `prefers-reduced-motion`。</summary>
+    <title>secret-guard</title>
+    <id>https://github.com/JohnXu22786/secret-guard</id>
+    <link href="https://github.com/JohnXu22786/secret-guard"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>阻止 agent 读写敏感文件（.env、凭据），掩码工具结果中泄露的密钥，附审计日志与安全的 sg_* 检查工具。</summary>
   </entry>
   <entry>
-    <title>Liu-ZA-81/dsh-theme-firefly</title>
-    <id>https://github.com/Liu-ZA-81/dsh-theme-firefly</id>
-    <link href="https://github.com/Liu-ZA-81/dsh-theme-firefly"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>崩坏：星穹铁道「流萤」主题：立绘/动态壁纸、萤火绿霓虹配色、开屏变身动画、萤火氛围粒子、背景音乐、打字音效与按对话触发的表情包彩蛋。</summary>
+    <title>adversarial-review</title>
+    <id>https://github.com/JohnXu22786/adversarial-review</id>
+    <link href="https://github.com/JohnXu22786/adversarial-review"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>gavel-review：对抗式多视角代码审查——并行攻击视角、确定性静态哨兵、严重度定级与审查历史。</summary>
   </entry>
   <entry>
-    <title>xiaoyanzi191/dsh-premium-themes</title>
-    <id>https://github.com/xiaoyanzi191/dsh-premium-themes</id>
-    <link href="https://github.com/xiaoyanzi191/dsh-premium-themes"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>8 套精选配色方案与自定义调色板导入（名称+方案+种子色推导完整 token 映射），设置页「调色板」行，热插拔安装。</summary>
+    <title>docs-retriever</title>
+    <id>https://github.com/JohnXu22786/docs-retriever</id>
+    <link href="https://github.com/JohnXu22786/docs-retriever"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>doctrove：版本化库文档检索 MCP 服务器，零运行时依赖，可作 dsh 插件 bundle 安装。</summary>
   </entry>
   <entry>
-    <title>ink5897/dsh-theme-kit</title>
-    <id>https://github.com/ink5897/dsh-theme-kit</id>
-    <link href="https://github.com/ink5897/dsh-theme-kit"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>32 款预设主题（莫兰迪 / 马卡龙 / 中国传统色）、动态与静态壁纸、纸纹纹理、分区透明度与文字深浅，附按键桌宠。</summary>
+    <title>fs-mcp</title>
+    <id>https://github.com/JohnXu22786/fs-mcp</id>
+    <link href="https://github.com/JohnXu22786/fs-mcp"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>paddock：受限本地文件系统 MCP 服务器——文件访问限定在可配置区域，零运行时依赖。</summary>
   </entry>
   <entry>
-    <title>futongxu9-maker/dsh-msgrail</title>
-    <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
-    <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>对话右缘消息轨道：每条用户消息一个品牌色圆点，悬停预览、点击跳转、自动加载未加载历史，纯插件零宿主侵入。</summary>
+    <title>worktree-mgr</title>
+    <id>https://github.com/JohnXu22786/worktree-mgr</id>
+    <link href="https://github.com/JohnXu22786/worktree-mgr"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>任务隔离的 git 工作区：按任务自动创建、同步与收尾隔离工作区。</summary>
   </entry>
   <entry>
-    <title>edfrey0044/dsh-unarchive</title>
-    <id>https://github.com/edfrey0044/dsh-unarchive</id>
-    <link href="https://github.com/edfrey0044/dsh-unarchive"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>恢复已归档会话：/unarchive 命令与 unarchive_session 工具，把会话移出归档集合、在原位置重新出现在工作区（归档从不删除数据）。</summary>
+    <title>statusline</title>
+    <id>https://github.com/JohnXu22786/statusline</id>
+    <link href="https://github.com/JohnXu22786/statusline"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>实时终端状态行：一行展示模型、上下文占用、子代理、速率限制与会话时长。</summary>
   </entry>
   <entry>
-    <title>bowenliang123/dsh-context</title>
-    <id>https://github.com/bowenliang123/dsh-context</id>
-    <link href="https://github.com/bowenliang123/dsh-context"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>上下文洞察面板：一眼看清模型上下文窗口的组成与变化——构成对照窗口大小、按请求历史趋势、压缩/注入事件、消息级 token 统计。</summary>
-  </entry>
-  <entry>
-    <title>Breeze136/kb-rag</title>
-    <id>https://github.com/Breeze136/kb-rag</id>
-    <link href="https://github.com/Breeze136/kb-rag"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>本地文献知识库 RAG：8 个工具（PDF/文件夹/Zotero 入库、BM25+向量+重排混合检索、DOI 可点击溯源问答、范围/严格模式、去重/清空/统计），全本地 bge 嵌入 + 单文件 SQLite，实测 242 篇 86s 入库、2 万块亚秒热查询。</summary>
-  </entry>
-  <entry>
-    <title>futongxu9-maker/dsh-shared-memory</title>
-    <id>https://github.com/futongxu9-maker/dsh-shared-memory</id>
-    <link href="https://github.com/futongxu9-maker/dsh-shared-memory"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>跨对话共享记忆：MEMORY.md + USER.md 注入每个会话系统提示词，memory 工具 + 可视化记忆面板，Hermes 式实现。</summary>
+    <title>codegraph</title>
+    <id>https://github.com/JohnXu22786/codegraph</id>
+    <link href="https://github.com/JohnXu22786/codegraph"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>代码知识图谱：把符号、调用点与导入索引进 SQLite，回答调用/依赖问题。</summary>
   </entry>
 </feed>

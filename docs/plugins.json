@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 338,
+ "count": 364,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1507,6 +1507,21 @@
    "added": "2026-08-17"
   },
   {
+   "name": "session-titler",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/session-titler",
+   "category": "session",
+   "description": {
+    "zh": "双阶段会话标题生成：忙碌时即时关键词标题，空闲时由经济模型精修。",
+    "en": "Two-phase session captioning: instant keyword captions while busy, budget-model refinement when idle."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/session-titler",
+   "added": "2026-08-17"
+  },
+  {
    "name": "dsh-context",
    "owner": "bowenliang123",
    "url": "https://github.com/bowenliang123/dsh-context",
@@ -1760,6 +1775,21 @@
    "createdAt": "2026-08-15",
    "install": "dsh plugin --profile web add github:futongxu9-maker/dsh-shared-memory",
    "added": "2026-08-16"
+  },
+  {
+   "name": "memory-vault",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/memory-vault",
+   "category": "memory",
+   "description": {
+    "zh": "跨会话持久记忆插件：SQLite 本地存储 + 关键词/语义混合检索 + Web/MCP 界面，供编码代理存取经验与决策。",
+    "en": "Cross-session persistent memory for coding agents: SQLite local storage, hybrid keyword/semantic retrieval, Web and MCP interfaces."
+   },
+   "npm": null,
+   "stars": null,
+   "createdAt": null,
+   "install": "dsh plugin --profile web add github:JohnXu22786/memory-vault",
+   "added": "2026-08-17"
   },
   {
    "name": "hkinsure",
@@ -3127,6 +3157,231 @@
    "added": "2026-08-17"
   },
   {
+   "name": "safety-net",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/safety-net",
+   "category": "tools",
+   "description": {
+    "zh": "编码 agent 破坏性命令拦截闸门：rm -rf / git reset --hard / push --force 执行前解析判定并要求人工确认（dsh 插件 + 通用 CLI）。",
+    "en": "Destructive-command interception gate: parses and requires human approval for rm -rf / git reset --hard / push --force before execution (dsh plugin + standalone CLI)."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/safety-net",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "context-pruner",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/context-pruner",
+   "category": "tools",
+   "description": {
+    "zh": "会话上下文整理插件：修剪过期、重复、失败与过大的上下文以节省 token 预算。",
+    "en": "Session context triage: prunes stale, repeated, failed and oversized context to save token budget."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/context-pruner",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "command-scout",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/command-scout",
+   "category": "tools",
+   "description": {
+    "zh": "扫描项目声明的构建命令（Makefile、package.json scripts、justfile、deno tasks）并作为 agent 工具暴露。",
+    "en": "Scans declared project build commands (Makefile, package.json scripts, justfile, deno tasks) and exposes them as agent tools."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/command-scout",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "browser-automation",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/browser-automation",
+   "category": "tools",
+   "description": {
+    "zh": "Web Bridge：面向 dsh 的浏览器自动化 MCP 服务器——真实浏览器导航、点击、填表、截图、JS 执行，无障碍快照驱动。",
+    "en": "Web Bridge: real-browser automation MCP server — navigation, click, form-fill, screenshots, JS execution, accessibility-snapshot driven."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/browser-automation",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "github-mcp",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/github-mcp",
+   "category": "tools",
+   "description": {
+    "zh": "repogate：GitHub 开发者工作台 MCP 服务器——仓库、issue、PR、代码审查、搜索，零运行时依赖。",
+    "en": "repogate: GitHub developer workbench MCP server — repos, issues, PRs, code review, search, zero runtime dependencies."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/github-mcp",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "snippet-expander",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/snippet-expander",
+   "category": "tools",
+   "description": {
+    "zh": "Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。",
+    "en": "Steno: inline #tag shorthand expansion before send — multi-library, aliases, {{variables}}, recursion guards."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/snippet-expander",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "secret-guard",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/secret-guard",
+   "category": "tools",
+   "description": {
+    "zh": "阻止 agent 读写敏感文件（.env、凭据），掩码工具结果中泄露的密钥，附审计日志与安全的 sg_* 检查工具。",
+    "en": "Blocks agents from reading/writing sensitive files, masks leaked secrets in tool results, with an audit journal."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/secret-guard",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "adversarial-review",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/adversarial-review",
+   "category": "tools",
+   "description": {
+    "zh": "gavel-review：对抗式多视角代码审查——并行攻击视角、确定性静态哨兵、严重度定级与审查历史。",
+    "en": "gavel-review: adversarial multi-perspective code review — parallel attack lenses, static sentinels, severity grading."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/adversarial-review",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "docs-retriever",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/docs-retriever",
+   "category": "tools",
+   "description": {
+    "zh": "doctrove：版本化库文档检索 MCP 服务器，零运行时依赖，可作 dsh 插件 bundle 安装。",
+    "en": "doctrove: versioned library documentation retrieval MCP server, zero runtime dependencies."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/docs-retriever",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "fs-mcp",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/fs-mcp",
+   "category": "tools",
+   "description": {
+    "zh": "paddock：受限本地文件系统 MCP 服务器——文件访问限定在可配置区域，零运行时依赖。",
+    "en": "paddock: constrained local filesystem MCP server — file access confined to configurable zones, zero runtime dependencies."
+   },
+   "npm": null,
+   "stars": null,
+   "createdAt": null,
+   "install": "dsh plugin --profile web add github:JohnXu22786/fs-mcp",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "worktree-mgr",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/worktree-mgr",
+   "category": "tools",
+   "description": {
+    "zh": "任务隔离的 git 工作区：按任务自动创建、同步与收尾隔离工作区。",
+    "en": "Task-isolated git worktrees: auto-create, sync and tear down isolated workspaces per task."
+   },
+   "npm": null,
+   "stars": 1,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/worktree-mgr",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "statusline",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/statusline",
+   "category": "tools",
+   "description": {
+    "zh": "实时终端状态行：一行展示模型、上下文占用、子代理、速率限制与会话时长。",
+    "en": "Real-time terminal statusline: model, context usage, sub-agents, rate limits and session time in one line."
+   },
+   "npm": null,
+   "stars": null,
+   "createdAt": null,
+   "install": "dsh plugin --profile web add github:JohnXu22786/statusline",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "codegraph",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/codegraph",
+   "category": "tools",
+   "description": {
+    "zh": "代码知识图谱：把符号、调用点与导入索引进 SQLite，回答调用/依赖问题。",
+    "en": "Code knowledge graph: indexes symbols, call sites and imports into SQLite, answers call/dependency questions."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/codegraph",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "pty-runner",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/pty-runner",
+   "category": "tools",
+   "description": {
+    "zh": "后台终端（PTY）任务管理：启动长时进程、喂入输入、翻页输出、按需停止。",
+    "en": "Background terminal (PTY) job management: launch long-running processes, feed input, page output, stop on demand."
+   },
+   "npm": null,
+   "stars": null,
+   "createdAt": null,
+   "install": "dsh plugin --profile web add github:JohnXu22786/pty-runner",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "computer-control",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/computer-control",
+   "category": "tools",
+   "description": {
+    "zh": "桌面控制：屏幕捕获、指针/键盘注入、无障碍树操作、确认流程与紧急停止。",
+    "en": "Desktop control: screen capture, pointer/keyboard injection, accessibility-tree actions, confirmation flow, emergency stop."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/computer-control",
+   "added": "2026-08-17"
+  },
+  {
    "name": "dsh-ponytail",
    "owner": "gongyijie85",
    "url": "https://github.com/gongyijie85/dsh-ponytail",
@@ -3229,6 +3484,66 @@
    "stars": 1,
    "createdAt": "2026-08-17",
    "install": "dsh plugin --profile web add github:gwrsfsfeefdsfs/dsh-skill-curator",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "skill-framework",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/skill-framework",
+   "category": "skill",
+   "description": {
+    "zh": "Praxis：面向 dsh 的工程方法论技能库（Agent Skills），以 Cordis 插件形式经 ctx.skills 提供。",
+    "en": "Praxis: bundled engineering-methodology skill library (Agent Skills) for dsh, served as a Cordis plugin via ctx.skills."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/skill-framework",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "skill-manager",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/skill-manager",
+   "category": "skill",
+   "description": {
+    "zh": "多区域技能发现、渐进式披露、创建向导、审计与统计。",
+    "en": "Multi-zone skill discovery, progressive disclosure, creation wizard, audit and statistics."
+   },
+   "npm": null,
+   "stars": null,
+   "createdAt": null,
+   "install": "dsh plugin --profile web add github:JohnXu22786/skill-manager",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "spec-driven",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/spec-driven",
+   "category": "skill",
+   "description": {
+    "zh": "keel（龙骨）：规格驱动开发纪律技能包——先立规格、验证假设、防止过度工程与范围蔓延。",
+    "en": "keel (龙骨): spec-driven development discipline skill pack — spec first, verify assumptions, prevent over-engineering."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/spec-driven",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "docgen",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/docgen",
+   "category": "skill",
+   "description": {
+    "zh": "文档工坊技能包：纯提示词文档生成——README、PR 描述、changelog 与代码审查。",
+    "en": "Documentation workshop skill pack: pure-prompt doc generation — README, PR description, changelog, code review."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/docgen",
    "added": "2026-08-17"
   },
   {
@@ -3577,6 +3892,36 @@
    "added": "2026-08-16"
   },
   {
+   "name": "file-planning",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/file-planning",
+   "category": "workflow",
+   "description": {
+    "zh": "trailmap：磁盘持久化执行规划——里程碑状态机、依赖标注、审计事件与复盘纪要。",
+    "en": "trailmap: disk-persisted execution planning — milestone state machines, dependency tagging, audit events, retrospective notes."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/file-planning",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "task-board",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/task-board",
+   "category": "workflow",
+   "description": {
+    "zh": "跨会话事件溯源工作台账：任务跟踪、审计历史、看板导出。",
+    "en": "Cross-session event-sourced work ledger: task tracking, audit history, kanban export."
+   },
+   "npm": null,
+   "stars": null,
+   "createdAt": null,
+   "install": "dsh plugin --profile web add github:JohnXu22786/task-board",
+   "added": "2026-08-17"
+  },
+  {
    "name": "dsh-open-in-vscode",
    "owner": "omdsh-dev",
    "url": "https://github.com/omdsh-dev/dsh-open-in-vscode",
@@ -3832,6 +4177,21 @@
    "added": "2026-08-16"
   },
   {
+   "name": "notifier",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/notifier",
+   "category": "notify",
+   "description": {
+    "zh": "dsh-chime：桌面信号插件——任务完成、等待批准或出错时发送通知与提示音。",
+    "en": "dsh-chime: desktop signal plugin — notifications and tones when a task finishes, waits for approval, or errors out."
+   },
+   "npm": null,
+   "stars": null,
+   "createdAt": null,
+   "install": "dsh plugin --profile web add github:JohnXu22786/notifier",
+   "added": "2026-08-17"
+  },
+  {
    "name": "llm-adaptive",
    "owner": "dylan121322",
    "url": "https://github.com/dylan121322/llm-adaptive",
@@ -3950,6 +4310,21 @@
    "createdAt": "2026-08-05",
    "install": "dsh plugin --profile web add github:dsh-external/dsh-vision",
    "added": "2026-08-14"
+  },
+  {
+   "name": "model-catalog",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/model-catalog",
+   "category": "model",
+   "description": {
+    "zh": "模型目录自动发现：从 OpenAI 兼容主机获取模型列表、价格与能力，归一化为即用配置。",
+    "en": "Model catalog auto-discovery: fetches model listings, pricing and capabilities from OpenAI-compatible hosts into ready-to-use config."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/model-catalog",
+   "added": "2026-08-17"
   },
   {
    "name": "fabric",
@@ -4789,6 +5164,21 @@
    "stars": 4,
    "createdAt": "2026-08-16",
    "install": "dsh plugin --profile web add @xgone/dsh-remote",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "hooks-adapter",
+   "owner": "JohnXu22786",
+   "url": "https://github.com/JohnXu22786/hooks-adapter",
+   "category": "dev",
+   "description": {
+    "zh": "通用 hooks 兼容层：在 dsh 上运行 Claude Code / Codex / opencode 配置中声明的 hooks。",
+    "en": "Universal hooks compatibility layer: runs hooks declared in Claude Code / Codex / opencode configs on dsh."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:JohnXu22786/hooks-adapter",
    "added": "2026-08-17"
   },
   {

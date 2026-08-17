@@ -623,6 +623,110 @@
   "npm": null,
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/JohnXu22786/adversarial-review": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/browser-automation": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/codegraph": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/command-scout": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/computer-control": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/context-pruner": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/docgen": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/docs-retriever": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/file-planning": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/fs-mcp": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/github-mcp": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/hooks-adapter": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/memory-vault": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/model-catalog": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/notifier": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/pty-runner": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/safety-net": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/secret-guard": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/session-titler": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/skill-framework": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/skill-manager": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/snippet-expander": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/spec-driven": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/statusline": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/task-board": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
+ "https://github.com/JohnXu22786/worktree-mgr": {
+  "npm": null,
+  "checkedAt": "2026-08-17"
+ },
  "https://github.com/Jolly-J/dsh-deepseek-billing": {
   "npm": null,
   "checkedAt": "2026-08-14"

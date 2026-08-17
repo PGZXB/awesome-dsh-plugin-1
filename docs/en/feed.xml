@@ -69,6 +69,20 @@
     <summary>Browse every message you sent in the current session: full-history listing with newest-first sort, text filter, one-click copy, and click-to-jump that auto-loads earlier history when the target is not yet loaded.</summary>
   </entry>
   <entry>
+    <title>session-titler</title>
+    <id>https://github.com/JohnXu22786/session-titler</id>
+    <link href="https://github.com/JohnXu22786/session-titler"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Two-phase session captioning: instant keyword captions while busy, budget-model refinement when idle.</summary>
+  </entry>
+  <entry>
+    <title>memory-vault</title>
+    <id>https://github.com/JohnXu22786/memory-vault</id>
+    <link href="https://github.com/JohnXu22786/memory-vault"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Cross-session persistent memory for coding agents: SQLite local storage, hybrid keyword/semantic retrieval, Web and MCP interfaces.</summary>
+  </entry>
+  <entry>
     <title>IWAIBAOLI/dsh-with-pencil</title>
     <id>https://github.com/IWAIBAOLI/dsh-with-pencil</id>
     <link href="https://github.com/IWAIBAOLI/dsh-with-pencil"/>
@@ -111,108 +125,94 @@
     <summary>Independent browser acceptance testing for agent deliverables: JSON spec drives real headless Chromium, asserts computed styles and pixel diffs, returns an HTML report and 0/1 exit code; ships npm CLI, GitHub Action, and MCP server.</summary>
   </entry>
   <entry>
-    <title>gwrsfsfeefdsfs/dsh-skill-curator</title>
-    <id>https://github.com/gwrsfsfeefdsfs/dsh-skill-curator</id>
-    <link href="https://github.com/gwrsfsfeefdsfs/dsh-skill-curator"/>
+    <title>safety-net</title>
+    <id>https://github.com/JohnXu22786/safety-net</id>
+    <link href="https://github.com/JohnXu22786/safety-net"/>
     <updated>2026-08-17T00:00:00Z</updated>
-    <summary>Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools.</summary>
+    <summary>Destructive-command interception gate: parses and requires human approval for rm -rf / git reset --hard / push --force before execution (dsh plugin + standalone CLI).</summary>
   </entry>
   <entry>
-    <title>tianxia--/dsh-llm-local-token</title>
-    <id>https://github.com/tianxia--/dsh-llm-local-token</id>
-    <link href="https://github.com/tianxia--/dsh-llm-local-token"/>
+    <title>context-pruner</title>
+    <id>https://github.com/JohnXu22786/context-pruner</id>
+    <link href="https://github.com/JohnXu22786/context-pruner"/>
     <updated>2026-08-17T00:00:00Z</updated>
-    <summary>Reuses local Codex CLI and Claude Code OAuth credentials as OpenAI Codex and Anthropic model routes, with subscription usage shown in Web.</summary>
+    <summary>Session context triage: prunes stale, repeated, failed and oversized context to save token budget.</summary>
   </entry>
   <entry>
-    <title>xgone/dsh-remote</title>
-    <id>https://github.com/xgone/dsh-remote</id>
-    <link href="https://github.com/xgone/dsh-remote"/>
+    <title>command-scout</title>
+    <id>https://github.com/JohnXu22786/command-scout</id>
+    <link href="https://github.com/JohnXu22786/command-scout"/>
     <updated>2026-08-17T00:00:00Z</updated>
-    <summary>Remote access &amp; authentication for the DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and an account-management settings page.</summary>
+    <summary>Scans declared project build commands (Makefile, package.json scripts, justfile, deno tasks) and exposes them as agent tools.</summary>
   </entry>
   <entry>
-    <title>beancookie/dsh-plugin-nintendo</title>
-    <id>https://github.com/beancookie/dsh-plugin-nintendo</id>
-    <link href="https://github.com/beancookie/dsh-plugin-nintendo"/>
+    <title>browser-automation</title>
+    <id>https://github.com/JohnXu22786/browser-automation</id>
+    <link href="https://github.com/JohnXu22786/browser-automation"/>
     <updated>2026-08-17T00:00:00Z</updated>
-    <summary>NES emulator built on jsnes: play in a popup window with a hotkey toggle, agents can load ROMs via the `nes_play` tool, with save/load and screenshots.</summary>
+    <summary>Web Bridge: real-browser automation MCP server — navigation, click, form-fill, screenshots, JS execution, accessibility-snapshot driven.</summary>
   </entry>
   <entry>
-    <title>Zhangbo-cn/dsh-voice-input-plugin</title>
-    <id>https://github.com/Zhangbo-cn/dsh-voice-input-plugin</id>
-    <link href="https://github.com/Zhangbo-cn/dsh-voice-input-plugin"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Composer microphone: click for continuous monitoring or hold to talk; browser speech recognition types words into the composer as you speak, while replies are read aloud as they stream via host Edge TTS (sentence-split), pausing recognition while reading to avoid echo, click to stop.</summary>
+    <title>github-mcp</title>
+    <id>https://github.com/JohnXu22786/github-mcp</id>
+    <link href="https://github.com/JohnXu22786/github-mcp"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>repogate: GitHub developer workbench MCP server — repos, issues, PRs, code review, search, zero runtime dependencies.</summary>
   </entry>
   <entry>
-    <title>lak321/dsh-filetree</title>
-    <id>https://github.com/lak321/dsh-filetree</id>
-    <link href="https://github.com/lak321/dsh-filetree"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Project file browser: per-session file tabs, a directory tree, and a VSCode-style editor (C syntax highlighting, line numbers, auto-indent, status bar) that follows the current workspace.</summary>
+    <title>snippet-expander</title>
+    <id>https://github.com/JohnXu22786/snippet-expander</id>
+    <link href="https://github.com/JohnXu22786/snippet-expander"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Steno: inline #tag shorthand expansion before send — multi-library, aliases, {{variables}}, recursion guards.</summary>
   </entry>
   <entry>
-    <title>Laplace-bit/dsh-smooth-stream</title>
-    <id>https://github.com/Laplace-bit/dsh-smooth-stream</id>
-    <link href="https://github.com/Laplace-bit/dsh-smooth-stream"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Silky streaming reveal for the Web UI: text appears at the model's arrival rate, new lines glide in, no flicker; follow stays with the user and `prefers-reduced-motion` is respected.</summary>
+    <title>secret-guard</title>
+    <id>https://github.com/JohnXu22786/secret-guard</id>
+    <link href="https://github.com/JohnXu22786/secret-guard"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Blocks agents from reading/writing sensitive files, masks leaked secrets in tool results, with an audit journal.</summary>
   </entry>
   <entry>
-    <title>Liu-ZA-81/dsh-theme-firefly</title>
-    <id>https://github.com/Liu-ZA-81/dsh-theme-firefly</id>
-    <link href="https://github.com/Liu-ZA-81/dsh-theme-firefly"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>A Honkai: Star Rail &quot;Firefly&quot; theme: wallpaper/video backgrounds, firefly-green neon palette, transformation boot animation, ambient particles, BGM, typewriter SFX, and context-aware emote easter eggs.</summary>
+    <title>adversarial-review</title>
+    <id>https://github.com/JohnXu22786/adversarial-review</id>
+    <link href="https://github.com/JohnXu22786/adversarial-review"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>gavel-review: adversarial multi-perspective code review — parallel attack lenses, static sentinels, severity grading.</summary>
   </entry>
   <entry>
-    <title>xiaoyanzi191/dsh-premium-themes</title>
-    <id>https://github.com/xiaoyanzi191/dsh-premium-themes</id>
-    <link href="https://github.com/xiaoyanzi191/dsh-premium-themes"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>8 curated color schemes plus custom palette import (name + scheme + seed colors derive a full token map), a Palette row in General settings, hot-plug install.</summary>
+    <title>docs-retriever</title>
+    <id>https://github.com/JohnXu22786/docs-retriever</id>
+    <link href="https://github.com/JohnXu22786/docs-retriever"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>doctrove: versioned library documentation retrieval MCP server, zero runtime dependencies.</summary>
   </entry>
   <entry>
-    <title>ink5897/dsh-theme-kit</title>
-    <id>https://github.com/ink5897/dsh-theme-kit</id>
-    <link href="https://github.com/ink5897/dsh-theme-kit"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>32 preset themes across three palettes (Morandi, Macaron, Chinese traditional), animated and static wallpapers, paper textures, per-zone opacity and text depth, plus a keyboard desktop pet.</summary>
+    <title>fs-mcp</title>
+    <id>https://github.com/JohnXu22786/fs-mcp</id>
+    <link href="https://github.com/JohnXu22786/fs-mcp"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>paddock: constrained local filesystem MCP server — file access confined to configurable zones, zero runtime dependencies.</summary>
   </entry>
   <entry>
-    <title>futongxu9-maker/dsh-msgrail</title>
-    <id>https://github.com/futongxu9-maker/dsh-msgrail</id>
-    <link href="https://github.com/futongxu9-maker/dsh-msgrail"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Message-index rail at the conversation's right edge: one brand-colored dot per user message, hover to preview, click to jump, auto-loads older history; pure plugin with no host patching.</summary>
+    <title>worktree-mgr</title>
+    <id>https://github.com/JohnXu22786/worktree-mgr</id>
+    <link href="https://github.com/JohnXu22786/worktree-mgr"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Task-isolated git worktrees: auto-create, sync and tear down isolated workspaces per task.</summary>
   </entry>
   <entry>
-    <title>edfrey0044/dsh-unarchive</title>
-    <id>https://github.com/edfrey0044/dsh-unarchive</id>
-    <link href="https://github.com/edfrey0044/dsh-unarchive"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Restore archived sessions: a /unarchive command and an unarchive_session tool that remove sessions from the archive set so they reappear in the workspace at their original position (archiving never deletes data).</summary>
+    <title>statusline</title>
+    <id>https://github.com/JohnXu22786/statusline</id>
+    <link href="https://github.com/JohnXu22786/statusline"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Real-time terminal statusline: model, context usage, sub-agents, rate limits and session time in one line.</summary>
   </entry>
   <entry>
-    <title>bowenliang123/dsh-context</title>
-    <id>https://github.com/bowenliang123/dsh-context</id>
-    <link href="https://github.com/bowenliang123/dsh-context"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Context insight panel: see what the model's context window is made of and how it evolves — composition vs. window size, per-request history, compression/injection events, and per-message token stats.</summary>
-  </entry>
-  <entry>
-    <title>Breeze136/kb-rag</title>
-    <id>https://github.com/Breeze136/kb-rag</id>
-    <link href="https://github.com/Breeze136/kb-rag"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Local literature knowledge-base RAG: 8 tools (PDF/folder/Zotero ingest, hybrid BM25+vector+reranker search, cited QA with clickable DOI links, scope/strict modes, dedup/clear/stats), all-local bge embeddings + single-file SQLite, measured 242-doc/86s ingest and sub-second hot queries on 20k chunks.</summary>
-  </entry>
-  <entry>
-    <title>futongxu9-maker/dsh-shared-memory</title>
-    <id>https://github.com/futongxu9-maker/dsh-shared-memory</id>
-    <link href="https://github.com/futongxu9-maker/dsh-shared-memory"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Cross-conversation shared memory: MEMORY.md + USER.md injected into every session's system prompt, with a memory tool and a GUI panel (Hermes-style).</summary>
+    <title>codegraph</title>
+    <id>https://github.com/JohnXu22786/codegraph</id>
+    <link href="https://github.com/JohnXu22786/codegraph"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Code knowledge graph: indexes symbols, call sites and imports into SQLite, answers call/dependency questions.</summary>
   </entry>
 </feed>
