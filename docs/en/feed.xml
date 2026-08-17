@@ -90,6 +90,13 @@
     <summary>Full vision-capability bundle for DeepSeek Harness: a `vision_understand` tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition.</summary>
   </entry>
   <entry>
+    <title>AlloyPlane/dsh-eye-vision</title>
+    <id>https://github.com/AlloyPlane/dsh-eye-vision</id>
+    <link href="https://github.com/AlloyPlane/dsh-eye-vision"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Vision bridge for text-only models: image_understand tool via any OpenAI-compatible multimodal API (OCR/UI analysis), with an allowed-directories whitelist.</summary>
+  </entry>
+  <entry>
     <title>moon09300731/dsh-approval-gate</title>
     <id>https://github.com/moon09300731/dsh-approval-gate</id>
     <link href="https://github.com/moon09300731/dsh-approval-gate"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/futongxu9-maker/dsh-shared-memory"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Cross-conversation shared memory: MEMORY.md + USER.md injected into every session's system prompt, with a memory tool and a GUI panel (Hermes-style).</summary>
-  </entry>
-  <entry>
-    <title>Anlushu/hkinsure</title>
-    <id>https://github.com/Anlushu/hkinsure</id>
-    <link href="https://github.com/Anlushu/hkinsure"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Hong Kong insurance data MCP: 260+ real products, 17 insurers, dividend fulfillment rates. Query/compare/calculate for any AI tool (Hermes / dsh / Claude Code).</summary>
   </entry>
 </feed>

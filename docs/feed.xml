@@ -90,6 +90,13 @@
     <summary>DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。</summary>
   </entry>
   <entry>
+    <title>AlloyPlane/dsh-eye-vision</title>
+    <id>https://github.com/AlloyPlane/dsh-eye-vision</id>
+    <link href="https://github.com/AlloyPlane/dsh-eye-vision"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>纯文本模型识图桥接：通过任意 OpenAI 兼容多模态 API 提供 image_understand 工具（识图/OCR/UI 分析），支持允许目录白名单。</summary>
+  </entry>
+  <entry>
     <title>moon09300731/dsh-approval-gate</title>
     <id>https://github.com/moon09300731/dsh-approval-gate</id>
     <link href="https://github.com/moon09300731/dsh-approval-gate"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/futongxu9-maker/dsh-shared-memory"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>跨对话共享记忆：MEMORY.md + USER.md 注入每个会话系统提示词，memory 工具 + 可视化记忆面板，Hermes 式实现。</summary>
-  </entry>
-  <entry>
-    <title>Anlushu/hkinsure</title>
-    <id>https://github.com/Anlushu/hkinsure</id>
-    <link href="https://github.com/Anlushu/hkinsure"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>香港保险数据 MCP：260+ 真实产品、17 家保司、分红实现率，供 Hermes / dsh / Claude Code 等 AI 工具查询/对比/测算。</summary>
   </entry>
 </feed>

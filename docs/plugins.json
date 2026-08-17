@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 337,
+ "count": 338,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -3079,6 +3079,21 @@
    "stars": 1,
    "createdAt": "2026-08-14",
    "install": "dsh plugin --profile web add dsh-vision-tools",
+   "added": "2026-08-17"
+  },
+  {
+   "name": "dsh-eye-vision",
+   "owner": "AlloyPlane",
+   "url": "https://github.com/AlloyPlane/dsh-eye-vision",
+   "category": "tools",
+   "description": {
+    "zh": "纯文本模型识图桥接：通过任意 OpenAI 兼容多模态 API 提供 image_understand 工具（识图/OCR/UI 分析），支持允许目录白名单。",
+    "en": "Vision bridge for text-only models: image_understand tool via any OpenAI-compatible multimodal API (OCR/UI analysis), with an allowed-directories whitelist."
+   },
+   "npm": null,
+   "stars": 1,
+   "createdAt": "2026-08-17",
+   "install": "dsh plugin --profile web add github:AlloyPlane/dsh-eye-vision",
    "added": "2026-08-17"
   },
   {
