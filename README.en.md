@@ -409,6 +409,7 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [dsh-session-cleaner](https://github.com/fountunt/dsh-session-cleaner) - Delete sessions from a running web runtime without a restart.
 - [dsh-portable-launcher](https://github.com/15828148/dsh-portable-launcher) - One-click portable Windows launcher with CN mirror fallback.
 - [cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) - Agent security guardrail: intercepts and audits every tool call, requiring human confirmation on sensitive operations.
+- [xgone/dsh-remote](https://github.com/xgone/dsh-remote) - Remote access & authentication for the DeepSeek Harness web UI: account/password login gate, MFA (TOTP), signed session cookies, role-based access, in-browser directory picker, and an account-management settings page.
 
 ### Just for Fun
 
