@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 325,
+ "count": 326,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1051,6 +1051,19 @@
    "npm": null,
    "install": "dsh plugin --profile web add github:Moeblack/dsh-message-edit",
    "added": "2026-08-13"
+  },
+  {
+   "name": "dsh-what-changed",
+   "owner": "sjh9714",
+   "url": "https://github.com/sjh9714/dsh-what-changed",
+   "category": "session",
+   "description": {
+    "zh": "整会话改动审阅。会话顶栏列出本次 Agent 写过的每个文件与逐处改动，被权限拒绝的写入单独计数不算改动，数据来自 session projection。",
+    "en": "Session-wide file change review. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection."
+   },
+   "npm": "dsh-what-changed",
+   "install": "dsh plugin --profile web add dsh-what-changed",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-sidechain",

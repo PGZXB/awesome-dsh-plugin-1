@@ -20,6 +20,13 @@
     <summary>Web theming (wallpaper, glass, accent, presets), keyboard shortcuts, usage stats, a plugin marketplace, a floating history strip, and user-message Markdown rendering.</summary>
   </entry>
   <entry>
+    <title>sjh9714/dsh-what-changed</title>
+    <id>https://github.com/sjh9714/dsh-what-changed</id>
+    <link href="https://github.com/sjh9714/dsh-what-changed"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Session-wide file change review. Lists every file the agent wrote this session with its hunks, counts refused writes separately from changes, and folds from a session projection.</summary>
+  </entry>
+  <entry>
     <title>phelpsyacht/dshmath-manim</title>
     <id>https://github.com/phelpsyacht/dshmath-manim</id>
     <link href="https://github.com/phelpsyacht/dshmath-manim"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/gongyijie85/mattpocock-skills-dsh"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT).</summary>
-  </entry>
-  <entry>
-    <title>gongyijie85/mattpocock-skills-dsh-zh</title>
-    <id>https://github.com/gongyijie85/mattpocock-skills-dsh-zh</id>
-    <link href="https://github.com/gongyijie85/mattpocock-skills-dsh-zh"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Matt Pocock's skills in Chinese for DSH: all 25 SKILL.md translated to natural Chinese (technical terms kept in English with glosses), adapted from mattpocock/skills (MIT).</summary>
   </entry>
 </feed>
