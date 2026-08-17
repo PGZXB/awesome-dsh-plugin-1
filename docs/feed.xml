@@ -90,6 +90,13 @@
     <summary>DSH skill 经验回流与知识积累元技能：其他 skill 出问题解决后自动回流解决方案并登记知识库（关键词 + 本地 bge 语义双通道检索、7 项写回判断清单、防臃肿归档），附自校验与事件钩子工具。</summary>
   </entry>
   <entry>
+    <title>tianxia--/dsh-llm-local-token</title>
+    <id>https://github.com/tianxia--/dsh-llm-local-token</id>
+    <link href="https://github.com/tianxia--/dsh-llm-local-token"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>复用本机 Codex CLI 与 Claude Code 的 OAuth 凭据注册 OpenAI Codex 和 Anthropic 模型路由，并在 Web 中显示订阅用量。</summary>
+  </entry>
+  <entry>
     <title>xgone/dsh-remote</title>
     <id>https://github.com/xgone/dsh-remote</id>
     <link href="https://github.com/xgone/dsh-remote"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/lak321/dsh-voice-chat"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>语音对话：🎤 语音输入（Web Speech，实时中间结果可编辑）+ 🔊 自动/手动朗读回复（TTS），支持人声/语速/语调设置与识别语言（普通话/粤语等），纯客户端零密钥，朗读前自动清理 Markdown 标记。</summary>
-  </entry>
-  <entry>
-    <title>lak321/dsh-screen-agent</title>
-    <id>https://github.com/lak321/dsh-screen-agent</id>
-    <link href="https://github.com/lak321/dsh-screen-agent"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>桌面与网页自动化：📸 多屏截图 + 🔍 Windows OCR（文字+像素坐标）+ 🖱️ 鼠标点击/拖拽 + ⌨️ 中文打字/按键 + 🪟 窗口激活，含实战打磨的画图能力（鼠标加速度补偿、画布定位、贝塞尔曲线，可在画图中绘制图形）。</summary>
   </entry>
 </feed>

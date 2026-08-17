@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 333,
+ "count": 334,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -3830,6 +3830,21 @@
    "createdAt": "2026-08-14",
    "install": "dsh plugin --profile web add github:kam74515-boop/dsh-everything-oauth",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-llm-local-token",
+   "owner": "tianxia--",
+   "url": "https://github.com/tianxia--/dsh-llm-local-token",
+   "category": "model",
+   "description": {
+    "zh": "复用本机 Codex CLI 与 Claude Code 的 OAuth 凭据注册 OpenAI Codex 和 Anthropic 模型路由，并在 Web 中显示订阅用量。",
+    "en": "Reuses local Codex CLI and Claude Code OAuth credentials as OpenAI Codex and Anthropic model routes, with subscription usage shown in Web."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-17",
+   "install": "dsh plugin --profile web add github:tianxia--/dsh-llm-local-token",
+   "added": "2026-08-17"
   },
   {
    "name": "Qwen-MM-Plugins",

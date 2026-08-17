@@ -90,6 +90,13 @@
     <summary>Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools.</summary>
   </entry>
   <entry>
+    <title>tianxia--/dsh-llm-local-token</title>
+    <id>https://github.com/tianxia--/dsh-llm-local-token</id>
+    <link href="https://github.com/tianxia--/dsh-llm-local-token"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Reuses local Codex CLI and Claude Code OAuth credentials as OpenAI Codex and Anthropic model routes, with subscription usage shown in Web.</summary>
+  </entry>
+  <entry>
     <title>xgone/dsh-remote</title>
     <id>https://github.com/xgone/dsh-remote</id>
     <link href="https://github.com/xgone/dsh-remote"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/lak321/dsh-voice-chat"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Voice chat: 🎤 speech input (Web Speech, live editable interim results) plus 🔊 automatic/manual read-aloud replies (TTS), with voice, speed, pitch and recognition-language settings (Mandarin/Cantonese, etc.); fully client-side with zero keys, and Markdown is stripped before reading.</summary>
-  </entry>
-  <entry>
-    <title>lak321/dsh-screen-agent</title>
-    <id>https://github.com/lak321/dsh-screen-agent</id>
-    <link href="https://github.com/lak321/dsh-screen-agent"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Desktop and web automation: 📸 multi-screen screenshots, 🔍 Windows OCR (text + pixel coordinates), 🖱️ mouse click/drag, ⌨️ Chinese typing/keys, and 🪟 window activation, with battle-tested drawing in Paint (mouse acceleration compensation, canvas positioning, Bézier curves).</summary>
   </entry>
 </feed>
