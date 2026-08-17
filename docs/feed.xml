@@ -27,6 +27,13 @@
     <summary>Web 外观主题定制（壁纸、毛玻璃、强调色、预设）、键盘快捷键、用量统计、插件市场、浮动历史条与用户消息 Markdown 渲染。</summary>
   </entry>
   <entry>
+    <title>stopchewing/dsh-mcp-view</title>
+    <id>https://github.com/stopchewing/dsh-mcp-view</id>
+    <link href="https://github.com/stopchewing/dsh-mcp-view"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>MCP 服务器与工具清单面板：侧边栏一键悬浮面板，按服务器分组展示全部 MCP 工具（传输方式、端点、JSON Schema、最近使用时间），默认折叠、支持搜索与实时刷新；最近使用时间来自真实会话日志。</summary>
+  </entry>
+  <entry>
     <title>Braidy-Wu/dsh-conversation-minimap</title>
     <id>https://github.com/Braidy-Wu/dsh-conversation-minimap</id>
     <link href="https://github.com/Braidy-Wu/dsh-conversation-minimap"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/yangyunsong023/dsh-sxs-anti-bot-http"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>反爬 HTTP 工具：UA 池轮换、指数退避重试、反爬墙检测（验证码/安全验证）与自适应限流，提炼自 SXS 生产采集体系（每日数百万请求）——工具：`sxs_fetch` / `sxs_fetch_json` / `sxs_rate_status`。</summary>
-  </entry>
-  <entry>
-    <title>yangyunsong023/dsh-sxs-news-collector</title>
-    <id>https://github.com/yangyunsong023/dsh-sxs-news-collector</id>
-    <link href="https://github.com/yangyunsong023/dsh-sxs-news-collector"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>时事热点采集：一次调用聚合百度热搜 / 头条热榜 / 抖音热点 / 微博热搜（微博可选 cookie），返回标题+热度值，供内容创作借势——工具：`sxs_news_hot`。</summary>
   </entry>
 </feed>

@@ -1087,6 +1087,10 @@
   "npm": "dsh-builtin-toggles",
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/stopchewing/dsh-mcp-view": {
+  "npm": "dsh-mcp-view",
+  "checkedAt": "2026-08-17"
+ },
  "https://github.com/Sttrevens/dsh-cost-meter": {
   "npm": "@steven-wu/dsh-cost-meter",
   "checkedAt": "2026-08-14"
