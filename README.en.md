@@ -275,6 +275,8 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [phelpsyacht/dshmath-manim](https://github.com/phelpsyacht/dshmath-manim) - Manim CE based math animation plugin: 6 built-in templates (function/derivative/integral/geometry/polar/3D surface) plus a zero-code skill pack (math-animation / manim-codegen) - natural language to animated math videos, with AST static security validation.
 
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — Novel writing assistant: chapter library, sentence-pattern analysis (9 categories / emotion curve / style fingerprint), style check, plot tracking, batch import and continuation writing, with per-tool Web UI toggles.
+- [moon09300731/dsh-vision-tools](https://github.com/moon09300731/dsh-vision-tools) — Full vision-capability bundle for DeepSeek Harness: a `vision_understand` tool (OpenAI-compatible vision APIs, free Zhipu GLM-4V-Flash by default) plus paste/drag-and-drop/button entry points for image recognition.
+- [moon09300731/dsh-approval-gate](https://github.com/moon09300731/dsh-approval-gate) — Risk-gated approval automation: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe).
 ### Skills
 
 - [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) - Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT).

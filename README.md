@@ -276,6 +276,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。
+- [moon09300731/dsh-vision-tools](https://github.com/moon09300731/dsh-vision-tools) — DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。
+- [moon09300731/dsh-approval-gate](https://github.com/moon09300731/dsh-approval-gate) — 自动审批门控：Flash 预判写入/命令是否不可回补，安全操作自动批准、危险操作转人工（fail-safe）。
 ### 🧩 技能包
 
 - [gongyijie85/dsh-ponytail](https://github.com/gongyijie85/dsh-ponytail) — 最懒资深工程师模式（Ponytail）的 DSH 移植：6 个技能（ponytail、ponytail-audit、ponytail-debt、ponytail-gain、ponytail-help、ponytail-review），改编自 DietrichGebert/ponytail（MIT）。
