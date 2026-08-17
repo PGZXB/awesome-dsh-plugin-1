@@ -13,6 +13,13 @@
     <summary>在 DSH Web 界面里并排运行、监控多个对话实例的插件：多窗口墙 + 自动发现 + 单窗控制，内置带口令认证的局域网网关，手机/平板也能看。</summary>
   </entry>
   <entry>
+    <title>WFMinerva/dsh-turn-cost</title>
+    <id>https://github.com/WFMinerva/dsh-turn-cost</id>
+    <link href="https://github.com/WFMinerva/dsh-turn-cost"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>每条 AI 回复下方显示该轮真实花费：人民币、官方峰谷价、缓存读占比；纯本地读会话日志，零上报零密钥。</summary>
+  </entry>
+  <entry>
     <title>yoli-mi/dsh-client-ui-custom</title>
     <id>https://github.com/yoli-mi/dsh-client-ui-custom</id>
     <link href="https://github.com/yoli-mi/dsh-client-ui-custom"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/yangyunsong023/dsh-sxs-news-collector"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>时事热点采集：一次调用聚合百度热搜 / 头条热榜 / 抖音热点 / 微博热搜（微博可选 cookie），返回标题+热度值，供内容创作借势——工具：`sxs_news_hot`。</summary>
-  </entry>
-  <entry>
-    <title>cdxiaodong/dsh-llm-inspector</title>
-    <id>https://github.com/cdxiaodong/dsh-llm-inspector</id>
-    <link href="https://github.com/cdxiaodong/dsh-llm-inspector"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。</summary>
   </entry>
 </feed>

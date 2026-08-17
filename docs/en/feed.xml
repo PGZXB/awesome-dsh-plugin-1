@@ -13,6 +13,13 @@
     <summary>A multi-window wall for the DSH Web UI: run and monitor N conversations side-by-side in one screen, with auto-discovery, per-window controls, and an authenticated LAN gateway for phone/tablet access.</summary>
   </entry>
   <entry>
+    <title>WFMinerva/dsh-turn-cost</title>
+    <id>https://github.com/WFMinerva/dsh-turn-cost</id>
+    <link href="https://github.com/WFMinerva/dsh-turn-cost"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Per-turn real cost under every assistant reply: CNY at official peak/off-peak rates with cache-hit ratio; reads local session logs only, zero telemetry, zero keys.</summary>
+  </entry>
+  <entry>
     <title>yoli-mi/dsh-client-ui-custom</title>
     <id>https://github.com/yoli-mi/dsh-client-ui-custom</id>
     <link href="https://github.com/yoli-mi/dsh-client-ui-custom"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/yangyunsong023/dsh-sxs-news-collector"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Trending-topics collector aggregating Baidu / Toutiao / Douyin / Weibo hot lists in one call (Weibo optional cookie), returning titles with heat values for content creators — tool: `sxs_news_hot`.</summary>
-  </entry>
-  <entry>
-    <title>cdxiaodong/dsh-llm-inspector</title>
-    <id>https://github.com/cdxiaodong/dsh-llm-inspector</id>
-    <link href="https://github.com/cdxiaodong/dsh-llm-inspector"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Unified LLM request/response inspector: reasoning-effort tuning, external-think export, traffic &amp; bundle analysis.</summary>
   </entry>
 </feed>

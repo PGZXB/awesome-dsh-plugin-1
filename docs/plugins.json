@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 329,
+ "count": 330,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -575,6 +575,21 @@
    "createdAt": "2026-08-14",
    "install": "dsh plugin --profile web add dsh-spend",
    "added": "2026-08-14"
+  },
+  {
+   "name": "dsh-turn-cost",
+   "owner": "WFMinerva",
+   "url": "https://github.com/WFMinerva/dsh-turn-cost",
+   "category": "ui",
+   "description": {
+    "zh": "每条 AI 回复下方显示该轮真实花费：人民币、官方峰谷价、缓存读占比；纯本地读会话日志，零上报零密钥。",
+    "en": "Per-turn real cost under every assistant reply: CNY at official peak/off-peak rates with cache-hit ratio; reads local session logs only, zero telemetry, zero keys."
+   },
+   "npm": "dsh-turn-cost",
+   "stars": 0,
+   "createdAt": "2026-08-17",
+   "install": "dsh plugin --profile web add dsh-turn-cost",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-deepseek-balance",
