@@ -272,6 +272,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 
 - [cdxiaodong/dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) — 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。
+- [phelpsyacht/dshmath-manim](https://github.com/phelpsyacht/dshmath-manim) — 基于 Manim CE 的数学动画插件：6 个内置模板（函数/导数/积分/几何/极坐标/3D 曲面）+ 零代码技能包（math-animation / manim-codegen），模型说人话即可生成动画视频，含 AST 静态安全校验。
 
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。
