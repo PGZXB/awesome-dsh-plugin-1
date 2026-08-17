@@ -48,6 +48,13 @@
     <summary>Risk-gated approval automation: flash pre-classifies whether a write/command is irreversible — safe operations are auto-approved, dangerous ones are escalated to human approval (fail-safe).</summary>
   </entry>
   <entry>
+    <title>gwrsfsfeefdsfs/dsh-skill-curator</title>
+    <id>https://github.com/gwrsfsfeefdsfs/dsh-skill-curator</id>
+    <link href="https://github.com/gwrsfsfeefdsfs/dsh-skill-curator"/>
+    <updated>2026-08-17T00:00:00Z</updated>
+    <summary>Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools.</summary>
+  </entry>
+  <entry>
     <title>beancookie/dsh-plugin-nintendo</title>
     <id>https://github.com/beancookie/dsh-plugin-nintendo</id>
     <link href="https://github.com/beancookie/dsh-plugin-nintendo"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/gongyijie85/dsh-ponytail"/>
     <updated>2026-08-16T00:00:00Z</updated>
     <summary>Ponytail, lazy senior dev mode, for DSH: 6 skills (ponytail, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help, ponytail-review) adapted from DietrichGebert/ponytail (MIT).</summary>
-  </entry>
-  <entry>
-    <title>gongyijie85/mattpocock-skills-dsh</title>
-    <id>https://github.com/gongyijie85/mattpocock-skills-dsh</id>
-    <link href="https://github.com/gongyijie85/mattpocock-skills-dsh"/>
-    <updated>2026-08-16T00:00:00Z</updated>
-    <summary>Matt Pocock's full promoted skill set (25 SKILL.md files: grilling, writing-for-agents, wait-what, TDD, code-review, wayfinder, ask-matt router and more) as a DeepSeek Harness plugin, adapted from mattpocock/skills (MIT).</summary>
   </entry>
 </feed>

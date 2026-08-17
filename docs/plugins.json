@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-17",
- "count": 326,
+ "count": 327,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2676,6 +2676,19 @@
    "npm": "mattpocock-skills-dsh-zh",
    "install": "dsh plugin --profile web add mattpocock-skills-dsh-zh",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-skill-curator",
+   "owner": "gwrsfsfeefdsfs",
+   "url": "https://github.com/gwrsfsfeefdsfs/dsh-skill-curator",
+   "category": "skill",
+   "description": {
+    "zh": "DSH skill 经验回流与知识积累元技能：其他 skill 出问题解决后自动回流解决方案并登记知识库（关键词 + 本地 bge 语义双通道检索、7 项写回判断清单、防臃肿归档），附自校验与事件钩子工具。",
+    "en": "Meta-skill for DSH skill experience feedback and knowledge accumulation: feeds fixes back into skills and records a searchable knowledge base (keyword + local bge semantic retrieval, 7-point write-back checklist, anti-bloat archiving), with self-validation and event-hook tools."
+   },
+   "npm": null,
+   "install": "dsh plugin --profile web add github:gwrsfsfeefdsfs/dsh-skill-curator",
+   "added": "2026-08-17"
   },
   {
    "name": "dsh-usage-billing",
