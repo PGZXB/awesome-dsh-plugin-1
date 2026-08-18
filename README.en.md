@@ -357,6 +357,7 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 
 - [file-planning](https://github.com/JohnXu22786/file-planning) - trailmap: disk-persisted execution planning — milestone state machines, dependency tagging, audit events, retrospective notes.
 - [task-board](https://github.com/JohnXu22786/task-board) - Cross-session event-sourced work ledger: task tracking, audit history, kanban export.
+- [odai-dsh-plugin](https://github.com/orziz/odai/tree/main/dsh/plugin) - Profile-wide DSH governance and routing bundle with configurable compaction calls and scoped local semantic memory; compatible with DSH 0.1.0-rc.6 and 0.1.0-rc.7.
 
 ### Notifications & Integrations
 
