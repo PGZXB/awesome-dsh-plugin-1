@@ -326,6 +326,7 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - AgentTeams multi-agent teams.
 - [omdsh-dev/dsh-deep-research](https://github.com/omdsh-dev/dsh-deep-research) - Adaptive deep-research orchestrator built on the official workflow engine.
 - [omdsh-dev/dsh-inspect](https://github.com/omdsh-dev/dsh-inspect) - Adversarial checkup → fix → review loop toolset.
+- [odai-dsh-plugin](https://github.com/orziz/odai/tree/main/dsh/plugin) - Profile-wide DSH governance and routing bundle with configurable compaction calls and scoped local semantic memory; compatible with DSH 0.1.0-rc.6 and 0.1.0-rc.7.
 - [PerryLink/dsh-doublecheck](https://github.com/PerryLink/dsh-doublecheck) - Engineering-discipline guard: grill the requirements before the first edit, enforce red/green test evidence gates, and audit the delivery with a forked adversary (grill-requirements skill + tool-policy gates).
 - [Sev7een/dsh-plugin-automations](https://github.com/Sev7een/dsh-plugin-automations) - Settings-based scheduled tasks that run on time or during DeepSeek off-peak hours, with one-time and daily schedules backed by durable task state.
 - [timwhitez/dsh-self-evolving](https://github.com/timwhitez/dsh-self-evolving) - Evidence-first, crash-resumable self-evolution engine for DSH: bounded Cordis candidate generation, one-shot real-Loader admission, Harbor evaluation, and an auditable journaled lineage.
