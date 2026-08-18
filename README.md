@@ -307,6 +307,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [yanglaofish/dsh-skill-manager](https://github.com/yanglaofish/dsh-skill-manager) — DSH 技能生命周期管理插件：全局 / 工作区 / 会话三层模型下查看、编辑、导入、启用/停用技能，设置页与对话页统一管理界面，支持跨层全文搜索与分页。
 
 ### 🔁 工作流与自动化
+
+- [huchunlinnk/deepseek-desk-rsi](https://github.com/huchunlinnk/deepseek-desk-rsi) — Recursive Self-Improvement engine: bounded perceive→integrate→verify→parity→repair→propose loop + 128-plugin 1:1 parity gate — DSH maintains DSH.
 - [940842546/dsh-permissions](https://github.com/940842546/dsh-permissions) — Claude Code 风格权限规则引擎：hard/deny/ask/allow 四级规则（hard 高于全访问、不可豁免）、workspace 作用域、通配符路径保护、可视化草稿式编辑器，规则持久化于 settings.yaml。
 - [940842546/dsh-usage-billing](https://github.com/940842546/dsh-usage-billing) — 用量与消费统计：8/17 调价前后峰谷计费，主界面汇总面板、按会话明细与用量热力图。
 - [biociao/dsh-science](https://github.com/biociao/dsh-science) — 面向 DSH 的 Claude Science 式科研工作台：ReAct 研究循环引擎（research_* 工具）、带溯源的版本化工件（artifact_* 工具）与面向基因组/病原体/生物信息的 10 个科研技能。
