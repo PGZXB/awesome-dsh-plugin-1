@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/feed.xml"/>
   <updated>2026-08-18T00:00:00Z</updated>
   <entry>
+    <title>PolinniZhong/dsh-omi-voice</title>
+    <id>https://github.com/PolinniZhong/dsh-omi-voice</id>
+    <link href="https://github.com/PolinniZhong/dsh-omi-voice"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>豆包音质对话内朗读：每条 AI 回复 🔊 点读/自动朗读（默认关、状态持久化），音色由本地 Omi 引擎合成（豆包 seed-tts），BYOK（Key 只留在本机 Keychain，插件零 Key）。</summary>
+  </entry>
+  <entry>
     <title>yanglaofish/dsh-skill-manager</title>
     <id>https://github.com/yanglaofish/dsh-skill-manager</id>
     <link href="https://github.com/yanglaofish/dsh-skill-manager"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/adversarial-review"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>gavel-review：对抗式多视角代码审查——并行攻击视角、确定性静态哨兵、严重度定级与审查历史。</summary>
-  </entry>
-  <entry>
-    <title>docs-retriever</title>
-    <id>https://github.com/JohnXu22786/docs-retriever</id>
-    <link href="https://github.com/JohnXu22786/docs-retriever"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>doctrove：版本化库文档检索 MCP 服务器，零运行时依赖，可作 dsh 插件 bundle 安装。</summary>
   </entry>
 </feed>

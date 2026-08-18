@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
   <updated>2026-08-18T00:00:00Z</updated>
   <entry>
+    <title>PolinniZhong/dsh-omi-voice</title>
+    <id>https://github.com/PolinniZhong/dsh-omi-voice</id>
+    <link href="https://github.com/PolinniZhong/dsh-omi-voice"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>In-conversation read-aloud with Doubao-quality voices: every AI reply gets a 🔊 tap-to-read / auto-read toggle (off by default, state persisted), with voices synthesized by the local Omi engine (Doubao seed-tts); BYOK — keys stay in your local Keychain, the plugin stores none.</summary>
+  </entry>
+  <entry>
     <title>yanglaofish/dsh-skill-manager</title>
     <id>https://github.com/yanglaofish/dsh-skill-manager</id>
     <link href="https://github.com/yanglaofish/dsh-skill-manager"/>
@@ -73,7 +80,7 @@
     <id>https://github.com/lkdx0220/Genshin-odette-skin-dsh</id>
     <link href="https://github.com/lkdx0220/Genshin-odette-skin-dsh"/>
     <updated>2026-08-17T00:00:00Z</updated>
-    <summary>A Genshin Impact &quot;Odette&quot; themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm</summary>
+    <summary>A Genshin Impact &quot;Odette&quot; themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm.</summary>
   </entry>
   <entry>
     <title>sjh9714/dsh-what-changed</title>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/adversarial-review"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>gavel-review: adversarial multi-perspective code review — parallel attack lenses, static sentinels, severity grading.</summary>
-  </entry>
-  <entry>
-    <title>docs-retriever</title>
-    <id>https://github.com/JohnXu22786/docs-retriever</id>
-    <link href="https://github.com/JohnXu22786/docs-retriever"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>doctrove: versioned library documentation retrieval MCP server, zero runtime dependencies.</summary>
   </entry>
 </feed>

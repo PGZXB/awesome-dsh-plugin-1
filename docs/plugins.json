@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-18",
- "count": 367,
+ "count": 368,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -73,7 +73,7 @@
    "category": "ui",
    "description": {
     "zh": "会话头部卡通用量小部件：布布玩偶 + 上下文占用/会话累计/构成，附日期周几、天气、3 天预报与极端天气预警（雨滴/雪花动画），跟随主题色。",
-    "en": "Cute token-usage widget in the session header: context occupancy, session usage and breakdown, plus date/weekday, weather, 3-day forecast and severe-weather alerts."
+    "en": "Cute token-usage widget in the session header: a Bubu doll plus context occupancy, session usage and breakdown, with date/weekday, weather, 3-day forecast and severe-weather alerts (raindrop/snowflake animation), following the theme color."
    },
    "npm": null,
    "stars": 2,
@@ -1243,7 +1243,7 @@
    "category": "theme",
    "description": {
     "zh": "DSH 原神「奥黛塔」主题 UI 皮肤：深/浅双模式背景图 + 13 个主题 token 毛玻璃覆盖 + 侧栏 Q 版小兽皮肤开关，npm 即装即用。",
-    "en": "A Genshin Impact \"Odette\" themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm"
+    "en": "A Genshin Impact \"Odette\" themed DSH UI skin: dark/light dual-mode background images, frosted-glass overrides for 13 theme tokens, and a chibi mascot sidebar toggle; install via npm."
    },
    "npm": null,
    "stars": 0,
@@ -1707,7 +1707,7 @@
    "url": "https://github.com/ICCuse/dsh-knowledge",
    "category": "memory",
    "description": {
-    "zh": "全局知识库桥：kb_add/kb_search/kb_show/kb_timeline 读写与 Codex 共享的 D:\\knowledge（格式逐字节兼容）。",
+    "zh": "全局 Markdown 知识库桥：kb_add/kb_search/kb_show/kb_timeline 读写与 Codex kb.cmd CLI 共享的知识库（格式逐字节兼容）。",
     "en": "Bridge into a global Markdown knowledge base shared with the Codex kb.cmd CLI: kb_add/kb_search/kb_show/kb_timeline tools with byte-compatible frontmatter."
    },
    "npm": null,
@@ -1993,7 +1993,7 @@
    "category": "tools",
    "description": {
     "zh": "用 Monaco 编辑器创建和管理沙箱化的自定义 JavaScript 工具。",
-    "en": "Create and manage sandboxed JavaScript tools with a Monaco editor and model-driven tool lifecycle."
+    "en": "Create and manage sandboxed JavaScript tools with a Monaco editor."
    },
    "npm": null,
    "stars": 24,
@@ -2540,6 +2540,21 @@
    "createdAt": "2026-08-16",
    "install": "dsh plugin --profile web add github:lak321/dsh-voice-chat",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-omi-voice",
+   "owner": "PolinniZhong",
+   "url": "https://github.com/PolinniZhong/dsh-omi-voice",
+   "category": "tools",
+   "description": {
+    "zh": "豆包音质对话内朗读：每条 AI 回复 🔊 点读/自动朗读（默认关、状态持久化），音色由本地 Omi 引擎合成（豆包 seed-tts），BYOK（Key 只留在本机 Keychain，插件零 Key）。",
+    "en": "In-conversation read-aloud with Doubao-quality voices: every AI reply gets a 🔊 tap-to-read / auto-read toggle (off by default, state persisted), with voices synthesized by the local Omi engine (Doubao seed-tts); BYOK — keys stay in your local Keychain, the plugin stores none."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-18",
+   "install": "dsh plugin --profile web add github:PolinniZhong/dsh-omi-voice",
+   "added": "2026-08-18"
   },
   {
    "name": "dsh-screen-agent",
@@ -3598,7 +3613,7 @@
    "category": "workflow",
    "description": {
     "zh": "用量与消费统计：8/17 调价前后峰谷计费，主界面汇总面板、按会话明细与用量热力图。",
-    "en": "Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a floating summary panel, per-session breakdowns, and a usage heatmap."
+    "en": "Usage and cost statistics with peak/off-peak pricing after the 2026-08-17 rate change, a main-UI summary panel, per-session breakdowns, and a usage heatmap."
    },
    "npm": null,
    "stars": 5,
@@ -4048,7 +4063,7 @@
    "category": "notify",
    "description": {
     "zh": "通过 iLink 网关在微信里与 DSH agent 聊天、监控与审批：双向文本、会话切换、进度摘要与编号审批提示。",
-    "en": "Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session targeting, digest heartbeats, and numbered approval prompts."
+    "en": "Chat with, monitor, and approve your DSH agents from WeChat via the iLink gateway: text both ways, session switching, progress digests, and numbered approval prompts."
    },
    "npm": null,
    "stars": 6,
