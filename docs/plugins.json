@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-18",
- "count": 369,
+ "count": 370,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -2600,6 +2600,21 @@
    "createdAt": "2026-08-16",
    "install": "dsh plugin --profile web add github:lak321/dsh-voice-chat",
    "added": "2026-08-16"
+  },
+  {
+   "name": "dsh-task-worktree",
+   "owner": "Letter2025",
+   "url": "https://github.com/Letter2025/dsh-task-worktree",
+   "category": "tools",
+   "description": {
+    "zh": "完整的任务级 git worktree：per-repo manifest 永久保存、worktree-<name> 分支、主目录带回（bring-back）与直接提交两种收尾、可携带主工作区未提交改动（参考 Qoder / Codex / Claude Code）。",
+    "en": "Complete task-scoped git worktrees: per-repo manifest for durable state, worktree-<name> branches, bring-back to main or direct commit, optional carry-over of uncommitted main changes (modeled on Qoder / Codex / Claude Code)."
+   },
+   "npm": "dsh-task-worktree",
+   "stars": 0,
+   "createdAt": "2026-08-18",
+   "install": "dsh plugin --profile web add dsh-task-worktree",
+   "added": "2026-08-18"
   },
   {
    "name": "dsh-undo-plugin",

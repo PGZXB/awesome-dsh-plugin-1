@@ -803,6 +803,10 @@
   "npm": "dsh-model-failover",
   "checkedAt": "2026-08-14"
  },
+ "https://github.com/Letter2025/dsh-task-worktree": {
+  "npm": "dsh-task-worktree",
+  "checkedAt": "2026-08-18"
+ },
  "https://github.com/lhh010/dsh-minigames": {
   "npm": null,
   "checkedAt": "2026-08-14"

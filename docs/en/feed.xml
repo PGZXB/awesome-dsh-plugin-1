@@ -13,6 +13,13 @@
     <summary>DSH Web custom theme importer: one-click import from local paths or GitHub theme collections, live preview and refresh, hosted theme library; the lightweight format lets authors edit CSS/DOM files and hot-reload, making it a friendly option for personal theme development and sharing.</summary>
   </entry>
   <entry>
+    <title>Letter2025/dsh-task-worktree</title>
+    <id>https://github.com/Letter2025/dsh-task-worktree</id>
+    <link href="https://github.com/Letter2025/dsh-task-worktree"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>Complete task-scoped git worktrees: per-repo manifest for durable state, worktree-&lt;name&gt; branches, bring-back to main or direct commit, optional carry-over of uncommitted main changes (modeled on Qoder / Codex / Claude Code).</summary>
+  </entry>
+  <entry>
     <title>PolinniZhong/dsh-omi-voice</title>
     <id>https://github.com/PolinniZhong/dsh-omi-voice</id>
     <link href="https://github.com/PolinniZhong/dsh-omi-voice"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/github-mcp"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>repogate: GitHub developer workbench MCP server — repos, issues, PRs, code review, search, zero runtime dependencies.</summary>
-  </entry>
-  <entry>
-    <title>pty-runner</title>
-    <id>https://github.com/JohnXu22786/pty-runner</id>
-    <link href="https://github.com/JohnXu22786/pty-runner"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>Background terminal (PTY) job management: launch long-running processes, feed input, page output, stop on demand.</summary>
   </entry>
 </feed>

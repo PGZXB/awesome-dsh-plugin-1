@@ -13,6 +13,13 @@
     <summary>DSH Web 自定义主题导入插件：支持本地路径/GitHub 集合一键导入、主题预览与实时刷新、托管主题库；格式轻量，作者可直接改 CSS/DOM 文件热加载，适合个人主题开发与分享。</summary>
   </entry>
   <entry>
+    <title>Letter2025/dsh-task-worktree</title>
+    <id>https://github.com/Letter2025/dsh-task-worktree</id>
+    <link href="https://github.com/Letter2025/dsh-task-worktree"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>完整的任务级 git worktree：per-repo manifest 永久保存、worktree-&lt;name&gt; 分支、主目录带回（bring-back）与直接提交两种收尾、可携带主工作区未提交改动（参考 Qoder / Codex / Claude Code）。</summary>
+  </entry>
+  <entry>
     <title>PolinniZhong/dsh-omi-voice</title>
     <id>https://github.com/PolinniZhong/dsh-omi-voice</id>
     <link href="https://github.com/PolinniZhong/dsh-omi-voice"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/github-mcp"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>repogate：GitHub 开发者工作台 MCP 服务器——仓库、issue、PR、代码审查、搜索，零运行时依赖。</summary>
-  </entry>
-  <entry>
-    <title>pty-runner</title>
-    <id>https://github.com/JohnXu22786/pty-runner</id>
-    <link href="https://github.com/JohnXu22786/pty-runner"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>后台终端（PTY）任务管理：启动长时进程、喂入输入、翻页输出、按需停止。</summary>
   </entry>
 </feed>
