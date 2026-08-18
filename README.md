@@ -32,7 +32,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 </details>
 
-**367** 个插件 · 欢迎 [PR](#贡献)
+**368** 个插件 · 欢迎 [PR](#贡献)
 
 ## 目录
 
@@ -185,7 +185,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [Xplore-LAB/dsh-plugin-asmemory](https://github.com/Xplore-LAB/dsh-plugin-asmemory) — 动作-状态时序记忆：记录类型化的状态与动作，做趋势、异常与因果关联分析。
 - [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) — 有界、分层、带审批门、可审计的跨会话记忆：`ctx.memory` 服务 + 零依赖 SQLite 存储 + `memory` 工具与冻结快照注入；写入必过审批门，模型可见内容可自会话日志重建。
 - [ICCuse/dsh-file-memory](https://github.com/ICCuse/dsh-file-memory) — 文件型工作记忆：memorize/recall 把关键前提逐字保存在会话笔记文件，无损挺过上下文压缩。
-- [ICCuse/dsh-knowledge](https://github.com/ICCuse/dsh-knowledge) — 全局知识库桥：kb_add/kb_search/kb_show/kb_timeline 读写与 Codex 共享的 D:\knowledge（格式逐字节兼容）。
+- [ICCuse/dsh-knowledge](https://github.com/ICCuse/dsh-knowledge) — 全局 Markdown 知识库桥：kb_add/kb_search/kb_show/kb_timeline 读写与 Codex kb.cmd CLI 共享的知识库（格式逐字节兼容）。
 - [Breeze136/dsh-kb-rag](https://github.com/Breeze136/dsh-kb-rag) — 本地文献知识库 RAG：8 个工具（PDF/文件夹/Zotero 入库、BM25+向量+重排混合检索、DOI 可点击溯源问答、范围/严格模式、去重/清空/统计），全本地 bge 嵌入 + 单文件 SQLite，实测 242 篇 86s 入库、2 万块亚秒热查询。
 - [ICCuse/dsh-premise-guard](https://github.com/ICCuse/dsh-premise-guard) — 压缩后前提漂移守卫：摘要丢失关键字面锚点时注入一次性提醒。
 - [freehul/sgme](https://github.com/freehul/sgme) — 拾光记忆引擎（SGME）桥接：多智能体共享长期记忆（HTTP）—— L0/L1/L1.5/L2 分层提炼、按场景注入、统一检索、主动关怀信号（memory_search / wiki_search / signal_pull / signal_claim / signal_ack），npm 包名 `dsh-sgme`。
@@ -291,7 +291,6 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [cdxiaodong/dsh-llm-inspector](https://github.com/cdxiaodong/dsh-llm-inspector) — 统一 LLM 请求/响应检查器：调 reasoning effort、外部思考(think)导出、流量与包分析。
 - [phelpsyacht/dshmath-manim](https://github.com/phelpsyacht/dshmath-manim) — 基于 Manim CE 的数学动画插件：6 个内置模板（函数/导数/积分/几何/极坐标/3D 曲面）+ 零代码技能包（math-animation / manim-codegen），模型说人话即可生成动画视频，含 AST 静态安全校验。
 
-- [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。
 - [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) — 小说写作助手：章节库管理、句式模式分析（九类句式/情感曲线/风格指纹）、风格自检、伏笔登记、批量导入与续写辅助，带 Web UI 开关。
 - [moon09300731/dsh-vision-tools](https://github.com/moon09300731/dsh-vision-tools) — DeepSeek Harness 视觉能力全家桶：vision_understand 工具（OpenAI 兼容视觉 API，默认免费智谱 GLM-4V-Flash）+ 粘贴/拖拽/按钮三入口识图。
 - [AlloyPlane/dsh-eye-vision](https://github.com/AlloyPlane/dsh-eye-vision) — 纯文本模型识图桥接：通过任意 OpenAI 兼容多模态 API 提供 image_understand 工具（识图/OCR/UI 分析），支持允许目录白名单。
