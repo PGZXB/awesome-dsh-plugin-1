@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/feed.xml"/>
   <updated>2026-08-18T00:00:00Z</updated>
   <entry>
+    <title>dsh-custom-theme-import</title>
+    <id>https://github.com/Juryorca/dsh-custom-theme-import</id>
+    <link href="https://github.com/Juryorca/dsh-custom-theme-import"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>DSH Web 自定义主题导入插件：支持本地路径/GitHub 集合一键导入、主题预览与实时刷新、托管主题库；格式轻量，作者可直接改 CSS/DOM 文件热加载，适合个人主题开发与分享。</summary>
+  </entry>
+  <entry>
     <title>PolinniZhong/dsh-omi-voice</title>
     <id>https://github.com/PolinniZhong/dsh-omi-voice</id>
     <link href="https://github.com/PolinniZhong/dsh-omi-voice"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/secret-guard"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>阻止 agent 读写敏感文件（.env、凭据），掩码工具结果中泄露的密钥，附审计日志与安全的 sg_* 检查工具。</summary>
-  </entry>
-  <entry>
-    <title>adversarial-review</title>
-    <id>https://github.com/JohnXu22786/adversarial-review</id>
-    <link href="https://github.com/JohnXu22786/adversarial-review"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>gavel-review：对抗式多视角代码审查——并行攻击视角、确定性静态哨兵、严重度定级与审查历史。</summary>
   </entry>
 </feed>

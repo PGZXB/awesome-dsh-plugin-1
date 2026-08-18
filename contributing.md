@@ -16,6 +16,8 @@ Open a PR that adds **one line to each of** `README.en.md` (English) and `README
 - [owner/repo](https://github.com/owner/repo) — 一句话描述，以句号结尾。
 ```
 
+Entries within a category are kept in **alphabetical order by owner/repo** (case-insensitive). You don't have to place the line exactly — `scripts/build-site.mjs` re-sorts automatically and CI checks the order on PRs (`scripts/check-order.mjs`). Just add it under the right category in both files. / 分类内插件按 **owner/repo 字母序**排列（大小写不敏感）。行加在分类下任意位置即可——`scripts/build-site.mjs` 会自动重排，PR 会经 `scripts/check-order.mjs` 校验顺序。
+
 Requirements / 要求：
 
 - The repo declares a `dsh.bundle` manifest in `package.json` (this is what makes it installable via `dsh plugin add`). Monorepos qualify if the root or a subpackage declares it. / 仓库的 `package.json` 需声明 `dsh.bundle` manifest（monorepo 根包或子包声明亦可）。
