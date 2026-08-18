@@ -6,6 +6,13 @@
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
   <updated>2026-08-18T00:00:00Z</updated>
   <entry>
+    <title>dsh-custom-theme-import</title>
+    <id>https://github.com/Juryorca/dsh-custom-theme-import</id>
+    <link href="https://github.com/Juryorca/dsh-custom-theme-import"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>DSH Web custom theme importer: one-click import from local paths or GitHub theme collections, live preview and refresh, hosted theme library; the lightweight format lets authors edit CSS/DOM files and hot-reload, making it a friendly option for personal theme development and sharing.</summary>
+  </entry>
+  <entry>
     <title>PolinniZhong/dsh-omi-voice</title>
     <id>https://github.com/PolinniZhong/dsh-omi-voice</id>
     <link href="https://github.com/PolinniZhong/dsh-omi-voice"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/secret-guard"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>Blocks agents from reading/writing sensitive files, masks leaked secrets in tool results, with an audit journal.</summary>
-  </entry>
-  <entry>
-    <title>adversarial-review</title>
-    <id>https://github.com/JohnXu22786/adversarial-review</id>
-    <link href="https://github.com/JohnXu22786/adversarial-review"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>gavel-review: adversarial multi-perspective code review — parallel attack lenses, static sentinels, severity grading.</summary>
   </entry>
 </feed>

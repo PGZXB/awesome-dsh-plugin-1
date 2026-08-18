@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-18",
- "count": 368,
+ "count": 369,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1070,6 +1070,21 @@
    "createdAt": "2026-08-17",
    "install": "dsh plugin --profile web add dsh-mcp-view",
    "added": "2026-08-17"
+  },
+  {
+   "name": "dsh-custom-theme-import",
+   "owner": "Juryorca",
+   "url": "https://github.com/Juryorca/dsh-custom-theme-import",
+   "category": "theme",
+   "description": {
+    "zh": "DSH Web 自定义主题导入插件：支持本地路径/GitHub 集合一键导入、主题预览与实时刷新、托管主题库；格式轻量，作者可直接改 CSS/DOM 文件热加载，适合个人主题开发与分享。",
+    "en": "DSH Web custom theme importer: one-click import from local paths or GitHub theme collections, live preview and refresh, hosted theme library; the lightweight format lets authors edit CSS/DOM files and hot-reload, making it a friendly option for personal theme development and sharing."
+   },
+   "npm": null,
+   "stars": 1,
+   "createdAt": "2026-08-16",
+   "install": "dsh plugin --profile web add github:Juryorca/dsh-custom-theme-import",
+   "added": "2026-08-18"
   },
   {
    "name": "dsh-theme-firefly",
