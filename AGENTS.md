@@ -12,11 +12,11 @@ DeepSeek Harness（`dsh`）插件的精选列表（awesome list）。两个 READ
 ## 目录结构（每个文件夹的作用）
 
 - `site/` — 网站源码：`template.html`（页面骨架，含 CSS 样式与前端交互 JS，用 `__TOKEN__` 占位）与 `locales.mjs`（语言与文案的唯一来源：分类名、标题、界面字符串）。build-site.mjs 据此生成页面。
-- `scripts/` — 构建与探测脚本：`build-site.mjs`（解析两个 README，生成站点、`data/` 产物并同步计数）、`probe-npm.mjs`（探测各仓库对应的 npm 包，写入缓存）与 `probe-stars.mjs`（探测各仓库 GitHub Star 数，写入缓存；需联网）。
+- `scripts/` — 构建与探测脚本：`build-site.mjs`（解析两个 README，生成站点、`data/` 产物，按 owner/repo 字母序规范化 README 并同步计数）、`probe-npm.mjs`（探测各仓库对应的 npm 包，写入缓存）、`probe-stars.mjs`（探测各仓库 GitHub Star 数，写入缓存；需联网）、`check-order.mjs`（离线 lint：校验两 README 分类内插件是否按字母序）、`readme.mjs`（共享的解析与排序键，供 build-site / check-order 复用）。
 - `docs/` — 生成的网站（GitHub Pages 部署目录）：`index.html`、各分类页、`plugins.json`、`sitemap.xml`、`feed.xml`、`logo.png`、`badge.svg`。自动生成，切勿手动编辑。
 - `data/` — 自动生成的账本/缓存：`npm-map.json`（repo → npm 包映射）、`stars.json`（repo → GitHub Star 数与首次提交时间，供站点 Star/最新排序）与 `added-dates.json`（插件收录日期）。由脚本维护，切勿手动编辑。
 - `images/` — 源素材：`logo.png`（站点与 README 使用的 logo 源文件）。
-- `.github/` — GitHub 配置：`workflows/build-site.yml`（每 6 小时定时 + 推送 `main` 时自动构建并提交生成文件）与 `pull_request_template.md`（PR 提交模板）。
+- `.github/` — GitHub 配置：`workflows/build-site.yml`（每 6 小时定时 + 推送 `main` 时自动构建并提交生成文件）、`workflows/pr-check.yml`（PR 时离线校验 README 排序）与 `pull_request_template.md`（PR 提交模板）。
 - `.git/` — git 内部元数据，无需改动。
 
 ## 添加插件
@@ -31,6 +31,7 @@ DeepSeek Harness（`dsh`）插件的精选列表（awesome list）。两个 READ
 - 分类取自最近的 `###` 标题，标题必须包含 `site/locales.mjs`（`categories`）中对应的分类名。共 11 个固定分类（`ui`、`theme`、`session`、`memory`、`tools`、`skill`、`workflow`、`notify`、`model`、`dev`、`fun`）——不要新增分类，除非同时更新 `scripts/build-site.mjs` 中的 `CAT_IDS`。
 - 必须在两个 README 的对应分类下各加同一行，否则 `build-site.mjs` 会报 `missing: <url>` 并失败。
 - 分隔符为 ` - `（英文）或 ` — `（中文），解析器两者都接受。
+- 分类内插件按 **owner/repo 字母序**（大小写不敏感）排列：`scripts/build-site.mjs` 每次构建会按此重排并回写两个 README，PR 经 `scripts/check-order.mjs` 校验。新行加在分类下任意位置即可，构建会自动排好。
 
 ## 整理流程（分类与数量）
 
@@ -69,7 +70,8 @@ DeepSeek Harness（`dsh`）插件的精选列表（awesome list）。两个 READ
 ```
 node scripts/probe-npm.mjs    # 探测 npm 仓库（需联网；失败时不会改动缓存）
 node scripts/probe-stars.mjs  # 探测 GitHub Star 数与首次提交时间（需联网；可用 GITHUB_TOKEN 提升配额）
-node scripts/build-site.mjs   # 重新生成 docs/ 与 data/，并同步 README 计数
+node scripts/build-site.mjs   # 重新生成 docs/ 与 data/，按字母序规范化 README 并同步计数
+node scripts/check-order.mjs  # 离线校验：两 README 分类内插件是否按 owner/repo 字母序
 ```
 
 先跑 probe，再跑 build。CI（`.github/workflows/build-site.yml`）在推送 `main` 时与每 6 小时定时会依次运行两者并自动提交生成的文件——所以不要手动提交 `docs/`/`data/`；注意 CI 只在 `main` 分支触发，PR 分支不会触发。
