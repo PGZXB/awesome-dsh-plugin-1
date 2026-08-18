@@ -2,8 +2,8 @@
  "name": "awesome-dsh-plugin",
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
- "updated": "2026-08-17",
- "count": 366,
+ "updated": "2026-08-18",
+ "count": 367,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -3575,6 +3575,21 @@
    "createdAt": "2026-08-16",
    "install": "dsh plugin --profile web add github:JohnXu22786/docgen",
    "added": "2026-08-17"
+  },
+  {
+   "name": "dsh-skill-manager",
+   "owner": "yanglaofish",
+   "url": "https://github.com/yanglaofish/dsh-skill-manager",
+   "category": "skill",
+   "description": {
+    "zh": "DSH 技能生命周期管理插件：全局 / 工作区 / 会话三层模型下查看、编辑、导入、启用/停用技能，设置页与对话页统一管理界面，支持跨层全文搜索与分页。",
+    "en": "Skill lifecycle manager for DSH: list / edit / import / enable / disable skills under a global-workspace-session three-layer model, with unified settings & conversation UI, cross-layer search and pagination."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-18",
+   "install": "dsh plugin --profile web add github:yanglaofish/dsh-skill-manager",
+   "added": "2026-08-18"
   },
   {
    "name": "dsh-usage-billing",

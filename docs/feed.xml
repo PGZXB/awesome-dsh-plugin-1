@@ -4,7 +4,14 @@
   <id>https://beancookie.github.io/awesome-dsh-plugin/</id>
   <link href="https://beancookie.github.io/awesome-dsh-plugin/"/>
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/feed.xml"/>
-  <updated>2026-08-17T00:00:00Z</updated>
+  <updated>2026-08-18T00:00:00Z</updated>
+  <entry>
+    <title>yanglaofish/dsh-skill-manager</title>
+    <id>https://github.com/yanglaofish/dsh-skill-manager</id>
+    <link href="https://github.com/yanglaofish/dsh-skill-manager"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>DSH 技能生命周期管理插件：全局 / 工作区 / 会话三层模型下查看、编辑、导入、启用/停用技能，设置页与对话页统一管理界面，支持跨层全文搜索与分页。</summary>
+  </entry>
   <entry>
     <title>daetz-coder/dsh-multi-chat</title>
     <id>https://github.com/daetz-coder/dsh-multi-chat</id>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/docs-retriever"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>doctrove：版本化库文档检索 MCP 服务器，零运行时依赖，可作 dsh 插件 bundle 安装。</summary>
-  </entry>
-  <entry>
-    <title>fs-mcp</title>
-    <id>https://github.com/JohnXu22786/fs-mcp</id>
-    <link href="https://github.com/JohnXu22786/fs-mcp"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>paddock：受限本地文件系统 MCP 服务器——文件访问限定在可配置区域，零运行时依赖。</summary>
   </entry>
 </feed>

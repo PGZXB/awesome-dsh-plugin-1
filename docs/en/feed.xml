@@ -4,7 +4,14 @@
   <id>https://beancookie.github.io/awesome-dsh-plugin/en/</id>
   <link href="https://beancookie.github.io/awesome-dsh-plugin/en/"/>
   <link rel="self" href="https://beancookie.github.io/awesome-dsh-plugin/en/feed.xml"/>
-  <updated>2026-08-17T00:00:00Z</updated>
+  <updated>2026-08-18T00:00:00Z</updated>
+  <entry>
+    <title>yanglaofish/dsh-skill-manager</title>
+    <id>https://github.com/yanglaofish/dsh-skill-manager</id>
+    <link href="https://github.com/yanglaofish/dsh-skill-manager"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>Skill lifecycle manager for DSH: list / edit / import / enable / disable skills under a global-workspace-session three-layer model, with unified settings &amp; conversation UI, cross-layer search and pagination.</summary>
+  </entry>
   <entry>
     <title>daetz-coder/dsh-multi-chat</title>
     <id>https://github.com/daetz-coder/dsh-multi-chat</id>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/docs-retriever"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>doctrove: versioned library documentation retrieval MCP server, zero runtime dependencies.</summary>
-  </entry>
-  <entry>
-    <title>fs-mcp</title>
-    <id>https://github.com/JohnXu22786/fs-mcp</id>
-    <link href="https://github.com/JohnXu22786/fs-mcp"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>paddock: constrained local filesystem MCP server — file access confined to configurable zones, zero runtime dependencies.</summary>
   </entry>
 </feed>
