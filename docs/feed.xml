@@ -34,6 +34,13 @@
     <summary>DSH 技能生命周期管理插件：全局 / 工作区 / 会话三层模型下查看、编辑、导入、启用/停用技能，设置页与对话页统一管理界面，支持跨层全文搜索与分页。</summary>
   </entry>
   <entry>
+    <title>odai-dsh-plugin</title>
+    <id>https://github.com/orziz/odai/tree/main/dsh/plugin</id>
+    <link href="https://github.com/orziz/odai/tree/main/dsh/plugin"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>面向整个 DSH profile 的治理与路由 bundle，提供可配置的压缩调用与本地作用域语义记忆；兼容 DSH 0.1.0-rc.6 与 0.1.0-rc.7。</summary>
+  </entry>
+  <entry>
     <title>daetz-coder/dsh-multi-chat</title>
     <id>https://github.com/daetz-coder/dsh-multi-chat</id>
     <link href="https://github.com/daetz-coder/dsh-multi-chat"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/fs-mcp"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>paddock：受限本地文件系统 MCP 服务器——文件访问限定在可配置区域，零运行时依赖。</summary>
-  </entry>
-  <entry>
-    <title>github-mcp</title>
-    <id>https://github.com/JohnXu22786/github-mcp</id>
-    <link href="https://github.com/JohnXu22786/github-mcp"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>repogate：GitHub 开发者工作台 MCP 服务器——仓库、issue、PR、代码审查、搜索，零运行时依赖。</summary>
   </entry>
 </feed>
