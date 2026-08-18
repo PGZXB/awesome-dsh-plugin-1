@@ -327,6 +327,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [skill-manager](https://github.com/JohnXu22786/skill-manager) — 多区域技能发现、渐进式披露、创建向导、审计与统计。
 - [spec-driven](https://github.com/JohnXu22786/spec-driven) — keel（龙骨）：规格驱动开发纪律技能包——先立规格、验证假设、防止过度工程与范围蔓延。
 - [docgen](https://github.com/JohnXu22786/docgen) — 文档工坊技能包：纯提示词文档生成——README、PR 描述、changelog 与代码审查。
+- [yanglaofish/dsh-skill-manager](https://github.com/yanglaofish/dsh-skill-manager) — DSH 技能生命周期管理插件：全局 / 工作区 / 会话三层模型下查看、编辑、导入、启用/停用技能，设置页与对话页统一管理界面，支持跨层全文搜索与分页。
 
 ### 🔁 工作流与自动化
 
