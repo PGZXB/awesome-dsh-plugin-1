@@ -13,6 +13,13 @@
     <summary>DSH Web custom theme importer: one-click import from local paths or GitHub theme collections, live preview and refresh, hosted theme library; the lightweight format lets authors edit CSS/DOM files and hot-reload, making it a friendly option for personal theme development and sharing.</summary>
   </entry>
   <entry>
+    <title>xiejianjun000/eco-dsh-plugins</title>
+    <id>https://github.com/xiejianjun000/eco-dsh-plugins</id>
+    <link href="https://github.com/xiejianjun000/eco-dsh-plugins"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>L1-L4 risk-tiered permission gate (eco-permission-gate) and SM3 tamper-proof audit chain (eco-audit-chain).</summary>
+  </entry>
+  <entry>
     <title>Letter2025/dsh-task-worktree</title>
     <id>https://github.com/Letter2025/dsh-task-worktree</id>
     <link href="https://github.com/Letter2025/dsh-task-worktree"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/docs-retriever"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>doctrove: versioned library documentation retrieval MCP server, zero runtime dependencies.</summary>
-  </entry>
-  <entry>
-    <title>fs-mcp</title>
-    <id>https://github.com/JohnXu22786/fs-mcp</id>
-    <link href="https://github.com/JohnXu22786/fs-mcp"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>paddock: constrained local filesystem MCP server — file access confined to configurable zones, zero runtime dependencies.</summary>
   </entry>
 </feed>

@@ -13,6 +13,13 @@
     <summary>DSH Web 自定义主题导入插件：支持本地路径/GitHub 集合一键导入、主题预览与实时刷新、托管主题库；格式轻量，作者可直接改 CSS/DOM 文件热加载，适合个人主题开发与分享。</summary>
   </entry>
   <entry>
+    <title>xiejianjun000/eco-dsh-plugins</title>
+    <id>https://github.com/xiejianjun000/eco-dsh-plugins</id>
+    <link href="https://github.com/xiejianjun000/eco-dsh-plugins"/>
+    <updated>2026-08-18T00:00:00Z</updated>
+    <summary>评分制记忆树插件 eco-memory-tree：结构化长期记忆，BM25/中文检索，Obsidian 双向同步。</summary>
+  </entry>
+  <entry>
     <title>Letter2025/dsh-task-worktree</title>
     <id>https://github.com/Letter2025/dsh-task-worktree</id>
     <link href="https://github.com/Letter2025/dsh-task-worktree"/>
@@ -207,12 +214,5 @@
     <link href="https://github.com/JohnXu22786/docs-retriever"/>
     <updated>2026-08-17T00:00:00Z</updated>
     <summary>doctrove：版本化库文档检索 MCP 服务器，零运行时依赖，可作 dsh 插件 bundle 安装。</summary>
-  </entry>
-  <entry>
-    <title>fs-mcp</title>
-    <id>https://github.com/JohnXu22786/fs-mcp</id>
-    <link href="https://github.com/JohnXu22786/fs-mcp"/>
-    <updated>2026-08-17T00:00:00Z</updated>
-    <summary>paddock：受限本地文件系统 MCP 服务器——文件访问限定在可配置区域，零运行时依赖。</summary>
   </entry>
 </feed>

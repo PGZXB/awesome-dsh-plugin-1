@@ -32,7 +32,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 
 </details>
 
-**371** 个插件 · 欢迎 [PR](#贡献)
+**372** 个插件 · 欢迎 [PR](#贡献)
 
 ## 目录
 
@@ -180,8 +180,8 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) — 有界、分层、带审批门、可审计的跨会话记忆：`ctx.memory` 服务 + 零依赖 SQLite 存储 + `memory` 工具与冻结快照注入；写入必过审批门，模型可见内容可自会话日志重建。
 - [Phant0Meow/dsh-memory-meow](https://github.com/Phant0Meow/dsh-memory-meow) — 项目级跨会话记忆：PROJECT.md 快照注入首条用户消息（缓存友好）+ memory_remember 工具 + ReAct 任务结束自动反思；各项目独立记忆文件，互不互通。
 - [Tyan66666/billion-context-dsh](https://github.com/Tyan66666/billion-context-dsh) — 模型驱动的上下文压缩：由模型决定何时压缩、压缩什么。
-- [Xplore-LAB/dsh-plugin-asmemory](https://github.com/Xplore-LAB/dsh-plugin-asmemory) — 动作-状态时序记忆：记录类型化的状态与动作，做趋势、异常与因果关联分析。
 - [xiejianjun000/eco-dsh-plugins](https://github.com/xiejianjun000/eco-dsh-plugins) — 评分制记忆树插件 eco-memory-tree：结构化长期记忆，BM25/中文检索，Obsidian 双向同步。
+- [Xplore-LAB/dsh-plugin-asmemory](https://github.com/Xplore-LAB/dsh-plugin-asmemory) — 动作-状态时序记忆：记录类型化的状态与动作，做趋势、异常与因果关联分析。
 
 ### 🛠️ 工具与能力
 - [1na-ko/dsh-hdc-bridge](https://github.com/1na-ko/dsh-hdc-bridge) — 鸿蒙设备桥：hdc 截图/装包/日志/崩溃/UI 自动化闭环（配 read_image 看图），官方优先版本化 API 知识层（SDK .d.ts + 离线随包文档），以及 DevEco CLI 构建/签名/lint 通道。

@@ -3,7 +3,7 @@
  "url": "https://beancookie.github.io/awesome-dsh-plugin",
  "source": "https://github.com/beancookie/awesome-dsh-plugin",
  "updated": "2026-08-18",
- "count": 371,
+ "count": 372,
  "categories": {
   "ui": {
    "zh": "UI 增强",
@@ -1820,6 +1820,21 @@
    "createdAt": "2026-08-13",
    "install": "dsh plugin --profile web add github:Tyan66666/billion-context-dsh",
    "added": "2026-08-14"
+  },
+  {
+   "name": "eco-dsh-plugins",
+   "owner": "xiejianjun000",
+   "url": "https://github.com/xiejianjun000/eco-dsh-plugins",
+   "category": "memory",
+   "description": {
+    "zh": "评分制记忆树插件 eco-memory-tree：结构化长期记忆，BM25/中文检索，Obsidian 双向同步。",
+    "en": "L1-L4 risk-tiered permission gate (eco-permission-gate) and SM3 tamper-proof audit chain (eco-audit-chain)."
+   },
+   "npm": null,
+   "stars": 0,
+   "createdAt": "2026-08-18",
+   "install": "dsh plugin --profile web add github:xiejianjun000/eco-dsh-plugins",
+   "added": "2026-08-18"
   },
   {
    "name": "dsh-plugin-asmemory",
