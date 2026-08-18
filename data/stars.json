@@ -482,8 +482,10 @@
   "checkedAt": "2026-08-17"
  },
  "https://github.com/dsh-external/dsh-feishu-notify": {
-  "stars": null,
-  "checkedAt": "2026-08-17"
+  "stars": 0,
+  "createdAt": "2026-08-07",
+  "etag": "W/\"6939a66f48614ab0da4e738f2c52328059143cf293db21ad12d9e429ebb099d5\"",
+  "checkedAt": "2026-08-18"
  },
  "https://github.com/dsh-external/dsh-office": {
   "stars": null,
@@ -1676,6 +1678,12 @@
   "createdAt": "2026-08-15",
   "etag": "W/\"686448f2e6ef4084cdf9c657107877747f90a73a79f85de6005df54f8a3093a9\"",
   "checkedAt": "2026-08-17"
+ },
+ "https://github.com/PolinniZhong/dsh-omi-voice": {
+  "stars": 0,
+  "createdAt": "2026-08-18",
+  "etag": "W/\"8cd87921d0fb1117a4416dcb56953da08fe1489af51b8643357308e09e289e33\"",
+  "checkedAt": "2026-08-18"
  },
  "https://github.com/qyw233/dsh-deeplink": {
   "stars": 4,

@@ -4141,8 +4141,8 @@
     "en": "Feishu notifications on session end / input needed."
    },
    "npm": null,
-   "stars": null,
-   "createdAt": null,
+   "stars": 0,
+   "createdAt": "2026-08-07",
    "install": "dsh plugin --profile web add github:dsh-external/dsh-feishu-notify",
    "added": "2026-08-14"
   },
