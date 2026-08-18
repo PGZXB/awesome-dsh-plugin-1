@@ -12,12 +12,12 @@
  */
 import fs from 'node:fs'
 import LOCALES from '../site/locales.mjs'
+import { CAT_IDS, cmpByKey, parseReadme } from './readme.mjs'
 
 const ORIGIN = 'https://beancookie.github.io/awesome-dsh-plugin'
 const DATES_FILE = 'data/added-dates.json'
 const NPM_MAP_FILE = 'data/npm-map.json'
 const STARS_FILE = 'data/stars.json'
-const CAT_IDS = ['ui', 'theme', 'session', 'memory', 'tools', 'skill', 'workflow', 'notify', 'model', 'dev', 'fun']
 const CAT_EMOJI = { ui: '🎨', theme: '🎭', session: '💬', memory: '🧠', tools: '🛠️', skill: '🧩', workflow: '🔁', notify: '🔔', model: '🔌', dev: '🧑‍💻', fun: '🎮' }
 const CAT_NAMES = Object.fromEntries(CAT_IDS.map((id) => [id, {
   emoji: CAT_EMOJI[id],
@@ -26,24 +26,8 @@ const CAT_NAMES = Object.fromEntries(CAT_IDS.map((id) => [id, {
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
-function parseReadme(loc) {
-  const text = fs.readFileSync(loc.readme, 'utf8')
-  const out = new Map() // url -> {name, url, desc, cat}
-  let cat = null
-  for (const line of text.split('\n')) {
-    const h = line.match(/^#{2,3} (.+)$/)
-    if (h) {
-      cat = CAT_IDS.find((id) => h[1].includes(loc.categories[id])) ?? null
-      continue
-    }
-    const m = line.match(/^- \[(.+?)\]\((https:\/\/github\.com\/[^)]+)\) [—-] (.+)$/)
-    if (m && cat) out.set(m[2], { name: m[1], url: m[2], desc: m[3], cat })
-  }
-  return out
-}
-
 // Join all locales on plugin URL; the default locale defines the roster.
-const parsed = LOCALES.map((loc) => ({ loc, entries: parseReadme(loc) }))
+const parsed = LOCALES.map((loc) => ({ loc, entries: parseReadme(loc.readme, loc.categories) }))
 const [base, ...others] = parsed
 const starsMap = fs.existsSync(STARS_FILE) ? JSON.parse(fs.readFileSync(STARS_FILE, 'utf8')) : {}
 const entries = []
@@ -59,7 +43,9 @@ for (const [url, e] of base.entries) {
 }
 console.log(`${entries.length} entries parsed across ${LOCALES.length} locales`)
 
-const ordered = CAT_IDS.flatMap((id) => entries.filter((e) => e.cat === id))
+// Category order preserved; within each category sort by owner/repo so the
+// site default listing matches the normalized READMEs.
+const ordered = CAT_IDS.flatMap((id) => entries.filter((e) => e.cat === id).sort((a, b) => cmpByKey(a.url, b.url)))
 const N = ordered.length
 
 // added-date ledger: existing URLs keep their date, new URLs are stamped today
@@ -347,11 +333,45 @@ ${[...LOCALES.map((l2) => `      <xhtml:link rel="alternate" hreflang="${l2.code
 </urlset>
 `)
 
-// keep the hand-written counts in every README in sync.
-// README.md is the Chinese source; README.en.md is the English source.
-const zhReadme = fs.readFileSync('README.md', 'utf8').replace(/\*\*\d+\*\* 个插件/, `**${N}** 个插件`)
-fs.writeFileSync('README.md', zhReadme)
-const enReadme = fs.readFileSync('README.en.md', 'utf8').replace(/\*\*\d+\*\* plugins/, `**${N}** plugins`)
-fs.writeFileSync('README.en.md', enReadme)
+// Keep plugin lines sorted by owner/repo inside every category and re-sync the
+// counts, so both READMEs stay normalized no matter where contributors insert.
+function rewriteReadme(loc) {
+  const text = fs.readFileSync(loc.readme, 'utf8')
+  const out = []
+  let cat = null
+  let buf = [] // raw plugin lines of the current category
+  const urlOf = (line) => line.match(/https:\/\/github\.com\/[^)\s]+/)?.[0] ?? ''
+  const flush = (trailingBlank) => {
+    if (!buf.length) return
+    buf.sort((a, b) => cmpByKey(urlOf(a), urlOf(b)))
+    for (const l of buf) out.push(l)
+    buf = []
+    if (trailingBlank) out.push('')
+  }
+  for (const line of text.split('\n')) {
+    const h = line.match(/^#{2,3} (.+)$/)
+    if (h) {
+      flush(true)
+      cat = CAT_IDS.find((id) => h[1].includes(loc.categories[id])) ?? null
+      out.push(line)
+      continue
+    }
+    if (cat && /^- \[.+\]\(https:\/\/github\.com\/[^)]+\) [—-] .+/.test(line)) {
+      buf.push(line)
+      continue
+    }
+    if (cat) continue // drop intra-category blank lines; ordering is all that matters
+    out.push(line)
+  }
+  flush(false)
+  return out.join('\n')
+}
+for (const loc of LOCALES) {
+  let text = rewriteReadme(loc)
+  text = loc.code === 'zh'
+    ? text.replace(/\*\*\d+\*\* 个插件/, `**${N}** 个插件`)
+    : text.replace(/\*\*\d+\*\* plugins/, `**${N}** plugins`)
+  fs.writeFileSync(loc.readme, text)
+}
 
 console.log(`site built: ${N} rows × ${LOCALES.length} locales + sitemap, README counts synced`)
