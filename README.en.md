@@ -132,6 +132,7 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [stopchewing/dsh-mcp-view](https://github.com/stopchewing/dsh-mcp-view) - MCP servers & tools inventory panel: one-click floating panel from the sidebar that lists every MCP server and tool (transport, endpoint, JSON schema, last-used time), grouped by server, collapsed by default, with live search and refresh; last-used times come from real session logs.
 
 ### Themes & Appearance
+- [dsh-custom-theme-import](https://github.com/Juryorca/dsh-custom-theme-import) - DSH Web custom theme importer: one-click import from local paths or GitHub theme collections, live preview and refresh, hosted theme library; the lightweight format lets authors edit CSS/DOM files and hot-reload, making it a friendly option for personal theme development and sharing.
 
 - [Liu-ZA-81/dsh-theme-firefly](https://github.com/Liu-ZA-81/dsh-theme-firefly) — A Honkai: Star Rail "Firefly" theme: wallpaper/video backgrounds, firefly-green neon palette, transformation boot animation, ambient particles, BGM, typewriter SFX, and context-aware emote easter eggs.
 - [KinGao294/dsh-skin](https://github.com/KinGao294/dsh-skin) - Codex-style skin switcher plus a custom wallpaper layer with opacity and blur controls.
