@@ -308,6 +308,7 @@ DeepSeek Harness 是 DeepSeek 开源的 agent harness——既是可直接运行
 - [docs-retriever](https://github.com/JohnXu22786/docs-retriever) — doctrove：版本化库文档检索 MCP 服务器，零运行时依赖，可作 dsh 插件 bundle 安装。
 - [fs-mcp](https://github.com/JohnXu22786/fs-mcp) — paddock：受限本地文件系统 MCP 服务器——文件访问限定在可配置区域，零运行时依赖。
 - [worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) — 任务隔离的 git 工作区：按任务自动创建、同步与收尾隔离工作区。
+- [Letter2025/dsh-task-worktree](https://github.com/Letter2025/dsh-task-worktree) — 完整的任务级 git worktree：per-repo manifest 永久保存、worktree-<name> 分支、主目录带回（bring-back）与直接提交两种收尾、可携带主工作区未提交改动（参考 Qoder / Codex / Claude Code）。
 - [statusline](https://github.com/JohnXu22786/statusline) — 实时终端状态行：一行展示模型、上下文占用、子代理、速率限制与会话时长。
 - [codegraph](https://github.com/JohnXu22786/codegraph) — 代码知识图谱：把符号、调用点与导入索引进 SQLite，回答调用/依赖问题。
 - [pty-runner](https://github.com/JohnXu22786/pty-runner) — 后台终端（PTY）任务管理：启动长时进程、喂入输入、翻页输出、按需停止。

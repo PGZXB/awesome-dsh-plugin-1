@@ -308,6 +308,7 @@ DeepSeek Harness is DeepSeek's open-source agent harness — a runnable coding a
 - [docs-retriever](https://github.com/JohnXu22786/docs-retriever) - doctrove: versioned library documentation retrieval MCP server, zero runtime dependencies.
 - [fs-mcp](https://github.com/JohnXu22786/fs-mcp) - paddock: constrained local filesystem MCP server — file access confined to configurable zones, zero runtime dependencies.
 - [worktree-mgr](https://github.com/JohnXu22786/worktree-mgr) - Task-isolated git worktrees: auto-create, sync and tear down isolated workspaces per task.
+- [Letter2025/dsh-task-worktree](https://github.com/Letter2025/dsh-task-worktree) - Complete task-scoped git worktrees: per-repo manifest for durable state, worktree-<name> branches, bring-back to main or direct commit, optional carry-over of uncommitted main changes (modeled on Qoder / Codex / Claude Code).
 - [statusline](https://github.com/JohnXu22786/statusline) - Real-time terminal statusline: model, context usage, sub-agents, rate limits and session time in one line.
 - [codegraph](https://github.com/JohnXu22786/codegraph) - Code knowledge graph: indexes symbols, call sites and imports into SQLite, answers call/dependency questions.
 - [pty-runner](https://github.com/JohnXu22786/pty-runner) - Background terminal (PTY) job management: launch long-running processes, feed input, page output, stop on demand.
